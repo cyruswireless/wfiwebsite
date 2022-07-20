@@ -719,7 +719,7 @@ only screen and (-o-min-device-pixel-ratio: 2/1),
 only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and (min-device-pixel-ratio: 2) {
 	#logo_home h1 a {
-		background-image: url(../image/LOGO3.png);
+		background-image: url(../img/LOGO3.png);
 		background-size: 190px 48px;
 	}
 }
@@ -1398,7 +1398,7 @@ video {
 
 #hero_home {
 	position: relative;
-	background: #ccc url(../image/tecno3.gif);
+	background: #ccc url(../img/tecno3.gif);
 	background-size: cover;
 	background-position: 10% 40%;
 	color: #fff;
@@ -1711,7 +1711,7 @@ a.box_service i {
 
 .bg_content {
 	width: 100%;
-	background: url(../image/tecno1.gif) no-repeat center center;
+	background: url(../img/tecno1.gif) no-repeat center center;
 	background-attachment: fixed;
 	background-size: cover;
 	-webkit-background-size: cover;
