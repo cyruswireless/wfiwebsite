@@ -1,38 +1,41 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>Wfi</title>
-  <base href="/">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
-  <link href="/assets/libraries/animate.min.css" rel="stylesheet">
-	<link href="/assets/libraries/bootstrap.min.css" rel="stylesheet">
-	<link href="/assets/libraries/style.css" rel="stylesheet">
-	<link href="/assets/libraries/all_icons_min.css" rel="stylesheet">
-	<link href="/assets/libraries/layerslider.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300,400,700" rel="stylesheet">
-</head>
-<body>
-  <app-root></app-root>
+  <head>
+    <meta charset="utf-8" />
+    <title>Wfi</title>
+    <base href="/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <link href="/assets/libraries/animate.min.css" rel="stylesheet" />
+    <link href="/assets/libraries/bootstrap.min.css" rel="stylesheet" />
+    <link href="/assets/libraries/style.css" rel="stylesheet" />
+    <link href="/assets/libraries/all_icons_min.css" rel="stylesheet" />
+    <link href="/assets/libraries/layerslider.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300,400,700"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <app-root></app-root>
 
-  <script src="/assets/libraries/jquery-2.2.4.min.js"></script>
-	<script src="/assets/libraries/common_scripts.js"></script>
-	<script src="/assets/libraries/validate.js"></script>
-	<script src="/assets/libraries/header_sticky_1.js"></script>
-	<script src="/assets/libraries/functions.js"></script>
-	<script src="/assets/libraries/morphext.min.js"></script>
-	<script>
-		$(document).on('ready', function(){
-			$("#js-rotating").Morphext({
-				animation: "fadeIn", // Overrides default "bounceIn"
-				separator: ",", // Overrides default ","
-				speed: 2500, // Overrides default 2000
-				complete: function () {
-					// Overrides default empty function
-				}
-			});
-		});
-	</script>
-</body>
+    <script src="/assets/libraries/jquery-2.2.4.min.js"></script>
+    <script src="/assets/libraries/common_scripts.js"></script>
+    <script src="/assets/libraries/validate.js"></script>
+    <script src="/assets/libraries/header_sticky_1.js"></script>
+    <script src="/assets/libraries/functions.js"></script>
+    <script src="/assets/libraries/morphext.min.js"></script>
+    <script>
+      $(document).on('ready', function () {
+        $('#js-rotating').Morphext({
+          animation: 'fadeIn', // Overrides default "bounceIn"
+          separator: ',', // Overrides default ","
+          speed: 2500, // Overrides default 2000
+          complete: function () {
+            // Overrides default empty function
+          },
+        })
+      })
+    </script>
+  </body>
 </html>
