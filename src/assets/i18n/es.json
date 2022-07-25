@@ -1,0 +1,29 @@
+{
+    "MAIN": {
+        "OBJECTIVE": "CREANDO LA SIGUIENTE GENERACIÓN DE REDES.",
+        "EXPERIENCE": "CONSULTORÍA, OPERACIÓN, MANTENIMIENTO, DISEÑO, PLANEACIÓN, GESTORÍA, IMPLEMENTACIÓN",
+        "ABOUT_US_TITLE": "NOSOTROS",
+        "ABOUT_US": "WFI es una empresa líder en prestación de servicios de consultoría, ingeniería e instalación en sistemas de telecomunicaciones, redes fijas e inalámbricas, sistemas de seguridad, data centers y cableado estructurado, así como, mantenimiento y administración de redes inalámbricas y cuenta con certificado de calidad ISO 9001:2015",
+        "MISSION_TITLE": "Misión",
+        "VISION_TITLE": "Visión",
+        "MISSION": "Proporcionar servicios profesionales de ingeniería y despliegue a las empresas de telecomunicaciones para mejorar la conectividad de la sociedad y generar fuentes de empleo.",
+        "VISION": "Ser una empresa que en los próximos 5 años es diversificada y referente en el mercado de las Tecnologías de la Información y Comunicaciones, capaz de proporcionar servicios de alto valor que aumentan su rentabilidad.",
+        "VALUES_TITLE": "Valores",
+        "FIRST_VALUE": "Actitud de servicio",
+        "SECOND_VALUE": "Honestidad y sinceridad",
+        "THIRD_VALUE": "Lealtad",
+        "FOURTH_VALUE": "Compromiso y responsabilidad",
+        "FIFTH_VALUE": "Dignidad",
+        "SIXTH_VALUE": "Moral",
+        "FIRST_VALUE_TEXT": "Reconocer las necesidades de los demás y validarlas como propias.",
+        "SECOND_VALUE_TEXT": "Incapacidad de robar, estafar o defraudar a los demás.",
+        "THIRD_VALUE_TEXT": "Fidelidad, identidad y nobleza hacia la organización.",
+        "FOURTH_VALUE_TEXT": "De cumplir con lo cometido, siendo consciente y formal en sus palabras y actos.",
+        "FIFTH_VALUE_TEXT": "Integridad y nobleza en la forma de comportarse.",
+        "SIXTH_VALUE_TEXT": "Dirigirse de acuerdo a las buenas costumbres."
+    },
+    "BUTTONS": {
+        "PREVIOUS": "Anterior",
+        "NEXT": "Siguiente"
+    }
+}

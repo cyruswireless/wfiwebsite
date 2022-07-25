@@ -1,0 +1,29 @@
+{
+    "MAIN": {
+        "OBJECTIVE": "CREATING THE NEXT GENERATION OF NETWORKS.",
+        "EXPERIENCE": "CONSULTING, OPERATION, MAINTENANCE, DESIGN, PLANNING, MANAGEMENT, IMPLEMENTATION",
+        "ABOUT_US_TITLE": "ABOUT US",
+        "ABOUT_US": "WFI is a leading company in providing consulting, engineering and installation services in telecommunications systems, fixed and wireless networks, security systems, data centers and structured cabling, as well as maintenance and administration of wireless networks and has a certificate of quality ISO 9001:2015",
+        "MISSION_TITLE": "Mission",
+        "VISION_TITLE": "Vision",
+        "MISSION": "Provide professional engineering and deployment services to telecommunications companies to improve the connectivity of society and generate sources of employment.",
+        "VISION": "To be a company that in the next 5 years is diversified and a benchmark in the Information and Communications Technology market, capable of providing high-value services that increase its profitability.",
+        "VALUES_TITLE": "Values",
+        "FIRST_VALUE": "Service attitude",
+        "SECOND_VALUE": "Honesty and sincerity",
+        "THIRD_VALUE": "Loyalty",
+        "FOURTH_VALUE": "Compromise and responsibility",
+        "FIFTH_VALUE": "Dignity",
+        "SIXTH_VALUE": "Moral",
+        "FIRST_VALUE_TEXT": "Recognize the needs of others and validate them as their own.",
+        "SECOND_VALUE_TEXT": "Inability to steal, swindle or defraud others.",
+        "THIRD_VALUE_TEXT": "Fidelity, identity and nobility towards the organization.",
+        "FOURTH_VALUE_TEXT": "To fulfill what has been committed, being conscious and formal in his words and actions.",
+        "FIFTH_VALUE_TEXT": "Integrity and nobility in the way of behaving.",
+        "SIXTH_VALUE_TEXT": "Address according to good customs."
+    },
+    "BUTTONS": {
+        "PREVIOUS": "Previous",
+        "NEXT": "Next"
+    }
+}
