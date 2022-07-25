@@ -364,7 +364,6 @@ header {
 	top: 0;
 	z-index: 9999;
 	border-bottom: 1px solid #ededed;
-	border-top:3px solid #0054a6;
 }
 
 /*Animate Sticky header*/
@@ -719,7 +718,7 @@ only screen and (-o-min-device-pixel-ratio: 2/1),
 only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and (min-device-pixel-ratio: 2) {
 	#logo_home h1 a {
-		background-image: url(../image/LOGO3.png);
+		background-image: url(../img/LOGO3.png);
 		background-size: 190px 48px;
 	}
 }
@@ -1396,22 +1395,6 @@ video {
 	padding-top: 130px;
 }
 
-#hero_home {
-	position: relative;
-	background: #ccc url(../image/tecno3.gif);
-	background-size: cover;
-	background-position: 10% 40%;
-	color: #fff;
-	width: 100%;
-	z-index: 99;
-	text-align: center;
-}
-#hero_home .wrapper{
-	background: rgba(0, 0, 0, 0.6);
-	padding-top: 90px;
-	height: 600px;
-}
-
 #form_contact {
 	background: rgba(0, 0, 0, 0.8);
 	padding: 20px 30px 30px 30px;
@@ -1711,7 +1694,7 @@ a.box_service i {
 
 .bg_content {
 	width: 100%;
-	background: url(../image/tecno1.gif) no-repeat center center;
+	background: url(../img/tecno1.gif) no-repeat center center;
 	background-attachment: fixed;
 	background-size: cover;
 	-webkit-background-size: cover;
@@ -3512,10 +3495,6 @@ form#register-form {
 	#form_contact {
 		margin-top: 40px;
 	}
-	#hero_home .wrapper{
-		padding-top: 150px;
-		height: 450px;
-	}
 }
 
 /* MEDIA QUERIES max-width 768px - TABLETS  */
@@ -3557,10 +3536,6 @@ form#register-form {
 	}
 	#form_container .wrapper{
 		padding: 80px 0 30px 0;
-	}
-	#hero_home .wrapper{
-		padding-top: 120px;
-		height: 350px;
 	}
 	.intro_title_header h3 {
 		font-size: 36px;
