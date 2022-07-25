@@ -702,24 +702,24 @@ header {
 }
 
 #logo_home h1 a {
-  display: block;
-  width: 154px;
-  height: 71px;
-  background-image: url(../img/LOGO3.png);
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
-  background-size: 154px 71px;
-  text-indent: -9999px;
+	display: block;
+	width: 154px;
+	height: 71px;
+	background-image: url(/assets/img/LogoNavbar.png);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-size: 154px 71px;
+	text-indent: -9999px;
 }
 
 @media only screen and (min--moz-device-pixel-ratio: 2),
-  only screen and (-o-min-device-pixel-ratio: 2/1),
-  only screen and (-webkit-min-device-pixel-ratio: 2),
-  only screen and (min-device-pixel-ratio: 2) {
-  #logo_home h1 a {
-    background-image: url(../img/LOGO3.png);
-    background-size: 190px 48px;
-  }
+only screen and (-o-min-device-pixel-ratio: 2/1),
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	#logo_home h1 a {
+		background-image: url(/assets/img/LOGO3.png);
+		background-size: 190px 48px;
+	}
 }
 
 /* Subheaders */
@@ -1040,11 +1040,6 @@ footer ul {
 #social_footer ul li a:hover {
   color: #00bff0;
 }
-
-#contact_bg {
-  background: url(../img/map_footer.png) no-repeat center 90%;
-}
-
 ul#contact_details_footer {
   list-style: none;
   margin: 0 0 20px 0;
