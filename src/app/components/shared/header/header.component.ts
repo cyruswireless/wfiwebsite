@@ -11,8 +11,9 @@ export class HeaderComponent implements OnInit {
   constructor(
     public translate: TranslateService
   ) {
-    translate.setDefaultLang('es');
     translate.addLangs(['en']);
+    translate.setDefaultLang('es');
+    translate.use('es');
   }
 
   ngOnInit(): void {

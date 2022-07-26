@@ -10,6 +10,17 @@
                 </div>
                 <!--/navbar-header-->
             </div>
+            <div style="margin-top: auto;">
+                <select
+                    class="selectpicker"
+                    #selectedLang 
+                    (change)="changeLang(selectedLang.value)">
+                    <option *ngFor="let language of translate.getLangs()" [value]="language" [selected]="language === translate.currentLang">
+                        <span *ngIf="language == 'es'" class="flag-icon flag-icon-mx">Español</span>
+                        <span *ngIf="language == 'en'" class="flag-icon flag-icon-us">Inglés</span>
+                    </option>
+                </select>
+            </div>
             <!--/navbar-header-wp-->
             <div class="collapse navbar-collapse navbar-right" id="navbar">
                 <ul class="nav navbar-nav">
