@@ -22,6 +22,36 @@
         "FIFTH_VALUE_TEXT": "Integrity and nobility in the way of behaving.",
         "SIXTH_VALUE_TEXT": "Address according to good customs."
     },
+    "HEADER": {
+        "HOME": {
+            "TITLE": "HOME"
+        },
+        "SERVICES": {
+            "TITLE": "SERVICES",
+            "AUDIT": "AUDIT",
+            "OPTICAL_FIBER": "OPTICAL FIBER",
+            "PROJECT_MANAGEMENT": "PROJECT MANAGEMENT",
+            "INFRASTRUCTURE": "INFRASTRUCTURE",
+            "INSTALLATION": "INSTALLATION AND COMMISSIONING"
+        },
+        "PROJECTS": {
+            "TITLE": "PROYECTOS"
+        },
+        "OUR_CLIENTS": "OUR CLIENTS",
+        "SUCCESS_STORIES": "SUCCESS STORIES",
+        "CERTIFICATIONS": "AWARDS AND CERTIFICATIONS",
+        "CONTACT": "CONTACT"
+    },
+    "FOOTER": {
+        "ABOUT_US": "About us",
+        "FAQ": "FAQ",
+        "QUOTATION": "Quotation",
+        "CONTACTS": "Contacts",
+        "SHOP": "Shop",
+        "TERMS": "Terms and condition",
+        "RIGHTS": "© Cyrus 2022 - All rights reserved.",
+        "DISCOVER": "Discover"
+    },
     "BUTTONS": {
         "PREVIOUS": "Previous",
         "NEXT": "Next"
