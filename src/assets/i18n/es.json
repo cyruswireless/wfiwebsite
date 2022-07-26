@@ -36,11 +36,37 @@
         },
         "SERVICES": {
             "TITLE": "SERVICIOS",
-            "AUDIT": "AUDITORÍA",
-            "OPTICAL_FIBER": "FIBRA ÓPTICA",
-            "PROJECT_MANAGEMENT": "GESTION DE PROYECTOS",
-            "INFRASTRUCTURE": "INFRAESTRUCTURA",
-            "INSTALLATION": "INSTALACIÓN Y COMISIONAMIENTO"
+            "AUDIT": {
+                "TITLE": "AUDITORÍA",
+                "1": "1. Conocimiento y comprensión de la entidad",
+                "2": "2. Objetivos y alcance de la auditoría",
+                "3": "3. Análisis preliminar del control interno",
+                "4": "4. Análisis de los riesgos y la materialidad",
+                "5": "5. Planeación específica de la auditoría",
+                "6": "6. Elaboración de programas de auditoría"
+            },
+            "OPTICAL_FIBER": {
+                "TITLE": "FIBRA ÓPTICA",
+                "1": "AUDITORIA",
+                "2": "CONSTRUCCIÓN DE FIBRA ÓPTICA",
+                "3": "ILUMINACIÓN DE FIBRA ÓPTICA",
+                "4": "INGENIERÍA Y DISEÑO"
+            },
+            "PROJECT_MANAGEMENT": {
+                "TITLE": "GESTION DE PROYECTOS",
+                "1": "CIERRE",
+                "2": "EJECUCIÓN",
+                "3": "INICIO",
+                "4": "PLANIFICACIÓN",
+                "5": "SUPERVISIÓN"
+            },
+            "INSTALLATION": {
+                "TITLE": "INSTALACIÓN Y COMISIONAMIENTO",
+                "1": "CW",
+                "2": "MW",
+                "3": "RADIOBASES"
+            },
+            "INFRASTRUCTURE": "INFRAESTRUCTURA"
         },
         "PROJECTS": {
             "TITLE": "PROYECTOS"

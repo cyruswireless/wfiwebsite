@@ -36,11 +36,37 @@
         },
         "SERVICES": {
             "TITLE": "SERVICES",
-            "AUDIT": "AUDIT",
-            "OPTICAL_FIBER": "OPTICAL FIBER",
-            "PROJECT_MANAGEMENT": "PROJECT MANAGEMENT",
-            "INFRASTRUCTURE": "INFRASTRUCTURE",
-            "INSTALLATION": "INSTALLATION AND COMMISSIONING"
+            "AUDIT": {
+                "TITLE": "AUDIT",
+                "1": "1. Knowledge and understanding of the entity",
+                "2": "2. Objectives and scope of the audit",
+                "3": "3. Preliminary analysis of internal control",
+                "4": "4. Analysis of risks and materiality",
+                "5": "5. Audit specific planning",
+                "6": "6. Development of audit programs"
+            },
+            "OPTICAL_FIBER": {
+                "TITLE": "OPTICAL FIBER",
+                "1": "AUDIT",
+                "2": "FIBER OPTIC CONSTRUCTION",
+                "3": "FIBER OPTIC LIGHTING",
+                "4": "ENGINEERING AND DESIGN"
+            },
+            "PROJECT_MANAGEMENT": {
+                "TITLE": "PROJECT MANAGEMENT",
+                "1": "CLOSING",
+                "2": "EXECUTION",
+                "3": "INITIATION",
+                "4": "PLANNING",
+                "5": "SUPERVISION"
+            },
+            "INSTALLATION": {
+                "TITLE": "INSTALLATION AND COMMISSIONING",
+                "1": "CW",
+                "2": "MW",
+                "3": "RADIOBASES"
+            },
+            "INFRASTRUCTURE": "INFRASTRUCTURE"
         },
         "PROJECTS": {
             "TITLE": "PROYECTOS"
