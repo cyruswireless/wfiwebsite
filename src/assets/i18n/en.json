@@ -1,7 +1,15 @@
 {
     "MAIN": {
         "OBJECTIVE": "CREATING THE NEXT GENERATION OF NETWORKS.",
-        "EXPERIENCE": "CONSULTING, OPERATION, MAINTENANCE, DESIGN, PLANNING, MANAGEMENT, IMPLEMENTATION",
+        "EXPERIENCE": {
+            "1": "CONSULTING",
+            "2": "OPERATION",
+            "3": "MAINTENANCE",
+            "4": "DESIGN",
+            "5": "PLANNING",
+            "6": "MANAGEMENT",
+            "7": "IMPLEMENTATION"
+       },
         "ABOUT_US_TITLE": "ABOUT US",
         "ABOUT_US": "WFI is a leading company in providing consulting, engineering and installation services in telecommunications systems, fixed and wireless networks, security systems, data centers and structured cabling, as well as maintenance and administration of wireless networks and has a certificate of quality ISO 9001:2015",
         "MISSION_TITLE": "Mission",
