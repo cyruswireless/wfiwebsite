@@ -1,112 +1,114 @@
 <header>
-    <nav class="navbar navbar-default" style="background-color: #081842;">
-        <div class="container">
-            <div class="navbar-header-wp">
-                <div class="navbar-header">
-                    <a class="cmn-toggle-switch cmn-toggle-switch__htx" href="javascript:void(0);" data-toggle="collapse" data-target="#navbar"><span>Menu mobile</span></a>
-                    <div id="logo_home">
-                        <h1><a href="index.html" title="WFI"></a></h1>
+    <nav  style="background-color: #0F1A47;">
+        
+            
+                <div class="menu-header">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <img src="/assets/img/LogoNavbar.png" width="120px" style="margin:10px;">
+                        </div>
+                        <div class="col-sm-6">
+                            <i class="fa fa-bars"></i>
+                        </div>
                     </div>
-                </div>
-                <!--/navbar-header-->
-            </div>
-            <div style="margin-top: auto;">
-                <select
-                    class="selectpicker"
-                    #selectedLang 
-                    (change)="changeLang(selectedLang.value)">
-                    <option *ngFor="let language of translate.getLangs()" [value]="language" [selected]="language === translate.currentLang">
-                        <span *ngIf="language == 'es'" class="flag-icon flag-icon-mx">Español</span>
-                        <span *ngIf="language == 'en'" class="flag-icon flag-icon-us">Inglés</span>
-                    </option>
-                </select>
-            </div>
-            <!--/navbar-header-wp-->
-            <div class="collapse navbar-collapse navbar-right" id="navbar">
-                <ul class="nav navbar-nav">
-                    <li class="dropdown">
-                        <a href="#0" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span>Home</span></a>
-                        <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
-                            <li><a href="#">Some action</a></li>
-                            <li><a href="#">Some other action</a></li>
-                            <li class="divider"></li>
-                            <li class="dropdown-submenu">
-                              <a tabindex="-1" href="#">Hover me for more options</a>
-                              <ul class="dropdown-menu">
-                                <li><a tabindex="-1" href="#">Second level</a></li>
-                                <li class="dropdown-submenu">
-                                  <a href="#">Even More..</a>
-                                  <ul class="dropdown-menu">
-                                      <li><a href="#">3rd level</a></li>
-                                      <li><a href="#">3rd level</a></li>
-                                  </ul>
+                   </div>
+                   <div class="menu-content">
+                    <div class="row">
+                        <div class="col-sm-4 logo2">
+                            <img src="/assets/img/LogoNavbar.png" width="120px" style="margin:10px;">
+                        </div>
+                        <div class="col-md-7">
+                            <ul style=" margin-top: 25px;background-color: #0F1A47;">
+                                <li>
+                                    <a href="#" class="dropbtn">HOME <i class="fa fa-chevron-down down"></i></a>
+                                    <ul class="dropdown">
+                                        <li><a href="#">QUIENES SOMOS</a></li>
+                                        <li><a href="#">MISIÓN</a></li>
+                                        <li><a href="#">VISIÓN</a></li>
+                                        <li><a href="#">VALORES</a></li>
+                                    </ul>
                                 </li>
-                                <li><a href="#">Second level</a></li>
-                                <li><a href="#">Second level</a></li>
+                                <li><a href="#" class="dropbtn">SERVICIOS <i class="fa fa-chevron-down down"></i></a>
+                                    <ul class="dropdown">
+                                        <li><a href="#" class="dropbtn2">AUDITORÍA <i class="fa fa-chevron-down down"></i></a>
+                                            <ul class="dropdown2">
+                                                <li><a href="#">1. Conocimiento y comprensión de la entidad</a></li>
+                                                <li><a href="#">2. Objetivos y alcance de la auditoría</a></li>
+                                                <li><a href="#">3. Análisis preliminar del control interno</a></li>
+                                                <li><a href="#">4. Análisis de los riesgos y la materialidad</a></li>
+                                                <li><a href="#">5. Planeación específica de la auditoría</a></li>
+                                                <li><a href="#">6. Elaboración de programas de auditoría</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#" class="dropbtn2">FIBRA ÓPTICA <i class="fa fa-chevron-down down"></i></a>
+                                            <ul class="dropdown2">
+                                                <li><a href="#">AUDITORIA</a></li>
+                                                <li><a href="#">CONSTRUCCIÓN DE FIBRA ÓPTICA</a></li>
+                                                <li><a href="#">ILUMINACIÓN DE FIBRA ÓPTICA</a></li>
+                                                <li><a href="#">INGENIERÍA Y DISEÑO</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#" class="dropbtn2">GESTION DE PROYECTOS <i class="fa fa-chevron-down down"></i></a>
+                                            <ul class="dropdown2">
+                                                <li><a href="#">CIERRE</a></li>
+                                                <li><a href="#">EJECUCION</a></li>
+                                                <li><a href="#">INICIO</a></li>
+                                                <li><a href="#">PLANIFICACIÓN</a></li>
+                                                <li><a href="#">SUPERVISIÓN</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">INFRAESTRUCTURA</a></li>
+                                        <li><a href="#" class="dropbtn2">INSTALACIÓN Y COMISIONAMIENTO <i class="fa fa-chevron-down down"></i></a>
+                                            <ul class="dropdown2">
+                                                <li><a href="#">CW</a></li>
+                                                <li><a href="#">MW</a></li>
+                                                <li><a href="#">RADIOBASES</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li><a href="#" class="dropbtn">PROYECTOS <i class="fa fa-chevron-down down"></i></a>
+                                    <ul class="dropdown">
+                                        <li><a href="#" class="dropbtn2">AIRSPAN <i class="fa fa-chevron-down down"></i></a>
+                                            <ul class="dropdown2">
+                                                <li><a href="#">PROYECTO 1</a></li>
+                                                <li><a href="#">PROYECTO 2</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#" class="dropbtn2">AMERICAN TOWER <i class="fa fa-chevron-down down"></i></a>
+                                            <ul class="dropdown2">
+                                                <li><a href="#">PROYECTO 3</a></li>
+                                                <li><a href="#">PROYECTO 4</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#" class="dropbtn2">MAXCOM <i class="fa fa-chevron-down down"></i></a>
+                                            <ul class="dropdown2">
+                                                <li><a href="#">PROYECTO 5</a></li>
+                                                <li><a href="#">PROYECTO 6</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#" class="dropbtn2">NOKIA <i class="fa fa-chevron-down down"></i></a>
+                                            <ul class="dropdown2">
+                                                <li><a href="#">PROYECTO 7</a></li>
+                                                <li><a href="#">PROYECTO 8</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#" class="dropbtn2">THALES <i class="fa fa-chevron-down down"></i></a>
+                                            <ul class="dropdown2">
+                                                <li><a href="#">PROYECTO 9</a></li>
+                                                <li><a href="#">PROYECTO 10</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">NUESTROS CLIENTES</a></li>
+                                <li><a href="#">CASOS DE ÉXITO</a></li>
+                                <li><a href="#">PREMIOS Y CERTIFICACIONES</a></li>
+                                <li><a href="#">CONTACTO</a></li>
                               </ul>
-                            </li>
-                          </ul>
-                    </li>
-                    <li class="dropdown"><a data-toggle="dropdown" class="dropdown-toggle">Submenu 1<span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#">Lorem ipsum</a></li>
-                            <li>
-                                <a href="#" data-toggle="dropdown" class="dropdown-toggle">Submenu 2<span class="caret"></span></a>
-                                <ul class="dropdown-menu">
-                                    <li><a href="#">Lorem ipsum</a></li>
-                                    <li><a href="#">Lorem ipsum</a></li>
-                                    <li>
-                                        <a href="#" data-toggle="dropdown" class="dropdown-toggle">Submenu 3<span class="caret"></span></a>
-                                        <ul class="dropdown-menu">
-                                            <li><a href="#">Lorem ipsum</a></li>
-                                            <li><a href="#">Lorem ipsum</a></li>
-                                        </ul>
-                                </li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="dropdown mega">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Servicios</a>
-                        <ul class="dropdown-menu">
-                            <li class="container">
-                                <div class="row">
-                                    <div class="col-md-3">
-                                        <figure>
-                                            <a href=""><img src="assets/img/plan.jpeg" alt="" class="img-responsive"></a>
-                                        </figure>
-                                        <h5>Planeación</h5>
-                                        <p>Lorem ipsum dolor sit amet, usu cu enim ceteros, vidit civibus imperdiet eu eos. Novum nihil soluta no mel, dicant.</p>
-                                    </div>
-                                    <div class="col-md-3">
-                                        <figure>
-                                            <a href=""><img src="assets/img/implemen.jpg" alt="" class="img-responsive"></a>
-                                        </figure>
-                                        <h5>Implementación</h5>
-                                        <p>Mei duis eruditi deserunt te, nec an graeco offendit. Dicit elaboraret temporibus cum ei, nihil possim id vel, at doctus iudicabit.</p>
-                                    </div>
-                                    <div class="col-md-3">
-                                        <figure>
-                                            <a href=""><img src="assets/img/inge.jpg" alt="" class="img-responsive"></a>
-                                        </figure>
-                                        <h5>Ingeniería y diseño</h5>
-                                        <p>Lorem ipsum dolor sit amet, usu cu enim ceteros, vidit civibus imperdiet eu eos. Novum nihil soluta no mel, dicant.</p>
-                                    </div>
-                                    <div class="col-md-3">
-                                        <figure>
-                                            <a href=""><img src="assets/img/mante.jpg" alt="" class="img-responsive"></a>
-                                        </figure>
-                                        <h5>Operación, Administración y Mantenimiento</h5>
-                                        <p>Sea summo nullam quaerendum in, eum te harum aperiam postulant, persius reprehendunt eos ut.</p>
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
-                    </li>
-                    <li><a href="">Sobre nosotros</a></li>
-                    <li><a href="">Contacto</a></li>
-                </ul>
-            </div>
-        </div>
+                            </div>
+                        </div>
+                    </div>
+
     </nav>
-</header><!-- /Header -->
+</header>
