@@ -1,0 +1,93 @@
+{
+    "MAIN": {
+        "OBJECTIVE": "CREANDO LA SIGUIENTE GENERACIÓN DE REDES.",
+        "EXPERIENCE": {
+             "1": "CONSULTORÍA",
+             "2": "OPERACIÓN",
+             "3": "MANTENIMIENTO",
+             "4": "DISEÑO",
+             "5": "PLANEACIÓN",
+             "6": "GESTORÍA",
+             "7": "IMPLEMENTACIÓN"
+        },
+        "ABOUT_US_TITLE": "NOSOTROS",
+        "ABOUT_US": "WFI es una empresa líder en prestación de servicios de consultoría, ingeniería e instalación en sistemas de telecomunicaciones, redes fijas e inalámbricas, sistemas de seguridad, data centers y cableado estructurado, así como, mantenimiento y administración de redes inalámbricas y cuenta con certificado de calidad ISO 9001:2015",
+        "MISSION_TITLE": "Misión",
+        "VISION_TITLE": "Visión",
+        "MISSION": "Proporcionar servicios profesionales de ingeniería y despliegue a las empresas de telecomunicaciones para mejorar la conectividad de la sociedad y generar fuentes de empleo.",
+        "VISION": "Ser una empresa que en los próximos 5 años es diversificada y referente en el mercado de las Tecnologías de la Información y Comunicaciones, capaz de proporcionar servicios de alto valor que aumentan su rentabilidad.",
+        "VALUES_TITLE": "Valores",
+        "FIRST_VALUE": "Actitud de servicio",
+        "SECOND_VALUE": "Honestidad y sinceridad",
+        "THIRD_VALUE": "Lealtad",
+        "FOURTH_VALUE": "Compromiso y responsabilidad",
+        "FIFTH_VALUE": "Dignidad",
+        "SIXTH_VALUE": "Moral",
+        "FIRST_VALUE_TEXT": "Reconocer las necesidades de los demás y validarlas como propias.",
+        "SECOND_VALUE_TEXT": "Incapacidad de robar, estafar o defraudar a los demás.",
+        "THIRD_VALUE_TEXT": "Fidelidad, identidad y nobleza hacia la organización.",
+        "FOURTH_VALUE_TEXT": "De cumplir con lo cometido, siendo consciente y formal en sus palabras y actos.",
+        "FIFTH_VALUE_TEXT": "Integridad y nobleza en la forma de comportarse.",
+        "SIXTH_VALUE_TEXT": "Dirigirse de acuerdo a las buenas costumbres."
+    },
+    "HEADER": {
+        "HOME": {
+            "TITLE": "INICIO",
+            "INFRASTRUCTURE": "Infraestructura Eléctrica",
+            "PLANT": "Planta externa"
+        },
+        "SERVICES": {
+            "TITLE": "SERVICIOS",
+            "CONTENT": {
+                "1": "Ingeniería, Diseño",
+                "2": "Gestión / Planeación",
+                "3": "Despliegue / Implementación",
+                "4": "Operacíon y Mantenimiento",
+                "5": "Optimización de Redes"
+            }
+        },
+        "PROJECTS": {
+            "TITLE": "EXPERIENCIA / INDUSTRÍA",
+            "CONTENT": {
+                "1": "Infraestructura Eléctrica ",
+                "2": "Fibra Óptica",
+                "3": "Obra Civil"
+            }
+        },
+        "WE":{
+            "TITLE": "NOSOTROS",
+            "CONTENT": {
+                "1": "Historia de WFI ",
+                "2": "Misión, Visión, Valores",
+                "3": "Reconocimientos",
+                "4": "Casos de Éxito"
+            }
+        },
+        "CONTACT":{
+            "TITLE": "CONTACTO",
+            "CONTENT": {
+                "1": "Formulario de Correo",
+                "2": "Correo",
+                "3": "Teléfono(s)",
+                "4": "Mapa de Dirección",
+                "5": "WhatsApp Contacto",
+                "6": "Redes Sociales",
+                "7": "Preguntas Frecuentes"
+            }
+        }
+    },
+    "FOOTER": {
+        "ABOUT_US": "Nosotros",
+        "FAQ": "Preguntas más frecuentes",
+        "QUOTATION": "Cotización",
+        "CONTACTS": "Contactos",
+        "SHOP": "Comercio",
+        "TERMS": "Términos y Condiciones",
+        "RIGHTS": "V 0.0.2 © Cyrus 2022 - Todos los derechos reservados.",
+        "DISCOVER": "Descubre"
+    },
+    "BUTTONS": {
+        "PREVIOUS": "Anterior",
+        "NEXT": "Siguiente"
+    }
+}

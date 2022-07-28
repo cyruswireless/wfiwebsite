@@ -1,0 +1,93 @@
+{
+    "MAIN": {
+        "OBJECTIVE": "CREATING THE NEXT GENERATION OF NETWORKS.",
+        "EXPERIENCE": {
+            "1": "CONSULTING",
+            "2": "OPERATION",
+            "3": "MAINTENANCE",
+            "4": "DESIGN",
+            "5": "PLANNING",
+            "6": "MANAGEMENT",
+            "7": "IMPLEMENTATION"
+       },
+        "ABOUT_US_TITLE": "ABOUT US",
+        "ABOUT_US": "WFI is a leading company in providing consulting, engineering and installation services in telecommunications systems, fixed and wireless networks, security systems, data centers and structured cabling, as well as maintenance and administration of wireless networks and has a certificate of quality ISO 9001:2015",
+        "MISSION_TITLE": "Mission",
+        "VISION_TITLE": "Vision",
+        "MISSION": "Provide professional engineering and deployment services to telecommunications companies to improve the connectivity of society and generate sources of employment.",
+        "VISION": "To be a company that in the next 5 years is diversified and a benchmark in the Information and Communications Technology market, capable of providing high-value services that increase its profitability.",
+        "VALUES_TITLE": "Values",
+        "FIRST_VALUE": "Service attitude",
+        "SECOND_VALUE": "Honesty and sincerity",
+        "THIRD_VALUE": "Loyalty",
+        "FOURTH_VALUE": "Compromise and responsibility",
+        "FIFTH_VALUE": "Dignity",
+        "SIXTH_VALUE": "Moral",
+        "FIRST_VALUE_TEXT": "Recognize the needs of others and validate them as their own.",
+        "SECOND_VALUE_TEXT": "Inability to steal, swindle or defraud others.",
+        "THIRD_VALUE_TEXT": "Fidelity, identity and nobility towards the organization.",
+        "FOURTH_VALUE_TEXT": "To fulfill what has been committed, being conscious and formal in his words and actions.",
+        "FIFTH_VALUE_TEXT": "Integrity and nobility in the way of behaving.",
+        "SIXTH_VALUE_TEXT": "Address according to good customs."
+    },
+    "HEADER": {
+        "HOME": {
+            "TITLE": "HOME",
+            "INFRASTRUCTURE": "Electrical Infrastructure",
+            "PLANT": "Outside Floor"
+        },
+        "SERVICES": {
+            "TITLE": "SERVICES",
+            "CONTENT": {
+                "1": "Engineering, Design",
+                "2": "Management / Planning",
+                "3": "Deployment / Implementation",
+                "4": "Operation and Maintenance",
+                "5": "Network Optimization"
+            }
+        },
+        "PROJECTS": {
+            "TITLE": "EXPERIENCE / INDUSTRY",
+            "CONTENT": {
+                "1": "Electrical Infrastructure ",
+                "2": "Optical Fiber",
+                "3": "Civil Works"
+            }
+        },
+        "WE":{
+            "TITLE": "US",
+            "CONTENT": {
+                "1": "WFI history",
+                "2": "Mission, Vision, Values",
+                "3": "Recognitions",
+                "4": "Success Stories"
+            }
+        },
+        "CONTACT":{
+            "TITLE": "CONTACT",
+            "CONTENT": {
+                "1": "Mail Form",
+                "2": "Mail",
+                "3": "Phone(s)",
+                "4": "Address Map",
+                "5": "WhatsApp Contact",
+                "6": "Social Networks",
+                "7": "Frequently Asked Questions"
+            }
+        }
+    },
+    "FOOTER": {
+        "ABOUT_US": "About us",
+        "FAQ": "FAQ",
+        "QUOTATION": "Quotation",
+        "CONTACTS": "Contacts",
+        "SHOP": "Shop",
+        "TERMS": "Terms and condition",
+        "RIGHTS": "V 0.0.2 © Cyrus 2022 - All rights reserved.",
+        "DISCOVER": "Discover"
+    },
+    "BUTTONS": {
+        "PREVIOUS": "Previous",
+        "NEXT": "Next"
+    }
+}
