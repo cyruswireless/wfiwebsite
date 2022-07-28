@@ -112,3 +112,22 @@ ul li:hover .dropdown{
         display: none;
     }
 }
+.header{
+    background-color: #0F1A47;
+}
+.table_logo{
+    height: 100px;
+}
+.img_logo{
+    width:120px;
+}
+.texto_navbar{
+    margin-top: 55px;
+    background-color: #0F1A47;
+}
+.header_flags{
+    text-align: right;
+}
+#flagEn {
+    margin-left: 15px;
+}
