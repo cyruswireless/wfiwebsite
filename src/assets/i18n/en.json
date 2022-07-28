@@ -32,49 +32,49 @@
     },
     "HEADER": {
         "HOME": {
-            "TITLE": "HOME"
+            "TITLE": "HOME",
+            "INFRASTRUCTURE": "Electrical Infrastructure",
+            "PLANT": "Outside Floor"
         },
         "SERVICES": {
             "TITLE": "SERVICES",
-            "AUDIT": {
-                "TITLE": "AUDIT",
-                "1": "1. Knowledge and understanding of the entity",
-                "2": "2. Objectives and scope of the audit",
-                "3": "3. Preliminary analysis of internal control",
-                "4": "4. Analysis of risks and materiality",
-                "5": "5. Audit specific planning",
-                "6": "6. Development of audit programs"
-            },
-            "OPTICAL_FIBER": {
-                "TITLE": "OPTICAL FIBER",
-                "1": "AUDIT",
-                "2": "FIBER OPTIC CONSTRUCTION",
-                "3": "FIBER OPTIC LIGHTING",
-                "4": "ENGINEERING AND DESIGN"
-            },
-            "PROJECT_MANAGEMENT": {
-                "TITLE": "PROJECT MANAGEMENT",
-                "1": "CLOSING",
-                "2": "EXECUTION",
-                "3": "INITIATION",
-                "4": "PLANNING",
-                "5": "SUPERVISION"
-            },
-            "INSTALLATION": {
-                "TITLE": "INSTALLATION AND COMMISSIONING",
-                "1": "CW",
-                "2": "MW",
-                "3": "RADIOBASES"
-            },
-            "INFRASTRUCTURE": "INFRASTRUCTURE"
+            "CONTENT": {
+                "1": "Engineering, Design",
+                "2": "Management / Planning",
+                "3": "Deployment / Implementation",
+                "4": "Operation and Maintenance",
+                "5": "Network Optimization"
+            }
         },
         "PROJECTS": {
-            "TITLE": "PROYECTOS"
+            "TITLE": "EXPERIENCE / INDUSTRY",
+            "CONTENT": {
+                "1": "Electrical Infrastructure ",
+                "2": "Optical Fiber",
+                "3": "Civil Works"
+            }
         },
-        "OUR_CLIENTS": "OUR CLIENTS",
-        "SUCCESS_STORIES": "SUCCESS STORIES",
-        "CERTIFICATIONS": "AWARDS AND CERTIFICATIONS",
-        "CONTACT": "CONTACT"
+        "WE":{
+            "TITLE": "US",
+            "CONTENT": {
+                "1": "WFI history",
+                "2": "Mission, Vision, Values",
+                "3": "Recognitions",
+                "4": "Success Stories"
+            }
+        },
+        "CONTACT":{
+            "TITLE": "CONTACT",
+            "CONTENT": {
+                "1": "Mail Form",
+                "2": "Mail",
+                "3": "Phone(s)",
+                "4": "Address Map",
+                "5": "WhatsApp Contact",
+                "6": "Social Networks",
+                "7": "Frequently Asked Questions"
+            }
+        }
     },
     "FOOTER": {
         "ABOUT_US": "About us",

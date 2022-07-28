@@ -47,6 +47,7 @@ ul li a{
 .logo2{
     display: block;
     text-align: center;
+    padding-left: 290px;
 }
 ul li:hover .dropdown{
     top: 100%;
