@@ -2,107 +2,71 @@
     <nav  style="background-color: #0F1A47;">
         <div class="menu-header">
             <div class="row">
-                <div class="col-sm-6">
-                    <img src="/assets/img/LogoNavbar.png" width="120px" style="margin:10px;">
+                <div class="col-sm-6 col-6">
+                    <img src="/assets/img/LogoNavbar.png" width="120px">
                 </div>
-                <div class="col-sm-6">
+                <div class="col-sm-6 col-6">
                     <i class="fa fa-bars"></i>
                 </div>
             </div>
         </div>
         <div class="menu-content">
             <div class="row">
-                <div class="col-md-4 logo2">
-                    <img src="/assets/img/LogoNavbar.png" width="120px" style="margin:10px;">
+                <div class="col-md-4 logo2 align-middle">
+                    <table style="height: 100px;">
+                        <tbody>
+                          <tr>
+                            <td class="align-middle"><img src="/assets/img/LogoNavbar.png" width="120px"></td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    
                 </div>
                 <div class="col-md-7">
-                    <ul style=" margin-top: 25px;background-color: #0F1A47;">
+                    <ul style=" margin-top: 55px;background-color: #0F1A47;">
                         <li><a routerLink="/home" class="dropbtn">{{ 'HEADER.HOME.TITLE' | translate }}<i class="fa fa-chevron-down down"></i></a>
                             <ul class="dropdown">
-                                <li><a href="#">{{ 'MAIN.ABOUT_US_TITLE' | translate }}</a></li>
-                                <li><a href="#">{{ 'MAIN.MISSION_TITLE' | translate }}</a></li>
-                                <li><a href="#">{{ 'MAIN.VISION_TITLE' | translate }}</a></li>
-                                <li><a href="#">{{ 'MAIN.VALUES_TITLE' | translate }}</a></li>
+                                <li><a href="#">Telecom</a></li>
+                                <li><a href="#">{{ 'HEADER.HOME.INFRASTRUCTURE' | translate }}</a></li>
+                                <li><a href="#">{{ 'HEADER.HOME.PLANT' | translate }}</a></li>
                             </ul>
                         </li>
                         <li><a href="#" class="dropbtn">{{ 'HEADER.SERVICES.TITLE' | translate }}<i class="fa fa-chevron-down down"></i></a>
                             <ul class="dropdown">
-                                <li><a href="#" class="dropbtn2">{{ 'HEADER.SERVICES.AUDIT.TITLE' | translate }}<i class="fa fa-chevron-down down"></i></a>
-                                    <ul class="dropdown2">
-                                        <li><a href="#">{{ 'HEADER.SERVICES.AUDIT.1' | translate }}</a></li>
-                                        <li><a href="#">{{ 'HEADER.SERVICES.AUDIT.2' | translate }}</a></li>
-                                        <li><a href="#">{{ 'HEADER.SERVICES.AUDIT.3' | translate }}</a></li>
-                                        <li><a href="#">{{ 'HEADER.SERVICES.AUDIT.4' | translate }}</a></li>
-                                        <li><a href="#">{{ 'HEADER.SERVICES.AUDIT.5' | translate }}</a></li>
-                                        <li><a href="#">{{ 'HEADER.SERVICES.AUDIT.6' | translate }}</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="#" class="dropbtn2">{{ 'HEADER.SERVICES.OPTICAL_FIBER.TITLE' | translate }}<i class="fa fa-chevron-down down"></i></a>
-                                    <ul class="dropdown2">
-                                        <li><a href="#">{{ 'HEADER.SERVICES.OPTICAL_FIBER.1' | translate }}</a></li>
-                                        <li><a href="#">{{ 'HEADER.SERVICES.OPTICAL_FIBER.2' | translate }}</a></li>
-                                        <li><a href="#">{{ 'HEADER.SERVICES.OPTICAL_FIBER.3' | translate }}</a></li>
-                                        <li><a href="#">{{ 'HEADER.SERVICES.OPTICAL_FIBER.4' | translate }}</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="#" class="dropbtn2">{{ 'HEADER.SERVICES.PROJECT_MANAGEMENT.TITLE' | translate }}<i class="fa fa-chevron-down down"></i></a>
-                                    <ul class="dropdown2">
-                                        <li><a href="#">{{ 'HEADER.SERVICES.PROJECT_MANAGEMENT.1' | translate }}</a></li>
-                                        <li><a href="#">{{ 'HEADER.SERVICES.PROJECT_MANAGEMENT.2' | translate }}</a></li>
-                                        <li><a href="#">{{ 'HEADER.SERVICES.PROJECT_MANAGEMENT.3' | translate }}</a></li>
-                                        <li><a href="#">{{ 'HEADER.SERVICES.PROJECT_MANAGEMENT.4' | translate }}</a></li>
-                                        <li><a href="#">{{ 'HEADER.SERVICES.PROJECT_MANAGEMENT.5' | translate }}</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="#">{{ 'HEADER.SERVICES.INFRASTRUCTURE' | translate }}</a></li>
-                                <li><a href="#" class="dropbtn2">{{ 'HEADER.SERVICES.INSTALLATION.TITLE' | translate }}<i class="fa fa-chevron-down down"></i></a>
-                                    <ul class="dropdown2">
-                                        <li><a href="#">{{ 'HEADER.SERVICES.INSTALLATION.1' | translate }}</a></li>
-                                        <li><a href="#">{{ 'HEADER.SERVICES.INSTALLATION.2' | translate }}</a></li>
-                                        <li><a href="#">{{ 'HEADER.SERVICES.INSTALLATION.3' | translate }}</a></li>
-                                    </ul>
-                                </li>
+                                <li><a href="#">{{ 'HEADER.SERVICES.CONTENT.1' | translate }}</a></li>
+                                <li><a href="#">{{ 'HEADER.SERVICES.CONTENT.2' | translate }}</a></li>
+                                <li><a href="#">{{ 'HEADER.SERVICES.CONTENT.3' | translate }}</a></li>
+                                <li><a href="#">{{ 'HEADER.SERVICES.CONTENT.4' | translate }}</a></li>
+                                <li><a href="#">{{ 'HEADER.SERVICES.CONTENT.5' | translate }}</a></li>
                             </ul>
                         </li>
                         <li><a href="#" class="dropbtn">{{ 'HEADER.PROJECTS.TITLE' | translate }}<i class="fa fa-chevron-down down"></i></a>
                             <ul class="dropdown">
-                                <li><a href="#" class="dropbtn2">AIRSPAN <i class="fa fa-chevron-down down"></i></a>
-                                    <ul class="dropdown2">
-                                        <li><a href="#">PROYECTO 1</a></li>
-                                        <li><a href="#">PROYECTO 2</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="#" class="dropbtn2">AMERICAN TOWER <i class="fa fa-chevron-down down"></i></a>
-                                    <ul class="dropdown2">
-                                        <li><a href="#">PROYECTO 3</a></li>
-                                        <li><a href="#">PROYECTO 4</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="#" class="dropbtn2">MAXCOM <i class="fa fa-chevron-down down"></i></a>
-                                    <ul class="dropdown2">
-                                        <li><a href="#">PROYECTO 5</a></li>
-                                        <li><a href="#">PROYECTO 6</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="#" class="dropbtn2">NOKIA <i class="fa fa-chevron-down down"></i></a>
-                                    <ul class="dropdown2">
-                                        <li><a href="#">PROYECTO 7</a></li>
-                                        <li><a href="#">PROYECTO 8</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="#" class="dropbtn2">THALES <i class="fa fa-chevron-down down"></i></a>
-                                    <ul class="dropdown2">
-                                        <li><a href="#">PROYECTO 9</a></li>
-                                        <li><a href="#">PROYECTO 10</a></li>
-                                    </ul>
-                                </li>
-
+                                <li><a href="#">Telecom</a></li>
+                                <li><a href="#">{{ 'HEADER.PROJECTS.CONTENT.1' | translate }}</a></li>
+                                <li><a href="#">{{ 'HEADER.PROJECTS.CONTENT.2' | translate }}</a></li>
+                                <li><a href="#">{{ 'HEADER.PROJECTS.CONTENT.3' | translate }}</a></li>
                             </ul>
                         </li>
-                        <li><a href="#">{{ 'HEADER.OUR_CLIENTS' | translate }}</a></li>
-                        <li><a href="#">{{ 'HEADER.SUCCESS_STORIES' | translate }}</a></li>
-                        <li><a href="#">{{ 'HEADER.CERTIFICATIONS' | translate }}</a></li>
-                        <li><a routerLink="/contacto">{{ 'HEADER.CONTACT' | translate }}</a></li>
+                        <li><a href="#">{{ 'HEADER.WE.TITLE' | translate }}<i class="fa fa-chevron-down down"></i></a>
+                            <ul class="dropdown">
+                                <li><a href="#">{{ 'HEADER.WE.CONTENT.1' | translate }}</a></li>
+                                <li><a href="#">{{ 'HEADER.WE.CONTENT.2' | translate }}</a></li>
+                                <li><a href="#">{{ 'HEADER.WE.CONTENT.3' | translate }}</a></li>
+                                <li><a href="#">{{ 'HEADER.WE.CONTENT.4' | translate }}</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">{{ 'HEADER.CONTACT.TITLE' | translate }}<i class="fa fa-chevron-down down"></i></a>
+                            <ul class="dropdown">
+                                <li><a href="#">{{ 'HEADER.CONTACT.CONTENT.1' | translate }}</a></li>
+                                <li><a href="#">{{ 'HEADER.CONTACT.CONTENT.2' | translate }}</a></li>
+                                <li><a href="#">{{ 'HEADER.CONTACT.CONTENT.3' | translate }}</a></li>
+                                <li><a href="#">{{ 'HEADER.CONTACT.CONTENT.4' | translate }}</a></li>
+                                <li><a href="#">{{ 'HEADER.CONTACT.CONTENT.5' | translate }}</a></li>
+                                <li><a href="#">{{ 'HEADER.CONTACT.CONTENT.6' | translate }}</a></li>
+                                <li><a href="#">{{ 'HEADER.CONTACT.CONTENT.7' | translate }}</a></li>
+                            </ul>
+                        </li>
                     </ul>
                 </div>
                 <div class="col-md-1">
