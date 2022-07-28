@@ -7,8 +7,8 @@ import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { AppRoutingModule } from './app-routing.routes';
 
 import { AppComponent } from './app.component';
-import { AboutComponent } from './components/home/about/about.component';
-import { LandingComponent } from './components/home/landing/landing.component';
+import { AboutComponent } from './components/about/about.component';
+import { LandingComponent } from './components/landing/landing.component';
 import { FooterComponent } from './components/shared/footer/footer.component';
 import { HeaderComponent } from './components/shared/header/header.component';
 import { SlideComponent } from './components/shared/slide/slide.component';
