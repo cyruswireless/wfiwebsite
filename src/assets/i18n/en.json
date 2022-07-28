@@ -51,6 +51,23 @@
                 "1": "The design of technological products (devices, processes, systems and infrastructure) is at the core of the nature of engineering. Engineering design is a systematic, creative and flexible process, based on mathematics, science natural and engineering sciences, including the generation, systematic evaluation, and testing of specifications for the creation of artifacts, systems, processes, and infrastructure whose form and function achieve stated goals and satisfy specified constraints from a need or problematic situation"
             }
         },
+        "SERVICE3": {
+            "TITLE1": "Deployment",
+            "TEXT1": "The Deployment Management in Production Environments procedure aims to ensure the validity, quality, safety and operability of the activities to be carried out to carry out the deployment of the systems in environments (pre-production, production and training), in order to to minimize the risk of their alteration",
+            "TITLE2": "The steps to implement a project strategy",
+            "TEXT2": {
+                "1": "Define the business strategy.",
+                "2": "Identify the existing opportunities in it.",
+                "3": "Select project strategy based on it.",
+                "4": "Consider the benefits that each opportunity and each strategy will have."
+            }
+        },
+        "SERVICE4": {
+            "TITLE": "Operation and maintenance",
+            "TEXTPT1": "At this stage it must be ensured that the",
+            "TEXTIN": "project",
+            "TEXTPT2": "has produced an improvement in the capacity to provide public goods or services of an Entity in accordance with the conditions set forth in the study that supported its feasibility statement"
+        },
         "EXPERIENCE": {
             "TITLE": "EXPERIENCE / INDUSTRY",
             "CONTENT": {
