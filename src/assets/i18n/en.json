@@ -1,0 +1,93 @@
+{
+    "MAIN": {
+        "OBJECTIVE": "CREATING THE NEXT GENERATION OF NETWORKS.",
+        "EXPERIENCE": {
+            "1": "CONSULTING",
+            "2": "OPERATION",
+            "3": "MAINTENANCE",
+            "4": "DESIGN",
+            "5": "PLANNING",
+            "6": "MANAGEMENT",
+            "7": "IMPLEMENTATION"
+       },
+        "ABOUT_US_TITLE": "ABOUT US",
+        "ABOUT_US": "WFI is a leading company in providing consulting, engineering and installation services in telecommunications systems, fixed and wireless networks, security systems, data centers and structured cabling, as well as maintenance and administration of wireless networks and has a certificate of quality ISO 9001:2015",
+        "MISSION_TITLE": "Mission",
+        "VISION_TITLE": "Vision",
+        "MISSION": "Provide professional engineering and deployment services to telecommunications companies to improve the connectivity of society and generate sources of employment.",
+        "VISION": "To be a company that in the next 5 years is diversified and a benchmark in the Information and Communications Technology market, capable of providing high-value services that increase its profitability.",
+        "VALUES_TITLE": "Values",
+        "FIRST_VALUE": "Service attitude",
+        "SECOND_VALUE": "Honesty and sincerity",
+        "THIRD_VALUE": "Loyalty",
+        "FOURTH_VALUE": "Compromise and responsibility",
+        "FIFTH_VALUE": "Dignity",
+        "SIXTH_VALUE": "Moral",
+        "FIRST_VALUE_TEXT": "Recognize the needs of others and validate them as their own.",
+        "SECOND_VALUE_TEXT": "Inability to steal, swindle or defraud others.",
+        "THIRD_VALUE_TEXT": "Fidelity, identity and nobility towards the organization.",
+        "FOURTH_VALUE_TEXT": "To fulfill what has been committed, being conscious and formal in his words and actions.",
+        "FIFTH_VALUE_TEXT": "Integrity and nobility in the way of behaving.",
+        "SIXTH_VALUE_TEXT": "Address according to good customs."
+    },
+    "HEADER": {
+        "HOME": {
+            "TITLE": "HOME"
+        },
+        "SERVICES": {
+            "TITLE": "SERVICES",
+            "AUDIT": {
+                "TITLE": "AUDIT",
+                "1": "1. Knowledge and understanding of the entity",
+                "2": "2. Objectives and scope of the audit",
+                "3": "3. Preliminary analysis of internal control",
+                "4": "4. Analysis of risks and materiality",
+                "5": "5. Audit specific planning",
+                "6": "6. Development of audit programs"
+            },
+            "OPTICAL_FIBER": {
+                "TITLE": "OPTICAL FIBER",
+                "1": "AUDIT",
+                "2": "FIBER OPTIC CONSTRUCTION",
+                "3": "FIBER OPTIC LIGHTING",
+                "4": "ENGINEERING AND DESIGN"
+            },
+            "PROJECT_MANAGEMENT": {
+                "TITLE": "PROJECT MANAGEMENT",
+                "1": "CLOSING",
+                "2": "EXECUTION",
+                "3": "INITIATION",
+                "4": "PLANNING",
+                "5": "SUPERVISION"
+            },
+            "INSTALLATION": {
+                "TITLE": "INSTALLATION AND COMMISSIONING",
+                "1": "CW",
+                "2": "MW",
+                "3": "RADIOBASES"
+            },
+            "INFRASTRUCTURE": "INFRASTRUCTURE"
+        },
+        "PROJECTS": {
+            "TITLE": "PROJECTS"
+        },
+        "OUR_CLIENTS": "OUR CLIENTS",
+        "SUCCESS_STORIES": "SUCCESS STORIES",
+        "CERTIFICATIONS": "AWARDS AND CERTIFICATIONS",
+        "CONTACT": "CONTACT"
+    },
+    "FOOTER": {
+        "ABOUT_US": "About us",
+        "FAQ": "FAQ",
+        "QUOTATION": "Quotation",
+        "CONTACTS": "Contacts",
+        "SHOP": "Shop",
+        "TERMS": "Terms and condition",
+        "RIGHTS": "V 0.0.1 © Cyrus 2022 - All rights reserved.",
+        "DISCOVER": "Discover"
+    },
+    "BUTTONS": {
+        "PREVIOUS": "Previous",
+        "NEXT": "Next"
+    }
+}
