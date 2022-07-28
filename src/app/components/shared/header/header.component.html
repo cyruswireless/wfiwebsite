@@ -17,7 +17,7 @@
                 </div>
                 <div class="col-md-7">
                     <ul style=" margin-top: 25px;background-color: #0F1A47;">
-                        <li><a href="#" class="dropbtn">{{ 'HEADER.HOME.TITLE' | translate }}<i class="fa fa-chevron-down down"></i></a>
+                        <li><a routerLink="/home" class="dropbtn">{{ 'HEADER.HOME.TITLE' | translate }}<i class="fa fa-chevron-down down"></i></a>
                             <ul class="dropdown">
                                 <li><a href="#">{{ 'MAIN.ABOUT_US_TITLE' | translate }}</a></li>
                                 <li><a href="#">{{ 'MAIN.MISSION_TITLE' | translate }}</a></li>
@@ -96,12 +96,13 @@
                                         <li><a href="#">PROYECTO 10</a></li>
                                     </ul>
                                 </li>
+
                             </ul>
                         </li>
                         <li><a href="#">{{ 'HEADER.OUR_CLIENTS' | translate }}</a></li>
                         <li><a href="#">{{ 'HEADER.SUCCESS_STORIES' | translate }}</a></li>
                         <li><a href="#">{{ 'HEADER.CERTIFICATIONS' | translate }}</a></li>
-                        <li><a href="#">{{ 'HEADER.CONTACT' | translate }}</a></li>
+                        <li><a routerLink="/contacto">{{ 'HEADER.CONTACT' | translate }}</a></li>
                     </ul>
                 </div>
                 <div class="col-md-1">
