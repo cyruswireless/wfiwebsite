@@ -1,114 +1,117 @@
 <header>
     <nav  style="background-color: #0F1A47;">
-        
-            
-                <div class="menu-header">
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <img src="/assets/img/LogoNavbar.png" width="120px" style="margin:10px;">
-                        </div>
-                        <div class="col-sm-6">
-                            <i class="fa fa-bars"></i>
-                        </div>
-                    </div>
-                   </div>
-                   <div class="menu-content">
-                    <div class="row">
-                        <div class="col-sm-4 logo2">
-                            <img src="/assets/img/LogoNavbar.png" width="120px" style="margin:10px;">
-                        </div>
-                        <div class="col-md-7">
-                            <ul style=" margin-top: 25px;background-color: #0F1A47;">
-                                <li>
-                                    <a routerLink="/home" class="dropbtn">HOME <i class="fa fa-chevron-down down"></i></a>
-                                    <ul class="dropdown">
-                                        <li><a href="#">QUIENES SOMOS</a></li>
-                                        <li><a href="#">MISIÓN</a></li>
-                                        <li><a href="#">VISIÓN</a></li>
-                                        <li><a href="#">VALORES</a></li>
+        <div class="menu-header">
+            <div class="row">
+                <div class="col-sm-6">
+                    <img src="/assets/img/LogoNavbar.png" width="120px" style="margin:10px;">
+                </div>
+                <div class="col-sm-6">
+                    <i class="fa fa-bars"></i>
+                </div>
+            </div>
+        </div>
+        <div class="menu-content">
+            <div class="row">
+                <div class="col-md-4 logo2">
+                    <img src="/assets/img/LogoNavbar.png" width="120px" style="margin:10px;">
+                </div>
+                <div class="col-md-7">
+                    <ul style=" margin-top: 25px;background-color: #0F1A47;">
+                        <li><a routerLink="/home" class="dropbtn">{{ 'HEADER.HOME.TITLE' | translate }}<i class="fa fa-chevron-down down"></i></a>
+                            <ul class="dropdown">
+                                <li><a href="#">{{ 'MAIN.ABOUT_US_TITLE' | translate }}</a></li>
+                                <li><a href="#">{{ 'MAIN.MISSION_TITLE' | translate }}</a></li>
+                                <li><a href="#">{{ 'MAIN.VISION_TITLE' | translate }}</a></li>
+                                <li><a href="#">{{ 'MAIN.VALUES_TITLE' | translate }}</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#" class="dropbtn">{{ 'HEADER.SERVICES.TITLE' | translate }}<i class="fa fa-chevron-down down"></i></a>
+                            <ul class="dropdown">
+                                <li><a href="#" class="dropbtn2">{{ 'HEADER.SERVICES.AUDIT.TITLE' | translate }}<i class="fa fa-chevron-down down"></i></a>
+                                    <ul class="dropdown2">
+                                        <li><a href="#">{{ 'HEADER.SERVICES.AUDIT.1' | translate }}</a></li>
+                                        <li><a href="#">{{ 'HEADER.SERVICES.AUDIT.2' | translate }}</a></li>
+                                        <li><a href="#">{{ 'HEADER.SERVICES.AUDIT.3' | translate }}</a></li>
+                                        <li><a href="#">{{ 'HEADER.SERVICES.AUDIT.4' | translate }}</a></li>
+                                        <li><a href="#">{{ 'HEADER.SERVICES.AUDIT.5' | translate }}</a></li>
+                                        <li><a href="#">{{ 'HEADER.SERVICES.AUDIT.6' | translate }}</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="#" class="dropbtn">SERVICIOS <i class="fa fa-chevron-down down"></i></a>
-                                    <ul class="dropdown">
-                                        <li><a href="#" class="dropbtn2">AUDITORÍA <i class="fa fa-chevron-down down"></i></a>
-                                            <ul class="dropdown2">
-                                                <li><a href="#">1. Conocimiento y comprensión de la entidad</a></li>
-                                                <li><a href="#">2. Objetivos y alcance de la auditoría</a></li>
-                                                <li><a href="#">3. Análisis preliminar del control interno</a></li>
-                                                <li><a href="#">4. Análisis de los riesgos y la materialidad</a></li>
-                                                <li><a href="#">5. Planeación específica de la auditoría</a></li>
-                                                <li><a href="#">6. Elaboración de programas de auditoría</a></li>
-                                            </ul>
-                                        </li>
-                                        <li><a href="#" class="dropbtn2">FIBRA ÓPTICA <i class="fa fa-chevron-down down"></i></a>
-                                            <ul class="dropdown2">
-                                                <li><a href="#">AUDITORIA</a></li>
-                                                <li><a href="#">CONSTRUCCIÓN DE FIBRA ÓPTICA</a></li>
-                                                <li><a href="#">ILUMINACIÓN DE FIBRA ÓPTICA</a></li>
-                                                <li><a href="#">INGENIERÍA Y DISEÑO</a></li>
-                                            </ul>
-                                        </li>
-                                        <li><a href="#" class="dropbtn2">GESTION DE PROYECTOS <i class="fa fa-chevron-down down"></i></a>
-                                            <ul class="dropdown2">
-                                                <li><a href="#">CIERRE</a></li>
-                                                <li><a href="#">EJECUCION</a></li>
-                                                <li><a href="#">INICIO</a></li>
-                                                <li><a href="#">PLANIFICACIÓN</a></li>
-                                                <li><a href="#">SUPERVISIÓN</a></li>
-                                            </ul>
-                                        </li>
-                                        <li><a href="#">INFRAESTRUCTURA</a></li>
-                                        <li><a href="#" class="dropbtn2">INSTALACIÓN Y COMISIONAMIENTO <i class="fa fa-chevron-down down"></i></a>
-                                            <ul class="dropdown2">
-                                                <li><a href="#">CW</a></li>
-                                                <li><a href="#">MW</a></li>
-                                                <li><a href="#">RADIOBASES</a></li>
-                                            </ul>
-                                        </li>
+                                <li><a href="#" class="dropbtn2">{{ 'HEADER.SERVICES.OPTICAL_FIBER.TITLE' | translate }}<i class="fa fa-chevron-down down"></i></a>
+                                    <ul class="dropdown2">
+                                        <li><a href="#">{{ 'HEADER.SERVICES.OPTICAL_FIBER.1' | translate }}</a></li>
+                                        <li><a href="#">{{ 'HEADER.SERVICES.OPTICAL_FIBER.2' | translate }}</a></li>
+                                        <li><a href="#">{{ 'HEADER.SERVICES.OPTICAL_FIBER.3' | translate }}</a></li>
+                                        <li><a href="#">{{ 'HEADER.SERVICES.OPTICAL_FIBER.4' | translate }}</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="#" class="dropbtn">PROYECTOS <i class="fa fa-chevron-down down"></i></a>
-                                    <ul class="dropdown">
-                                        <li><a href="#" class="dropbtn2">AIRSPAN <i class="fa fa-chevron-down down"></i></a>
-                                            <ul class="dropdown2">
-                                                <li><a href="#">PROYECTO 1</a></li>
-                                                <li><a href="#">PROYECTO 2</a></li>
-                                            </ul>
-                                        </li>
-                                        <li><a href="#" class="dropbtn2">AMERICAN TOWER <i class="fa fa-chevron-down down"></i></a>
-                                            <ul class="dropdown2">
-                                                <li><a href="#">PROYECTO 3</a></li>
-                                                <li><a href="#">PROYECTO 4</a></li>
-                                            </ul>
-                                        </li>
-                                        <li><a href="#" class="dropbtn2">MAXCOM <i class="fa fa-chevron-down down"></i></a>
-                                            <ul class="dropdown2">
-                                                <li><a href="#">PROYECTO 5</a></li>
-                                                <li><a href="#">PROYECTO 6</a></li>
-                                            </ul>
-                                        </li>
-                                        <li><a href="#" class="dropbtn2">NOKIA <i class="fa fa-chevron-down down"></i></a>
-                                            <ul class="dropdown2">
-                                                <li><a href="#">PROYECTO 7</a></li>
-                                                <li><a href="#">PROYECTO 8</a></li>
-                                            </ul>
-                                        </li>
-                                        <li><a href="#" class="dropbtn2">THALES <i class="fa fa-chevron-down down"></i></a>
-                                            <ul class="dropdown2">
-                                                <li><a href="#">PROYECTO 9</a></li>
-                                                <li><a href="#">PROYECTO 10</a></li>
-                                            </ul>
-                                        </li>
+                                <li><a href="#" class="dropbtn2">{{ 'HEADER.SERVICES.PROJECT_MANAGEMENT.TITLE' | translate }}<i class="fa fa-chevron-down down"></i></a>
+                                    <ul class="dropdown2">
+                                        <li><a href="#">{{ 'HEADER.SERVICES.PROJECT_MANAGEMENT.1' | translate }}</a></li>
+                                        <li><a href="#">{{ 'HEADER.SERVICES.PROJECT_MANAGEMENT.2' | translate }}</a></li>
+                                        <li><a href="#">{{ 'HEADER.SERVICES.PROJECT_MANAGEMENT.3' | translate }}</a></li>
+                                        <li><a href="#">{{ 'HEADER.SERVICES.PROJECT_MANAGEMENT.4' | translate }}</a></li>
+                                        <li><a href="#">{{ 'HEADER.SERVICES.PROJECT_MANAGEMENT.5' | translate }}</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="#">NUESTROS CLIENTES</a></li>
-                                <li><a href="#">CASOS DE ÉXITO</a></li>
-                                <li><a href="#">PREMIOS Y CERTIFICACIONES</a></li>
-                                <li><a routerLink="/contacto">CONTACTO</a></li>
-                              </ul>
-                            </div>
-                        </div>
-                    </div>
+                                <li><a href="#">{{ 'HEADER.SERVICES.INFRASTRUCTURE' | translate }}</a></li>
+                                <li><a href="#" class="dropbtn2">{{ 'HEADER.SERVICES.INSTALLATION.TITLE' | translate }}<i class="fa fa-chevron-down down"></i></a>
+                                    <ul class="dropdown2">
+                                        <li><a href="#">{{ 'HEADER.SERVICES.INSTALLATION.1' | translate }}</a></li>
+                                        <li><a href="#">{{ 'HEADER.SERVICES.INSTALLATION.2' | translate }}</a></li>
+                                        <li><a href="#">{{ 'HEADER.SERVICES.INSTALLATION.3' | translate }}</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a href="#" class="dropbtn">{{ 'HEADER.PROJECTS.TITLE' | translate }}<i class="fa fa-chevron-down down"></i></a>
+                            <ul class="dropdown">
+                                <li><a href="#" class="dropbtn2">AIRSPAN <i class="fa fa-chevron-down down"></i></a>
+                                    <ul class="dropdown2">
+                                        <li><a href="#">PROYECTO 1</a></li>
+                                        <li><a href="#">PROYECTO 2</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#" class="dropbtn2">AMERICAN TOWER <i class="fa fa-chevron-down down"></i></a>
+                                    <ul class="dropdown2">
+                                        <li><a href="#">PROYECTO 3</a></li>
+                                        <li><a href="#">PROYECTO 4</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#" class="dropbtn2">MAXCOM <i class="fa fa-chevron-down down"></i></a>
+                                    <ul class="dropdown2">
+                                        <li><a href="#">PROYECTO 5</a></li>
+                                        <li><a href="#">PROYECTO 6</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#" class="dropbtn2">NOKIA <i class="fa fa-chevron-down down"></i></a>
+                                    <ul class="dropdown2">
+                                        <li><a href="#">PROYECTO 7</a></li>
+                                        <li><a href="#">PROYECTO 8</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#" class="dropbtn2">THALES <i class="fa fa-chevron-down down"></i></a>
+                                    <ul class="dropdown2">
+                                        <li><a href="#">PROYECTO 9</a></li>
+                                        <li><a href="#">PROYECTO 10</a></li>
+                                    </ul>
+                                </li>
 
+                            </ul>
+                        </li>
+                        <li><a href="#">{{ 'HEADER.OUR_CLIENTS' | translate }}</a></li>
+                        <li><a href="#">{{ 'HEADER.SUCCESS_STORIES' | translate }}</a></li>
+                        <li><a href="#">{{ 'HEADER.CERTIFICATIONS' | translate }}</a></li>
+                        <li><a routerLink="/contacto">{{ 'HEADER.CONTACT' | translate }}</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-1">
+                    <div style="text-align: right;">
+                        <img id="flagMx" (click)="changeLang('es')" src="assets/img/flags/mx.png"/>
+                        <img id="flagEn" (click)="changeLang('en')" src="assets/img/flags/eeuu.png" style="margin-left: 15px;" />
+                    </div>
+                </div>
+            </div>
+        </div>
     </nav>
 </header>

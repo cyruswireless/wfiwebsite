@@ -2,22 +2,22 @@
     <div class="container margin_60_35" style="margin-top:100px;">
         <div class="row ">
             <div class="col-md-4 col-sm-6">
-                <img src="/assets/img/LogoNavbar.png" width="190" height="90" alt="WFI" data-retina="true" id="logo_footer">
+                <img src="assets/img/LogoNavbar.png" width="190" height="90" alt="WFI" data-retina="true" id="logo_footer">
                 <p>Id pri consul aeterno petentium. Vivendo abhorreant et vim, et quot persecuti mel. Libris hendrerit ex sea. Duo legere evertitur an, pri hinc doctus definitiones an, vix id dicam putent. Ius ornatus instructior in.</p>
             </div>
             <div class="col-md-3 col-md-offset-1 col-sm-6">
-                <h3>Descubre</h3>
+                <h3>{{ 'FOOTER.DISCOVER' | translate }}</h3>
                 <ul>
-                    <li><a href="#">About us</a></li>
-                    <li><a href="#">FAQ</a></li>
-                    <li><a href="#">Quotation</a></li>
-                    <li><a href="#">Contacts</a></li>
-                    <li><a href="#">Shop</a></li>
-                    <li><a href="#">Terms and condition</a></li>
+                    <li><a href="#">{{ 'FOOTER.ABOUT_US' | translate }}</a></li>
+                    <li><a href="#">{{ 'FOOTER.FAQ' | translate }}</a></li>
+                    <li><a href="#">{{ 'FOOTER.QUOTATION' | translate }}</a></li>
+                    <li><a href="#">{{ 'FOOTER.CONTACTS' | translate }}</a></li>
+                    <li><a href="#">{{ 'FOOTER.SHOP' | translate }}</a></li>
+                    <li><a href="#">{{ 'FOOTER.TERMS' | translate }}</a></li>
                 </ul>
             </div>
             <div class="col-md-4 col-sm-12" id="contact_bg">
-                <h3>Contacto</h3>
+                <h3>{{ 'FOOTER.CONTACTS' | translate | titlecase }}</h3>
                 <ul id="contact_details_footer">
                     <li id="address_footer">Av. Coyoacán # 1035 Local 4, Colonia Del Valle Centro, Alcaldía Benito Juárez, CP. 03100 CDMX México.</li>
                     <li id="email_footer"><a href="#">comercial@wfinet.com.mx</a></li>
@@ -31,7 +31,7 @@
     </div><!-- End container -->
     <div id="copy">
         <div class="container">
-            © Cyrus 2022 - Todos los derechos reservados.
+            {{ 'FOOTER.RIGHTS' | translate }}
         </div>
     </div><!-- End copy -->
 </footer><!-- End footer -->

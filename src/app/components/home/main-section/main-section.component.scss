@@ -1,0 +1,28 @@
+$speed: 16s;
+$wordCount: 7;
+
+.morphing {
+  position: relative;
+  font-size: 46px;
+  margin-bottom: 5px;
+  color: #fff;
+  font-weight: 700;
+}
+
+.word {
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+  animation: word $speed infinite ease-in-out;
+
+  @for $i from 0 to $wordCount {
+    &:nth-child(#{$i + 1}) {
+      animation-delay: ($speed / ($wordCount + 1) * $i) - $speed;
+    }
+  }
+
+  @keyframes word {
+    0%, 5%, 100% { filter: blur(0px); opacity: 1; }
+    15%, 85% { filter: blur(1em); opacity: -6; }
+  }
+}
