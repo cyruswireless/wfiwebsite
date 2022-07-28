@@ -12,6 +12,7 @@ import { LandingComponent } from './components/home/landing/landing.component';
 import { FooterComponent } from './components/shared/footer/footer.component';
 import { HeaderComponent } from './components/shared/header/header.component';
 import { SlideComponent } from './components/shared/slide/slide.component';
+import { DesignComponent } from './components/services/design/design.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { SlideComponent } from './components/shared/slide/slide.component';
     AboutComponent,
     FooterComponent,
     SlideComponent,
-    LandingComponent
+    LandingComponent,
+    DesignComponent
   ],
   imports: [
     BrowserModule,
