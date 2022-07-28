@@ -44,7 +44,7 @@
                 "1": "Ingeniería, Diseño",
                 "2": "Gestión / Planeación",
                 "3": "Despliegue / Implementación",
-                "4": "Operacíon y Mantenimiento",
+                "4": "Operación y Mantenimiento",
                 "5": "Optimización de Redes"
             }
         },
@@ -76,6 +76,17 @@
                 "6": "Redes Sociales",
                 "7": "Preguntas Frecuentes"
             }
+        }
+    },
+    "SERVICES": {
+        "PLANNING": {
+            "TITLE": "Proceso para planificar un proyecto",
+            "1": "Análisis de viabilidad y definición de los objetivos",
+            "2": " Definición del alcance",
+            "3": "Identificación de los costes y recursos",
+            "4": "Elaboración del plan de trabajo integral",
+            "5": "Revisión del plan en marcha",
+            "6": "Evaluación"
         }
     },
     "FOOTER": {

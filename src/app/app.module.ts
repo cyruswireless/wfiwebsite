@@ -9,6 +9,7 @@ import { AppRoutingModule } from './app-routing.routes';
 import { AppComponent } from './app.component';
 import { AboutComponent } from './components/home/about/about.component';
 import { LandingComponent } from './components/home/landing/landing.component';
+import { PlanningComponent } from './components/services/planning/planning.component';
 import { FooterComponent } from './components/shared/footer/footer.component';
 import { HeaderComponent } from './components/shared/header/header.component';
 import { SlideComponent } from './components/shared/slide/slide.component';
@@ -20,7 +21,8 @@ import { SlideComponent } from './components/shared/slide/slide.component';
     AboutComponent,
     FooterComponent,
     SlideComponent,
-    LandingComponent
+    LandingComponent,
+    PlanningComponent
   ],
   imports: [
     BrowserModule,

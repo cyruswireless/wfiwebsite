@@ -78,6 +78,17 @@
             }
         }
     },
+    "SERVICES": {
+        "PLANNING": {
+            "TITLE": "Process for planning a project",
+            "1": "Feasibility analysis and definition of objectives",
+            "2": "Scope Definition",
+            "3": "Identification of costs and resources",
+            "4": "Development of the comprehensive work plan",
+            "5": "Plan review in progress",
+            "6": "Evaluation"
+        }
+    },
     "FOOTER": {
         "ABOUT_US": "About us",
         "FAQ": "FAQ",
