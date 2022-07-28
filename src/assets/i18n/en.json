@@ -33,8 +33,10 @@
     "HEADER": {
         "HOME": {
             "TITLE": "HOME",
-            "INFRASTRUCTURE": "Electrical Infrastructure",
-            "PLANT": "Outside Floor"
+            "CONTENT": {
+                "1": "Electrical Infrastructure",
+                "2": "Outside Floor"
+            }
         },
         "SERVICES": {
             "TITLE": "SERVICES",
@@ -46,7 +48,7 @@
                 "5": "Network Optimization"
             }
         },
-        "PROJECTS": {
+        "EXPERIENCE": {
             "TITLE": "EXPERIENCE / INDUSTRY",
             "CONTENT": {
                 "1": "Electrical Infrastructure ",
@@ -54,8 +56,8 @@
                 "3": "Civil Works"
             }
         },
-        "WE":{
-            "TITLE": "US",
+        "ABOUT": {
+            "TITLE": "ABOUT US",
             "CONTENT": {
                 "1": "WFI history",
                 "2": "Mission, Vision, Values",

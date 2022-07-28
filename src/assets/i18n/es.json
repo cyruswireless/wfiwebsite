@@ -33,8 +33,10 @@
     "HEADER": {
         "HOME": {
             "TITLE": "INICIO",
-            "INFRASTRUCTURE": "Infraestructura Eléctrica",
-            "PLANT": "Planta externa"
+            "CONTENT": {
+                "1": "Infraestructura Eléctrica",
+                "2": "Planta externa"
+            }
         },
         "SERVICES": {
             "TITLE": "SERVICIOS",
@@ -46,15 +48,15 @@
                 "5": "Optimización de Redes"
             }
         },
-        "PROJECTS": {
+        "EXPERIENCE": {
             "TITLE": "EXPERIENCIA / INDUSTRIA",
             "CONTENT": {
-                "1": "Infraestructura Eléctrica ",
+                "1": "Infraestructura Eléctrica",
                 "2": "Fibra Óptica",
                 "3": "Obra Civil"
             }
         },
-        "WE":{
+        "ABOUT":{
             "TITLE": "NOSOTROS",
             "CONTENT": {
                 "1": "Historia de WFI ",
