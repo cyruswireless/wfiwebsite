@@ -1,9 +1,9 @@
 <header>
-    <nav  style="background-color: #0F1A47;">
+    <nav class="header">
         <div class="menu-header">
             <div class="row">
                 <div class="col-sm-6 col-6">
-                    <img src="/assets/img/LogoNavbar.png" width="120px">
+                    <img class="img_logo" src="assets/img/LogoNavbar.png">
                 </div>
                 <div class="col-sm-6 col-6">
                     <i class="fa fa-bars"></i>
@@ -13,22 +13,22 @@
         <div class="menu-content">
             <div class="row">
                 <div class="col-md-4 logo2 align-middle">
-                    <table style="height: 100px;">
+                    <table class="table_logo">
                         <tbody>
                           <tr>
-                            <td class="align-middle"><img src="/assets/img/LogoNavbar.png" width="120px"></td>
+                            <td class="align-middle"><img class="img_logo" src="assets/img/LogoNavbar.png"></td>
                           </tr>
                         </tbody>
                       </table>
                     
                 </div>
                 <div class="col-md-7">
-                    <ul style=" margin-top: 55px;background-color: #0F1A47;">
+                    <ul class="texto_navbar">
                         <li><a routerLink="/home" class="dropbtn">{{ 'HEADER.HOME.TITLE' | translate }}<i class="fa fa-chevron-down down"></i></a>
                             <ul class="dropdown">
                                 <li><a href="#">Telecom</a></li>
-                                <li><a href="#">{{ 'HEADER.HOME.INFRASTRUCTURE' | translate }}</a></li>
-                                <li><a href="#">{{ 'HEADER.HOME.PLANT' | translate }}</a></li>
+                                <li><a href="#">{{ 'HEADER.HOME.CONTENT.1' | translate }}</a></li>
+                                <li><a href="#">{{ 'HEADER.HOME.CONTENT.2' | translate }}</a></li>
                             </ul>
                         </li>
                         <li><a href="#" class="dropbtn">{{ 'HEADER.SERVICES.TITLE' | translate }}<i class="fa fa-chevron-down down"></i></a>
@@ -40,20 +40,20 @@
                                 <li><a href="#">{{ 'HEADER.SERVICES.CONTENT.5' | translate }}</a></li>
                             </ul>
                         </li>
-                        <li><a href="#" class="dropbtn">{{ 'HEADER.PROJECTS.TITLE' | translate }}<i class="fa fa-chevron-down down"></i></a>
+                        <li><a href="#" class="dropbtn">{{ 'HEADER.EXPERIENCE.TITLE' | translate }}<i class="fa fa-chevron-down down"></i></a>
                             <ul class="dropdown">
                                 <li><a href="#">Telecom</a></li>
-                                <li><a href="#">{{ 'HEADER.PROJECTS.CONTENT.1' | translate }}</a></li>
-                                <li><a href="#">{{ 'HEADER.PROJECTS.CONTENT.2' | translate }}</a></li>
-                                <li><a href="#">{{ 'HEADER.PROJECTS.CONTENT.3' | translate }}</a></li>
+                                <li><a href="#">{{ 'HEADER.EXPERIENCE.CONTENT.1' | translate }}</a></li>
+                                <li><a href="#">{{ 'HEADER.EXPERIENCE.CONTENT.2' | translate }}</a></li>
+                                <li><a href="#">{{ 'HEADER.EXPERIENCE.CONTENT.3' | translate }}</a></li>
                             </ul>
                         </li>
-                        <li><a href="#">{{ 'HEADER.WE.TITLE' | translate }}<i class="fa fa-chevron-down down"></i></a>
+                        <li><a href="#">{{ 'HEADER.ABOUT.TITLE' | translate }}<i class="fa fa-chevron-down down"></i></a>
                             <ul class="dropdown">
-                                <li><a href="#">{{ 'HEADER.WE.CONTENT.1' | translate }}</a></li>
-                                <li><a href="#">{{ 'HEADER.WE.CONTENT.2' | translate }}</a></li>
-                                <li><a href="#">{{ 'HEADER.WE.CONTENT.3' | translate }}</a></li>
-                                <li><a href="#">{{ 'HEADER.WE.CONTENT.4' | translate }}</a></li>
+                                <li><a href="#">{{ 'HEADER.ABOUT.CONTENT.1' | translate }}</a></li>
+                                <li><a href="#">{{ 'HEADER.ABOUT.CONTENT.2' | translate }}</a></li>
+                                <li><a href="#">{{ 'HEADER.ABOUT.CONTENT.3' | translate }}</a></li>
+                                <li><a href="#">{{ 'HEADER.ABOUT.CONTENT.4' | translate }}</a></li>
                             </ul>
                         </li>
                         <li><a href="#">{{ 'HEADER.CONTACT.TITLE' | translate }}<i class="fa fa-chevron-down down"></i></a>
@@ -70,9 +70,9 @@
                     </ul>
                 </div>
                 <div class="col-md-1">
-                    <div style="text-align: right;">
+                    <div class="header_flags">
                         <img id="flagMx" (click)="changeLang('es')" src="assets/img/flags/mx.png"/>
-                        <img id="flagEn" (click)="changeLang('en')" src="assets/img/flags/eeuu.png" style="margin-left: 15px;" />
+                        <img id="flagEn" (click)="changeLang('en')" src="assets/img/flags/eeuu.png"/>
                     </div>
                 </div>
             </div>
