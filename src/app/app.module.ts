@@ -14,6 +14,7 @@ import { HeaderComponent } from './components/shared/header/header.component';
 import { SlideComponent } from './components/shared/slide/slide.component';
 import { DesignComponent } from './components/services/design/design.component';
 import { ServicesComponent } from './components/home/services/services.component';
+import { PlanningComponent } from './components/services/planning/planning.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { ServicesComponent } from './components/home/services/services.component
     SlideComponent,
     LandingComponent,
     DesignComponent,
-    ServicesComponent
+    ServicesComponent,
+    PlanningComponent
   ],
   imports: [
     BrowserModule,
