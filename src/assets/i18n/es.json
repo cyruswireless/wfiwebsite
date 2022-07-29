@@ -48,23 +48,6 @@
                 "5": "Optimización de Redes"
             }
         },
-        "SERVICE3": {
-            "TITLE1": "Despliegue",
-            "TEXT1": "El procedimiento Gestión de Despliegues en Entornos de Producción tiene como objetivo asegurar la validez, calidad, seguridad y operatividad de las actividades a desarrollar para efectuar la puesta en entornos (preproducción, producción y formación) de los sistemas, a fin de minimizar el riesgo de alteración de los mismos",
-            "TITLE2": "Los pasos para implementar una estrategia de proyectos",
-            "TEXT2": {
-                "1": "Definir la estrategia de negocios.",
-                "2": "Identificar las oportunidades existentes en ella.",
-                "3": "Seleccionar la estrategia de proyectos en base a ello.",
-                "4": "Considerar los beneficios que tendrán cada oportunidad y cada estrategia."
-            }
-        },
-        "SERVICE4": {
-            "TITLE": "Operación y mantenimiento",
-            "TEXTPT1": "En esta etapa se debe asegurar que el",
-            "TEXTIN": "proyecto",
-            "TEXTPT2": "ha producido una mejora en la capacidad prestadora de bienes o servicios públicos de una Entidad de acuerdo a las condiciones previstas en el estudio que sustentó su declaración de viabilidad"  
-        },
         "EXPERIENCE": {
             "TITLE": "EXPERIENCIA / INDUSTRIA",
             "CONTENT": {
@@ -107,6 +90,14 @@
             "4": "Elaboración del plan de trabajo integral",
             "5": "Revisión del plan en marcha",
             "6": "Evaluación"
+        },
+        "DEPLOYMENT": {
+            "1": "El procedimiento Gestión de Despliegues en Entornos de Producción tiene como objetivo asegurar la validez, calidad, seguridad y operatividad de las actividades a desarrollar para efectuar la puesta en entornos (preproducción, producción y formación) de los sistemas, a fin de minimizar el riesgo de alteración de los mismos",
+            "2": "Los pasos para implementar una estrategia de proyectos",
+            "3": "Definir la estrategia de negocios.",
+            "4": "Identificar las oportunidades existentes en ella.",
+            "5": "Seleccionar la estrategia de proyectos en base a ello.",
+            "6": "Considerar los beneficios que tendrán cada oportunidad y cada estrategia."
         }
     },
     "FOOTER": {

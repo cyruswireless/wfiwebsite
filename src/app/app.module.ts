@@ -11,7 +11,6 @@ import { AboutComponent } from './components/about/about.component';
 import { LandingComponent } from './components/landing/landing.component';
 import { DeploymentComponent } from './components/services/deployment/deployment.component';
 import { DesignComponent } from './components/services/design/design.component';
-import { OperationComponent } from './components/services/operation/operation.component';
 import { PlanningComponent } from './components/services/planning/planning.component';
 import { FooterComponent } from './components/shared/footer/footer.component';
 import { HeaderComponent } from './components/shared/header/header.component';
@@ -27,8 +26,7 @@ import { SlideComponent } from './components/slide/slide.component';
     LandingComponent,
     DesignComponent,
     PlanningComponent,
-    DeploymentComponent,
-    OperationComponent
+    DeploymentComponent
   ],
   imports: [
     BrowserModule,

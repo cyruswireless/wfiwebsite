@@ -48,23 +48,6 @@
                 "5": "Network Optimization"
             }
         },
-        "SERVICE3": {
-            "TITLE1": "Deployment",
-            "TEXT1": "The Deployment Management in Production Environments procedure aims to ensure the validity, quality, safety and operability of the activities to be carried out to carry out the deployment of the systems in environments (pre-production, production and training), in order to to minimize the risk of their alteration",
-            "TITLE2": "The steps to implement a project strategy",
-            "TEXT2": {
-                "1": "Define the business strategy.",
-                "2": "Identify the existing opportunities in it.",
-                "3": "Select project strategy based on it.",
-                "4": "Consider the benefits that each opportunity and each strategy will have."
-            }
-        },
-        "SERVICE4": {
-            "TITLE": "Operation and maintenance",
-            "TEXTPT1": "At this stage it must be ensured that the",
-            "TEXTIN": "project",
-            "TEXTPT2": "has produced an improvement in the capacity to provide public goods or services of an Entity in accordance with the conditions set forth in the study that supported its feasibility statement"
-        },
         "EXPERIENCE": {
             "TITLE": "EXPERIENCE / INDUSTRY",
             "CONTENT": {
@@ -107,6 +90,14 @@
             "4": "Development of the comprehensive work plan",
             "5": "Plan review in progress",
             "6": "Evaluation"
+        },
+        "DEPLOYMENT": {
+            "1": "The Deployment Management procedure in Production Environments aims to ensure the validity, quality, safety and operability of the activities to be carried out to carry out the deployment of the systems in environments (pre-production, production and training), in order to to minimize the risk of their alteration",
+            "2": "The steps to implement a project strategy",
+            "3": "Define the business strategy.",
+            "4": "Identify existing opportunities in it.",
+            "5": "Select project strategy based on it.",
+            "6": "Consider the benefits of each opportunity and each strategy."
         }
     },
     "FOOTER": {
