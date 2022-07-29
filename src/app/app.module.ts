@@ -12,7 +12,7 @@ import { LandingComponent } from './components/landing/landing.component';
 import { DesignComponent } from './components/services/design/design.component';
 import { FooterComponent } from './components/shared/footer/footer.component';
 import { HeaderComponent } from './components/shared/header/header.component';
-import { SlideComponent } from './components/shared/slide/slide.component';
+import { SlideComponent } from './components/slide/slide.component';
 import { StoriesComponent } from './components/stories/stories.component';
 
 @NgModule({
