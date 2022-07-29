@@ -16,6 +16,7 @@ import { DesignComponent } from './components/services/design/design.component';
 import { ServicesComponent } from './components/home/services/services.component';
 import { PlanningComponent } from './components/services/planning/planning.component';
 import { DeploymentComponent } from './components/services/deployment/deployment.component';
+import { OperationComponent } from './components/services/operation/operation.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { DeploymentComponent } from './components/services/deployment/deployment
     DesignComponent,
     ServicesComponent,
     PlanningComponent,
-    DeploymentComponent
+    DeploymentComponent,
+    OperationComponent
   ],
   imports: [
     BrowserModule,
