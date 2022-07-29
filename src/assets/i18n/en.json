@@ -41,7 +41,7 @@
         "SERVICES": {
             "TITLE": "SERVICES",
             "CONTENT": {
-                "1": "Engineering, Design",
+                "1": "Engineering and Design",
                 "2": "Management / Planning",
                 "3": "Deployment / Implementation",
                 "4": "Operation and Maintenance",
@@ -79,6 +79,9 @@
         }
     },
     "SERVICES": {
+        "DESIGN": {
+            "1": "The design of technological products (devices, processes, systems and infrastructure) is at the core of the nature of engineering. Engineering design is a systematic, creative and flexible process, based on mathematics, science natural and engineering sciences, including the generation, systematic evaluation, and testing of specifications for the creation of artifacts, systems, processes, and infrastructure whose form and function achieve stated goals and satisfy specified constraints from a need or problematic situation"
+        },
         "PLANNING": {
             "TITLE": "Process for planning a project",
             "1": "Feasibility analysis and definition of objectives",
