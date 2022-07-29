@@ -78,6 +78,16 @@
             }
         }
     },
+    "ABOUT": {
+        "STORIES": {
+            "1": {
+                "TITLE": "Electric Power, Veracruz",
+                "TEXT_1": "In 2019, in the expansion of the New Port of Veracruz, Mexico. Our client, the company CCCC, had to deliver the implementation of the medium and low voltage electrical project within the Port facilities, in some areas to fulfill an assigned contract, He did not have any Business Partner in Mexico, that is how he approached WFI de MEXICO to ask for support due to the experience and quality services that our company offers to all its clients, we made the term a reality in due time and form for this ambitious project.",
+                "TEXT_2": "WFI carried out works for the new Icave Container Terminal in the port of Veracruz, the works consisted of the electrical area of ​​transformers, boards, lighting, contacts, and ground system and 19 Racks that feed Refrigerated containers ( 24 containers per Rack), the work on the racks consisted of the installation of boards, marine ladder, special wiring, metal equipment bases and placement of container sockets",
+                "TEXT_3": "With a global amount of $30 million pesos divided into: Supply of + 1000 lamps with very detailed specifications in support of Salinity, Gland Price and time, Physical Earth Systems and others Lighting of + 13,000 m2 for buildings such as CFS , SADER, OCR TRAIN, WCW and other spaces"
+            }
+        }
+    },
     "FOOTER": {
         "ABOUT_US": "About us",
         "FAQ": "FAQ",
