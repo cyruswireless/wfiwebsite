@@ -90,6 +90,9 @@
             "4": "Development of the comprehensive work plan",
             "5": "Plan review in progress",
             "6": "Evaluation"
+        },
+        "OPERATION": {
+            "1": "At this stage it must be ensured that the project has produced an improvement in the capacity to provide public goods or services of an Entity in accordance with the conditions set forth in the study that supported its feasibility statement"
         }
     },
     "FOOTER": {

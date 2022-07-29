@@ -90,6 +90,9 @@
             "4": "Elaboración del plan de trabajo integral",
             "5": "Revisión del plan en marcha",
             "6": "Evaluación"
+        },
+        "OPERATION": {
+            "1": "En esta etapa se debe asegurar que el proyecto ha producido una mejora en la capacidad prestadora de bienes o servicios públicos de una Entidad de acuerdo a las condiciones previstas en el estudio que sustentó su declaración de viabilidad "
         }
     },
     "FOOTER": {
