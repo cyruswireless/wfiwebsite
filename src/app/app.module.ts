@@ -13,8 +13,6 @@ import { FooterComponent } from './components/shared/footer/footer.component';
 import { HeaderComponent } from './components/shared/header/header.component';
 import { SlideComponent } from './components/shared/slide/slide.component';
 import { DesignComponent } from './components/services/design/design.component';
-import { DeploymentComponent } from './components/services/deployment/deployment.component';
-import { OperationComponent } from './components/services/operation/operation.component';
 
 @NgModule({
   declarations: [
@@ -24,9 +22,7 @@ import { OperationComponent } from './components/services/operation/operation.co
     FooterComponent,
     SlideComponent,
     LandingComponent,
-    DesignComponent,
-    DeploymentComponent,
-    OperationComponent
+    DesignComponent
   ],
   imports: [
     BrowserModule,
