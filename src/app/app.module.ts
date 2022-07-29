@@ -8,6 +8,7 @@ import { AppRoutingModule } from './app-routing.routes';
 
 import { AppComponent } from './app.component';
 import { AboutComponent } from './components/about/about.component';
+import { AwardsComponent } from './components/awards/awards.component';
 import { LandingComponent } from './components/landing/landing.component';
 import { DesignComponent } from './components/services/design/design.component';
 import { FooterComponent } from './components/shared/footer/footer.component';
@@ -24,7 +25,8 @@ import { StoriesComponent } from './components/stories/stories.component';
     SlideComponent,
     LandingComponent,
     DesignComponent,
-    StoriesComponent
+    StoriesComponent,
+    AwardsComponent
   ],
   imports: [
     BrowserModule,
