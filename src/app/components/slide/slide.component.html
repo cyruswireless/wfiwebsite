@@ -1,5 +1,5 @@
 <main>
-  <div id="main-carousel" class="carousel slide" data-bs-ride="true" style="background: rgba(0, 0, 0, 0.6); padding-top: 90px;">
+  <div id="main-carousel" class="carousel slide" data-bs-ride="carousel" style="background: rgba(0, 0, 0, 0.6); padding-top: 90px;">
     <!-- Indicators -->
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#main-carousel" data-bs-slide-to="0" class="active" aria-current="true"></button>
@@ -8,17 +8,20 @@
     </div>
     <!-- Wrapper for slides -->
     <div class="carousel-inner">
-      <div class="carousel-item active ad1">+
+      <div class="carousel-item active ad1" data-bs-interval="4000">
+        asd
       </div>
-      <div class="carousel-item ad2">
+      <div class="carousel-item ad2" data-bs-interval="4000">
+        asdasd
       </div>
-      <div class="carousel-item ad3">
+      <div class="carousel-item ad3" data-bs-interval="4000">
+        alsdjlaskdj
       </div>
     </div>
     <div class="intro_title_header shadow_blue">
       <h3>WFI de México</h3>
       <p>{{ 'MAIN.OBJECTIVE' | translate }}</p>
-      <div class="morphing shadow_blue">
+      <div class="morphing">
         <div class="word">{{ 'MAIN.EXPERIENCE.1' | translate }}</div>
         <div class="word">{{ 'MAIN.EXPERIENCE.2' | translate }}</div>
         <div class="word">{{ 'MAIN.EXPERIENCE.3' | translate }}</div>
