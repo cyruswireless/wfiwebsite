@@ -14,6 +14,8 @@ import { FooterComponent } from './components/shared/footer/footer.component';
 import { HeaderComponent } from './components/shared/header/header.component';
 import { SlideComponent } from './components/slide/slide.component';
 import { StoriesComponent } from './components/stories/stories.component';
+import { PlanningComponent } from './components/services/planning/planning.component';
+
 
 @NgModule({
   declarations: [
@@ -24,7 +26,9 @@ import { StoriesComponent } from './components/stories/stories.component';
     SlideComponent,
     LandingComponent,
     DesignComponent,
-    StoriesComponent
+    StoriesComponent,
+    PlanningComponent,
+    DesignComponent
   ],
   imports: [
     BrowserModule,

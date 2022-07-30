@@ -11,7 +11,7 @@
             "7": "IMPLEMENTATION"
        },
         "ABOUT_US_TITLE": "ABOUT US",
-        "ABOUT_US": "WFI is a leading company in providing consulting, engineering and installation services in telecommunications systems, fixed and wireless networks, security systems, data centers and structured cabling, as well as maintenance and administration of wireless networks and has a certificate of quality ISO 9001:2015",
+        "ABOUT_US": "WFI is a leading company in providing consulting, engineering and installation services in telecommunications systems, fixed and wireless networks, security systems, data centers and structured cabling, as well as maintenance and administration of wireless networks",
         "MISSION_TITLE": "Mission",
         "VISION_TITLE": "Vision",
         "MISSION": "Provide professional engineering and deployment services to telecommunications companies to improve the connectivity of society and generate sources of employment.",
@@ -81,6 +81,15 @@
     "SERVICES": {
         "DESIGN": {
             "1": "The design of technological products (devices, processes, systems and infrastructure) is at the core of the nature of engineering. Engineering design is a systematic, creative and flexible process, based on mathematics, science natural and engineering sciences, including the generation, systematic evaluation, and testing of specifications for the creation of artifacts, systems, processes, and infrastructure whose form and function achieve stated goals and satisfy specified constraints from a need or problematic situation"
+        },
+        "PLANNING": {
+            "TITLE": "Process for planning a project",
+            "1": "Feasibility analysis and definition of objectives",
+            "2": "Scope Definition",
+            "3": "Identification of costs and resources",
+            "4": "Development of the comprehensive work plan",
+            "5": "Plan review in progress",
+            "6": "Evaluation"
         }
     },
     "ABOUT": {

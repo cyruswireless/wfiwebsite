@@ -11,7 +11,7 @@
              "7": "IMPLEMENTACIÓN"
         },
         "ABOUT_US_TITLE": "NOSOTROS",
-        "ABOUT_US": "WFI es una empresa líder en prestación de servicios de consultoría, ingeniería e instalación en sistemas de telecomunicaciones, redes fijas e inalámbricas, sistemas de seguridad, data centers y cableado estructurado, así como, mantenimiento y administración de redes inalámbricas y cuenta con certificado de calidad ISO 9001:2015",
+        "ABOUT_US": "WFI es una empresa líder en prestación de servicios de consultoría, ingeniería e instalación en sistemas de telecomunicaciones, redes fijas e inalámbricas, sistemas de seguridad, data centers y cableado estructurado, así como, mantenimiento y administración de redes inalámbricas.",
         "MISSION_TITLE": "Misión",
         "VISION_TITLE": "Visión",
         "MISSION": "Proporcionar servicios profesionales de ingeniería y despliegue a las empresas de telecomunicaciones para mejorar la conectividad de la sociedad y generar fuentes de empleo.",
@@ -44,7 +44,7 @@
                 "1": "Ingeniería y Diseño",
                 "2": "Gestión / Planeación",
                 "3": "Despliegue / Implementación",
-                "4": "Operacíon y Mantenimiento",
+                "4": "Operación y Mantenimiento",
                 "5": "Optimización de Redes"
             }
         },
@@ -81,6 +81,15 @@
     "SERVICES": {
         "DESIGN": {
             "1": "El diseño de productos tecnológicos (artefactos, procesos, sistemas e infraestructura) está en el centro de la naturaleza de la ingeniería. El diseño en ingeniería es un proceso sistemático, creativo y flexible, sustentado en las matemáticas, las ciencias naturales y las ciencias de la ingeniería, que incluye la generación, la evaluación sistemática y la puesta a prueba de especificaciones para la creación de artefactos, sistemas, procesos e infraestructura cuya forma y función permitan lograr unos objetivos establecidos y satisfacer una serie de restricciones especificadas a partir de una necesidad o situación problemática"
+        },
+        "PLANNING": {
+            "TITLE": "Proceso para planificar un proyecto",
+            "1": "Análisis de viabilidad y definición de los objetivos",
+            "2": " Definición del alcance",
+            "3": "Identificación de los costes y recursos",
+            "4": "Elaboración del plan de trabajo integral",
+            "5": "Revisión del plan en marcha",
+            "6": "Evaluación"
         }
     },
     "ABOUT": {
