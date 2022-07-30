@@ -115,6 +115,16 @@
             "TEXT": ""
         }
     },
+    "ABOUT": {
+        "STORIES": {
+            "1": {
+                "TITLE": "Energía Eléctrica, Veracruz",
+                "TEXT_1": "En el año 2019, en la ampliación del Nuevo Puerto de Veracruz, México. Nuestro cliente, la empresa CCCC, tenía que entregar la implementación del proyecto eléctrico de media y baja tensión dentro de las instalaciones del Puerto, en algunas áreas para cumplir con un contrato asignado, No tenía en México algún Socio de Negocios, fue así como se acercó a pedir apoyo a WFI de MÉXICO debido a la experiencia y servicios de calidad que nuestra empresa ofrece a todos sus clientes, hicimos realidad el término en tiempo y forma de este ambicioso proyecto.",
+                "TEXT_2": "WFI realizó trabajos para la nueva terminal de Contenedores de Icave en el puerto de Veracruz, los trabajos consistieron en el área eléctrica de transformadores, tableros, alumbrado, contactos, y sistema de tierras y 19 Racks que alimentan contenedores Refrigerados (24 contenedores por Rack), los trabajos en los racks consistieron en la Instalación de tableros, escalerilla marina, cableado especial, bases metálicas de equipos y colocación de sockets de contenedores",
+                "TEXT_3": "Con un monto global de $30mdp dividido en: Suministro de + 1000 lámparas de especificaciones muy detalladas en soporte a Salinidad, Precio y tiempo de Glándula, Sistemas de Tierra Física y otros Iluminación de + 13,000 m2 para edificios como CFS, SADER, OCR TRAIN, WCW y otros espacios"
+            }
+        }
+    },
     "FOOTER": {
         "ABOUT_US": "Nosotros",
         "FAQ": "Preguntas más frecuentes",
@@ -125,6 +135,7 @@
         "RIGHTS": "V 0.0.3 © Cyrus 2022 - Todos los derechos reservados.",
         "DISCOVER": "Descubre"
     },
+
     "BUTTONS": {
         "PREVIOUS": "Anterior",
         "NEXT": "Siguiente"

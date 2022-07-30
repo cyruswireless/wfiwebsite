@@ -8,13 +8,16 @@ import { AppRoutingModule } from './app-routing.routes';
 
 import { AppComponent } from './app.component';
 import { AboutComponent } from './components/about/about.component';
+import { AwardsComponent } from './components/awards/awards.component';
 import { LandingComponent } from './components/landing/landing.component';
 import { DesignComponent } from './components/services/design/design.component';
-import { PlanningComponent } from './components/services/planning/planning.component';
 import { FooterComponent } from './components/shared/footer/footer.component';
 import { HeaderComponent } from './components/shared/header/header.component';
 import { SlideComponent } from './components/slide/slide.component';
 import { OpticalFiberComponent } from './components/optical-fiber/optical-fiber.component';
+import { StoriesComponent } from './components/stories/stories.component';
+import { PlanningComponent } from './components/services/planning/planning.component';
+
 
 @NgModule({
   declarations: [
@@ -24,6 +27,9 @@ import { OpticalFiberComponent } from './components/optical-fiber/optical-fiber.
     FooterComponent,
     SlideComponent,
     LandingComponent,
+    DesignComponent,
+    StoriesComponent,
+    AwardsComponent,
     PlanningComponent,
     DesignComponent,
     OpticalFiberComponent

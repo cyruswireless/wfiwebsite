@@ -180,7 +180,7 @@ h3.main_title_left {
   margin: 0 0 30px 0;
   padding: 0;
   font-size: 28px;
-  color: #222;
+  color: #1D3F5E;
   font-weight: 500;
   text-transform: uppercase;
 }
@@ -204,7 +204,7 @@ h3.main_title_left em {
 }
 
 .bg_white h3.main_title_left {
-  color: #333;
+  color: #1D3F5E;
 }
 
 .bg_white p {
