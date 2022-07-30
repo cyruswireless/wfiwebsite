@@ -8,6 +8,7 @@ import { AppRoutingModule } from './app-routing.routes';
 
 import { AppComponent } from './app.component';
 import { AboutComponent } from './components/about/about.component';
+import { AwardsComponent } from './components/awards/awards.component';
 import { LandingComponent } from './components/landing/landing.component';
 import { DesignComponent } from './components/services/design/design.component';
 import { FooterComponent } from './components/shared/footer/footer.component';
@@ -27,6 +28,7 @@ import { PlanningComponent } from './components/services/planning/planning.compo
     LandingComponent,
     DesignComponent,
     StoriesComponent,
+    AwardsComponent,
     PlanningComponent,
     DesignComponent
   ],
