@@ -92,6 +92,29 @@
             "6": "Evaluation"
         }
     },
+    "O_FIBER": {
+        "EXTERNAL_PLANT": {
+            "TITLE": "External plant",
+            "TEXT": "In the field of communications, there is fiber optics for 'External Plant', which is used for telephone networks, cable television (CATV), metropolitan networks, services, etc., and the fiber that is It is used for the internal plant, that is, the one found in buildings and in various facilities."
+        },
+        "O_FIBER": {
+            "TITLE": "Characterization of the FO",
+            "1": "Industrial",
+            "2": "Its scope begins with the construction of the electrical connection that can be medium, high or low voltage, in this type of installation all the power, lighting and power circuits are taken into account from the beginning. special systems either in new construction or remodeling.",
+            "3": "Commercials",
+            "4": "They are made in accordance with current technical and regulatory guidelines, which contribute to saving considerable volumes of electrical energy in commercial buildings.",
+            "5": "Residential",
+            "6": "As its name indicates, it is a set of works and installations carried out in order to supply electricity to all the electrical sections of a home."
+        },
+        "LIGHTNING": {
+            "TITLE": "LIGHTNING",
+            "TEXT": ""
+        },
+        "MULTIPLEXING": {
+            "TITLE": "MULTIPLEXING",
+            "TEXT": ""
+        }
+    },
     "FOOTER": {
         "ABOUT_US": "About us",
         "FAQ": "FAQ",

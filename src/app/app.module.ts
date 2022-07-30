@@ -14,6 +14,7 @@ import { PlanningComponent } from './components/services/planning/planning.compo
 import { FooterComponent } from './components/shared/footer/footer.component';
 import { HeaderComponent } from './components/shared/header/header.component';
 import { SlideComponent } from './components/slide/slide.component';
+import { OpticalFiberComponent } from './components/optical-fiber/optical-fiber.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { SlideComponent } from './components/slide/slide.component';
     SlideComponent,
     LandingComponent,
     PlanningComponent,
-    DesignComponent
+    DesignComponent,
+    OpticalFiberComponent
   ],
   imports: [
     BrowserModule,
