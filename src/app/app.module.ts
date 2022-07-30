@@ -10,10 +10,12 @@ import { AppComponent } from './app.component';
 import { AboutComponent } from './components/about/about.component';
 import { LandingComponent } from './components/landing/landing.component';
 import { DesignComponent } from './components/services/design/design.component';
-import { PlanningComponent } from './components/services/planning/planning.component';
 import { FooterComponent } from './components/shared/footer/footer.component';
 import { HeaderComponent } from './components/shared/header/header.component';
 import { SlideComponent } from './components/slide/slide.component';
+import { StoriesComponent } from './components/stories/stories.component';
+import { PlanningComponent } from './components/services/planning/planning.component';
+
 
 @NgModule({
   declarations: [
@@ -23,6 +25,8 @@ import { SlideComponent } from './components/slide/slide.component';
     FooterComponent,
     SlideComponent,
     LandingComponent,
+    DesignComponent,
+    StoriesComponent,
     PlanningComponent,
     DesignComponent
   ],
