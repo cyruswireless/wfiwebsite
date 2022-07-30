@@ -14,6 +14,7 @@ import { DesignComponent } from './components/services/design/design.component';
 import { FooterComponent } from './components/shared/footer/footer.component';
 import { HeaderComponent } from './components/shared/header/header.component';
 import { SlideComponent } from './components/slide/slide.component';
+import { OpticalFiberComponent } from './components/optical-fiber/optical-fiber.component';
 import { StoriesComponent } from './components/stories/stories.component';
 import { PlanningComponent } from './components/services/planning/planning.component';
 
@@ -30,7 +31,8 @@ import { PlanningComponent } from './components/services/planning/planning.compo
     StoriesComponent,
     AwardsComponent,
     PlanningComponent,
-    DesignComponent
+    DesignComponent,
+    OpticalFiberComponent
   ],
   imports: [
     BrowserModule,

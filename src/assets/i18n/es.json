@@ -92,6 +92,29 @@
             "6": "Evaluación"
         }
     },
+    "O_FIBER": {
+        "EXTERNAL_PLANT": {
+            "TITLE": "Planta externa",
+            "TEXT": "En el campo de las comunicaciones, existe la fibra óptica para 'Planta externa', la que se utiliza para redes telefónicas, televisión por cable(CATV), redes metropolitanas, servicios, etc., y la fibra que se utiliza para la planta interna, es decir, la que se encuentra en edificios y en diversas instalaciones."
+        },
+        "O_FIBER": {
+            "TITLE": "Caracterización de la FO",
+            "1": "Industriales",
+            "2": "Su alcance inicia con la construcción de la acometida eléctrica que puede ser de media, alta o baja tensión, en este tipo de instalaciones se toma en cuenta desde el comienzo la totalidad de los circuitos de fuerza, de iluminación y de sistemas especiales ya sea en construcciones nuevas o en remodelaciones.",
+            "3": "Comerciales",
+            "4": "Son hechas conforme a lineamientos técnicos y normativos vigentes, que contribuyen al ahorro de volúmenes considerables de energía eléctrica  en edificios comerciales.",
+            "5": "Residenciales",
+            "6": "Como su nombre lo indica es un conjunto de obras e instalaciones ejecutadas con el fin de hacer llegar electricidad a todos los apartados eléctricos de una vivienda."
+        },
+        "LIGHTNING": {
+            "TITLE": "Iluminación",
+            "TEXT": ""
+        },
+        "MULTIPLEXING": {
+            "TITLE": "Multiplexaje",
+            "TEXT": ""
+        }
+    },
     "ABOUT": {
         "STORIES": {
             "1": {
