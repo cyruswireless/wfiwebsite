@@ -14,8 +14,6 @@ const routes: Routes = [
     { path: 'about', component: AboutComponent },
     { path: 'about/stories', component: StoriesComponent },
     { path: 'about/awards', component: AwardsComponent },
-    { path: 'services/design', component: DesignComponent },
-    { path: 'services/planning', component: PlanningComponent },
     { path: 'experience/op-fiber', component: OpticalFiberComponent },
     { path: '**', pathMatch: 'full', redirectTo: '/home' }
 ];
