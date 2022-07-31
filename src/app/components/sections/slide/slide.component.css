@@ -8,13 +8,13 @@
     background-size: cover;
 }
 .ad1 {
-    background: url(/assets/img/slides/bg-1.jpg) no-repeat center center; 
+    background: url(../../../../assets/img/slides/bg-1.jpg) no-repeat center center; 
 }
 .ad2 {
-    background: url(/assets/img/slides/bg-2.jpg) no-repeat center center; 
+    background: url(../../../../assets/img/slides/bg-2.jpg) no-repeat center center; 
 }
 .ad3 {
-    background: url(/assets/img/slides/bg-3.jpg) no-repeat center center; 
+    background: url(../../../../assets/img/slides/bg-3.jpg) no-repeat center center; 
 }
 .shadow_blue{
     text-shadow: 3px 3px 2px rgb(15, 26, 71);
