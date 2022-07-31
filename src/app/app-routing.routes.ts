@@ -1,16 +1,16 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { AboutComponent } from './components/about/about.component';
-import { AwardsComponent } from './components/awards/awards.component';
-import { LandingComponent } from './components/landing/landing.component';
-import { OpticalFiberComponent } from './components/optical-fiber/optical-fiber.component';
-import { DesignComponent } from './components/services/design/design.component';
-import { StoriesComponent } from './components/stories/stories.component';
-import { PlanningComponent } from './components/services/planning/planning.component';
+import { AboutComponent } from './components/sections/about/about.component';
+import { AwardsComponent } from './components/sections/awards/awards.component';
+import { OpticalFiberComponent } from './components/sections/optical-fiber/optical-fiber.component';
+import { StoriesComponent } from './components/sections/stories/stories.component';
+import { HomeComponent } from './components/home/home.component';
+import { ContactComponent } from './components/contact/contact.component';
 
 const routes: Routes = [
     { path: '', pathMatch: 'full', redirectTo: '/home' },
-    { path: 'home', component: LandingComponent },
+    { path: 'home', component: HomeComponent },
+    { path: 'contact', component: ContactComponent },
     { path: 'about', component: AboutComponent },
     { path: 'about/stories', component: StoriesComponent },
     { path: 'about/awards', component: AwardsComponent },

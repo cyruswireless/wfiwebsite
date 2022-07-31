@@ -115,6 +115,19 @@
             "1": "The design of technological products (devices, processes, systems and infrastructure) is at the core of the nature of engineering. Engineering design is a systematic, creative and flexible process, based on mathematics, science natural and engineering sciences, including the generation, systematic evaluation, and testing of specifications for the creation of artifacts, systems, processes, and infrastructure whose form and function achieve stated goals and satisfy specified constraints from a need or problematic situation"
         }
     },
+    "CONTACT": {
+        "TITLE": "Contact",
+        "TEL": "Phone number",
+        "TELNO": "55 8435 3615",
+        "WHATS": "Whats App Number",
+        "WHATSNO": "55 8435 3615",
+        "COMER": "For commercial inquiry:",
+        "MAILCOMER": "comercial@wfinet.com.mx",
+        "RH": "For HR inquiry:",
+        "MAILRH": "rh@wfinet.com.mx",
+        "INFO": "For any other inquiries:",
+        "MAILINFO": " informacion@wfinet.com.mx "
+    },
     "O_FIBER": {
         "EXTERNAL_PLANT": {
             "TITLE": "External plant",

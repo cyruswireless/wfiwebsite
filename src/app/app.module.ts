@@ -7,19 +7,19 @@ import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { AppRoutingModule } from './app-routing.routes';
 
 import { AppComponent } from './app.component';
-import { AboutComponent } from './components/about/about.component';
-import { AwardsComponent } from './components/awards/awards.component';
-import { LandingComponent } from './components/landing/landing.component';
-import { ServicesComponent } from './components/home/services/services.component';
-import { DeploymentComponent } from './components/services/deployment/deployment.component';
-import { OperationComponent } from './components/services/operation/operation.component';
-import { DesignComponent } from './components/services/design/design.component';
+import { AboutComponent } from './components/sections/about/about.component';
+import { AwardsComponent } from './components/sections/awards/awards.component';
+import { DeploymentComponent } from './components/sections/deployment/deployment.component';
+import { OperationComponent } from './components/sections/operation/operation.component';
+import { DesignComponent } from './components/sections/design/design.component';
 import { FooterComponent } from './components/shared/footer/footer.component';
 import { HeaderComponent } from './components/shared/header/header.component';
-import { SlideComponent } from './components/slide/slide.component';
-import { OpticalFiberComponent } from './components/optical-fiber/optical-fiber.component';
-import { StoriesComponent } from './components/stories/stories.component';
-import { PlanningComponent } from './components/services/planning/planning.component';
+import { SlideComponent } from './components/sections/slide/slide.component';
+import { OpticalFiberComponent } from './components/sections/optical-fiber/optical-fiber.component';
+import { StoriesComponent } from './components/sections/stories/stories.component';
+import { PlanningComponent } from './components/sections/planning/planning.component';
+import { HomeComponent } from './components/home/home.component';
+import { ContactComponent } from './components/contact/contact.component';
 
 
 @NgModule({
@@ -29,14 +29,15 @@ import { PlanningComponent } from './components/services/planning/planning.compo
     AboutComponent,
     FooterComponent,
     SlideComponent,
-    LandingComponent,
     DesignComponent,
-    ServicesComponent,
     PlanningComponent,
     OperationComponent,
     StoriesComponent,
     AwardsComponent,
-    OpticalFiberComponent
+    OpticalFiberComponent,
+    DeploymentComponent,
+    HomeComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,

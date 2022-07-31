@@ -47,7 +47,7 @@ ul li a{
 .logo2{
     display: block;
     text-align: center;
-    padding-left: 290px;
+    padding-left: 190px;
 }
 ul li:hover .dropdown{
     top: 100%;
@@ -122,12 +122,14 @@ ul li:hover .dropdown{
     width:120px;
 }
 .texto_navbar{
-    margin-top: 55px;
+    margin-top: 30px;
     background-color: #0F1A47;
 }
 .header_flags{
     text-align: right;
+    float: right;
+    margin-right: 10px;
 }
 #flagEn {
-    margin-left: 15px;
+    margin-left: 10px;
 }

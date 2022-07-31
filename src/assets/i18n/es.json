@@ -112,6 +112,19 @@
             "6": "Evaluación"
         }
     },
+    "CONTACT": {
+        "TITLE": "Contacto",
+        "TEL": "Número telefonico",
+        "TELNO": "55 8435 3615",
+        "WHATS": "Número de Whats App ",
+        "WHATSNO": "55 8435 3615",
+        "COMER": "Para dudas comerciales:",
+        "MAILCOMER": "comercial@wfinet.com.mx",
+        "RH": "Para dudas relacionadas con RH:",
+        "MAILRH": "rh@wfinet.com.mx",
+        "INFO": "Para cualquier otro tema:",
+        "MAILINFO": " informacion@wfinet.com.mx"
+    },
     "O_FIBER": {
         "EXTERNAL_PLANT": {
             "TITLE": "Planta externa",
