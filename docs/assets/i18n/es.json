@@ -11,7 +11,7 @@
              "7": "IMPLEMENTACIÓN"
         },
         "ABOUT_US_TITLE": "NOSOTROS",
-        "ABOUT_US": "WFI es una empresa líder en prestación de servicios de consultoría, ingeniería e instalación en sistemas de telecomunicaciones, redes fijas e inalámbricas, sistemas de seguridad, data centers y cableado estructurado, así como, mantenimiento y administración de redes inalámbricas y cuenta con certificado de calidad ISO 9001:2015",
+        "ABOUT_US": "WFI es una empresa líder en prestación de servicios de consultoría, ingeniería e instalación en sistemas de telecomunicaciones, redes fijas e inalámbricas, sistemas de seguridad, data centers y cableado estructurado, así como, mantenimiento y administración de redes inalámbricas.",
         "MISSION_TITLE": "Misión",
         "VISION_TITLE": "Visión",
         "MISSION": "Proporcionar servicios profesionales de ingeniería y despliegue a las empresas de telecomunicaciones para mejorar la conectividad de la sociedad y generar fuentes de empleo.",
@@ -41,12 +41,32 @@
         "SERVICES": {
             "TITLE": "SERVICIOS",
             "CONTENT": {
-                "1": "Ingeniería, Diseño",
+                "1": "Ingeniería y Diseño",
                 "2": "Gestión / Planeación",
                 "3": "Despliegue / Implementación",
-                "4": "Operacíon y Mantenimiento",
+                "4": "Operación y Mantenimiento",
                 "5": "Optimización de Redes"
+            },
+            "TEXT": {
+                "1": "El diseño de productos tecnológicos (artefactos, procesos, sistemas e infraestructura) está en el centro de la naturaleza de la ingeniería. El diseño en ingeniería es un proceso sistemático, creativo y flexible, sustentado en las matemáticas, las ciencias naturales y las ciencias de la ingeniería, que incluye la generación, la evaluación sistemática y la puesta a prueba de especificaciones para la creación de artefactos, sistemas, procesos e infraestructura cuya forma y función permitan lograr unos objetivos establecidos y satisfacer una serie de restricciones especificadas a partir de una necesidad o situación problemática"
             }
+        },
+        "SERVICE3": {
+            "TITLE1": "Despliegue",
+            "TEXT1": "El procedimiento Gestión de Despliegues en Entornos de Producción tiene como objetivo asegurar la validez, calidad, seguridad y operatividad de las actividades a desarrollar para efectuar la puesta en entornos (preproducción, producción y formación) de los sistemas, a fin de minimizar el riesgo de alteración de los mismos",
+            "TITLE2": "Los pasos para implementar una estrategia de proyectos",
+            "TEXT2": {
+                "1": "Definir la estrategia de negocios.",
+                "2": "Identificar las oportunidades existentes en ella.",
+                "3": "Seleccionar la estrategia de proyectos en base a ello.",
+                "4": "Considerar los beneficios que tendrán cada oportunidad y cada estrategia."
+            }
+        },
+        "SERVICE4": {
+            "TITLE": "Operación y mantenimiento",
+            "TEXTPT1": "En esta etapa se debe asegurar que el",
+            "TEXTIN": "proyecto",
+            "TEXTPT2": "ha producido una mejora en la capacidad prestadora de bienes o servicios públicos de una Entidad de acuerdo a las condiciones previstas en el estudio que sustentó su declaración de viabilidad"  
         },
         "EXPERIENCE": {
             "TITLE": "EXPERIENCIA / INDUSTRIA",
@@ -78,6 +98,66 @@
             }
         }
     },
+    "SERVICES": {
+        "DESIGN": {
+            "1": "El diseño de productos tecnológicos (artefactos, procesos, sistemas e infraestructura) está en el centro de la naturaleza de la ingeniería. El diseño en ingeniería es un proceso sistemático, creativo y flexible, sustentado en las matemáticas, las ciencias naturales y las ciencias de la ingeniería, que incluye la generación, la evaluación sistemática y la puesta a prueba de especificaciones para la creación de artefactos, sistemas, procesos e infraestructura cuya forma y función permitan lograr unos objetivos establecidos y satisfacer una serie de restricciones especificadas a partir de una necesidad o situación problemática"
+        },
+        "PLANNING": {
+            "TITLE": "Proceso para planificar un proyecto",
+            "1": "Análisis de viabilidad y definición de los objetivos",
+            "2": " Definición del alcance",
+            "3": "Identificación de los costes y recursos",
+            "4": "Elaboración del plan de trabajo integral",
+            "5": "Revisión del plan en marcha",
+            "6": "Evaluación"
+        }
+    },
+    "CONTACT": {
+        "TITLE": "Contacto",
+        "TEL": "Número telefonico",
+        "TELNO": "55 8435 3615",
+        "WHATS": "Número de Whats App ",
+        "WHATSNO": "55 8435 3615",
+        "COMER": "Para dudas comerciales:",
+        "MAILCOMER": "comercial@wfinet.com.mx",
+        "RH": "Para dudas relacionadas con RH:",
+        "MAILRH": "rh@wfinet.com.mx",
+        "INFO": "Para cualquier otro tema:",
+        "MAILINFO": " informacion@wfinet.com.mx"
+    },
+    "O_FIBER": {
+        "EXTERNAL_PLANT": {
+            "TITLE": "Planta externa",
+            "TEXT": "En el campo de las comunicaciones, existe la fibra óptica para 'Planta externa', la que se utiliza para redes telefónicas, televisión por cable(CATV), redes metropolitanas, servicios, etc., y la fibra que se utiliza para la planta interna, es decir, la que se encuentra en edificios y en diversas instalaciones."
+        },
+        "O_FIBER": {
+            "TITLE": "Caracterización de la FO",
+            "1": "Industriales",
+            "2": "Su alcance inicia con la construcción de la acometida eléctrica que puede ser de media, alta o baja tensión, en este tipo de instalaciones se toma en cuenta desde el comienzo la totalidad de los circuitos de fuerza, de iluminación y de sistemas especiales ya sea en construcciones nuevas o en remodelaciones.",
+            "3": "Comerciales",
+            "4": "Son hechas conforme a lineamientos técnicos y normativos vigentes, que contribuyen al ahorro de volúmenes considerables de energía eléctrica  en edificios comerciales.",
+            "5": "Residenciales",
+            "6": "Como su nombre lo indica es un conjunto de obras e instalaciones ejecutadas con el fin de hacer llegar electricidad a todos los apartados eléctricos de una vivienda."
+        },
+        "LIGHTNING": {
+            "TITLE": "Iluminación",
+            "TEXT": ""
+        },
+        "MULTIPLEXING": {
+            "TITLE": "Multiplexaje",
+            "TEXT": ""
+        }
+    },
+    "ABOUT": {
+        "STORIES": {
+            "1": {
+                "TITLE": "Energía Eléctrica, Veracruz",
+                "TEXT_1": "En el año 2019, en la ampliación del Nuevo Puerto de Veracruz, México. Nuestro cliente, la empresa CCCC, tenía que entregar la implementación del proyecto eléctrico de media y baja tensión dentro de las instalaciones del Puerto, en algunas áreas para cumplir con un contrato asignado, No tenía en México algún Socio de Negocios, fue así como se acercó a pedir apoyo a WFI de MÉXICO debido a la experiencia y servicios de calidad que nuestra empresa ofrece a todos sus clientes, hicimos realidad el término en tiempo y forma de este ambicioso proyecto.",
+                "TEXT_2": "WFI realizó trabajos para la nueva terminal de Contenedores de Icave en el puerto de Veracruz, los trabajos consistieron en el área eléctrica de transformadores, tableros, alumbrado, contactos, y sistema de tierras y 19 Racks que alimentan contenedores Refrigerados (24 contenedores por Rack), los trabajos en los racks consistieron en la Instalación de tableros, escalerilla marina, cableado especial, bases metálicas de equipos y colocación de sockets de contenedores",
+                "TEXT_3": "Con un monto global de $30mdp dividido en: Suministro de + 1000 lámparas de especificaciones muy detalladas en soporte a Salinidad, Precio y tiempo de Glándula, Sistemas de Tierra Física y otros Iluminación de + 13,000 m2 para edificios como CFS, SADER, OCR TRAIN, WCW y otros espacios"
+            }
+        }
+    },
     "FOOTER": {
         "ABOUT_US": "Nosotros",
         "FAQ": "Preguntas más frecuentes",
@@ -85,9 +165,10 @@
         "CONTACTS": "Contactos",
         "SHOP": "Comercio",
         "TERMS": "Términos y Condiciones",
-        "RIGHTS": "V 0.0.3 © Cyrus 2022 - Todos los derechos reservados.",
+        "RIGHTS": "V 1.0.0 © Cyrus 2022 - Todos los derechos reservados.",
         "DISCOVER": "Descubre"
     },
+
     "BUTTONS": {
         "PREVIOUS": "Anterior",
         "NEXT": "Siguiente"
