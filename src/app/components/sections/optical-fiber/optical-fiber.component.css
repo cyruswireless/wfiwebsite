@@ -1,3 +1,14 @@
 .card-body {
     margin: 20px 45px;
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+
+.carousel-control-next, .carousel-control-prev  {
+    width: 3%;
+    background: #0F1A47;
+}
+
+h5 {
+    color: #0F1A47;
 }
