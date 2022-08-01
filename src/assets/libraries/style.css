@@ -47,7 +47,10 @@ html * {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+.fix_redir{
+  padding-top: 50px;
+  margin-top: -50px;
+}
 body {
   background: #fff;
   font-size: 16px;

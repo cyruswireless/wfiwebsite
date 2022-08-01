@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    align-items: flex-end;
+    background-color: #1D3F5E;
+}
+ul li{
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+ul li a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px;
+    display: block;
+}
+.dropdown{
+    position: absolute;
+    width: 100%;
+    flex-wrap: wrap;
+    visibility: hidden;
+    transition: 0.3s;
+    left: 0;
+    top: -600%;
+    z-index: -1;
+}
+.dropdown2{
+    position: absolute;
+    left: 150%;
+    width: 100%;
+    top: 0;
+    flex-wrap: wrap;
+    transition: 0.3s;
+    visibility: hidden;
+}
+.dropdown li:hover .dropdown2{
+    left: 100%;
+    visibility: visible;
+}
+.logo2{
+    display: block;
+    text-align: center;
+    padding-left: 190px;
+}
+ul li:hover .dropdown{
+    top: 100%;
+    visibility: visible;
+}
+.menu-header{
+    display: none;
+}
+.down{
+    display: none;
+}
+.rigth{
+    display: block;
+}
+@media(max-width: 767px){
+    .logo2{
+        display: none;
+    }
+    ul{
+        display: table;
+        width:100%;
+    }
+    ul li{
+        text-align: left;
+    }
+    .dropdown, .dropdown2{
+        position: relative;
+        left: 0;
+        top: 0;
+        transition: none;
+        visibility: visible;
+        display: none;
+        z-index: 1;
+    }
+    .display{
+        display: block;
+    }
+    .display li:hover .dropdown2{
+        left: 0;
+
+    }
+    .menu-content{
+        display: none;
+    }
+    .menu-header{
+        display: block;
+        background-color: #081842;
+        text-align: right;
+        padding: 10px;
+    }
+    .fa-bars{
+        color:white;
+        border: 1px solid #fff;
+        padding: 5px 10px;
+        border-radius: 4px;
+        margin-top: 20px;
+    }
+    .down{
+        display: inline-block;
+    }
+    .right{
+        display: none;
+    }
+}
+.header{
+    background-color: #0F1A47;
+}
+.table_logo{
+    height: 100px;
+}
+.img_logo{
+    width:120px;
+}
+.texto_navbar{
+    margin-top: 30px;
+    background-color: #0F1A47;
+}
+.header_flags{
+    text-align: right;
+    float: right;
+    margin-right: 10px;
+}
+#flagEn {
+    margin-left: 10px;
+}
+@media screen and (min-width: 1546px) {
+    .texto_navbar{
+        padding-top: 26px;
+    }
+}
