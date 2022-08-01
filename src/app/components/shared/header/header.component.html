@@ -1,77 +1,29 @@
 <header>
-    <nav class="header">
-        <div class="menu-header">
-            <div class="row">
-                <div class="col-sm-6 col-6" style="padding: 10px;">
-                    <img class="img_logo" src="assets/img/LogoNavbar.png">
-                </div>
-                <div class="col-sm-6 col-6">
-                    <i class="fa fa-bars"></i>
-                </div>
-            </div>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="javascript:void(0)">
+            <img src="assets/img/LogoNavbar.png" alt="" width="150" >
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="mynavbar">
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="javascript:void(0)">Link</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="javascript:void(0)">Link</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="javascript:void(0)">Link</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="text" placeholder="Search">
+              <button class="btn btn-primary" type="button">Search</button>
+            </form>
+          </div>
         </div>
-        <div class="menu-content">
-            <div class="header_flags">
-                <img id="flagMx" (click)="changeLang('es')" src="assets/img/flags/mx.png"/>
-                <img id="flagEn" (click)="changeLang('en')" src="assets/img/flags/eeuu.png"/>
-            </div>
-            <div class="row">
-                <div class="col-md-4 logo2 align-middle">
-                    <table class="table_logo">
-                        <tbody>
-                          <tr>
-                            <td class="align-middle"><img class="img_logo" src="assets/img/LogoNavbar.png"></td>
-                          </tr>
-                        </tbody>
-                    </table>
-                </div>
-                <div class="col-md-8">
-                    <ul class="texto_navbar">
-                        <li>
-                            <a routerLink="/home" class="dropbtn">{{ 'HEADER.HOME.TITLE' | translate }}</a>
-                        </li>  
-                        
-                        <li><a href="#ServiceDesign" class="dropbtn">{{ 'HEADER.SERVICES.TITLE' | translate }}<i class="fa fa-chevron-down down"></i></a>
-                            <ul class="dropdown">
-                                <li><a href="#ServiceDesign">{{ 'HEADER.SERVICES.CONTENT.1' | translate }}</a></li>
-                                <li><a href="#ServicePlanning">{{ 'HEADER.SERVICES.CONTENT.2' | translate }}</a></li>
-                                <li><a href="#ServiceDeployment">{{ 'HEADER.SERVICES.CONTENT.3' | translate }}</a></li>
-                                <li><a href="#ServiceOperation">{{ 'HEADER.SERVICES.CONTENT.4' | translate }}</a></li>
-                                <!-- <li><a href="#">{{ 'HEADER.SERVICES.CONTENT.5' | translate }}</a></li> -->
-                            </ul>
-                        </li>
-                        <li><a href="#" class="dropbtn">{{ 'HEADER.EXPERIENCE.TITLE' | translate }}<i class="fa fa-chevron-down down"></i></a>
-                            <ul class="dropdown">
-                                <!-- <li><a href="#">Telecom</a></li> -->
-                                <!-- <li><a href="#">{{ 'HEADER.EXPERIENCE.CONTENT.1' | translate }}</a></li> -->
-                                <li><a href="#OpticalFiber">{{ 'HEADER.EXPERIENCE.CONTENT.2' | translate }}</a></li>
-                                <!-- <li><a href="#">{{ 'HEADER.EXPERIENCE.CONTENT.3' | translate }}</a></li> -->
-                            </ul>
-                        </li>
-                        <li><a href="#AboutUs">{{ 'HEADER.ABOUT.TITLE' | translate }}<i class="fa fa-chevron-down down"></i></a>
-                            <ul class="dropdown">
-                                <!-- <li><a href="#">{{ 'HEADER.ABOUT.CONTENT.1' | translate }}</a></li>
-                                <li><a href="#">{{ 'HEADER.ABOUT.CONTENT.2' | translate }}</a></li> -->
-                                <li><a href="#Awards">{{ 'HEADER.ABOUT.CONTENT.3' | translate }}</a></li> 
-                                <li><a href="#SuccessStories">{{ 'HEADER.ABOUT.CONTENT.4' | translate }}</a></li>
-                            </ul>
-                        </li>
-                        <li><a routerLink="/contact">{{ 'HEADER.CONTACT.TITLE' | translate }}<!-- <i class="fa fa-chevron-down down"></i> --></a>
-                            <!-- <ul class="dropdown">
-                                <li><a href="#">{{ 'HEADER.CONTACT.CONTENT.1' | translate }}</a></li>
-                                <li><a href="#">{{ 'HEADER.CONTACT.CONTENT.2' | translate }}</a></li>
-                                <li><a href="#">{{ 'HEADER.CONTACT.CONTENT.3' | translate }}</a></li>
-                                <li><a href="#">{{ 'HEADER.CONTACT.CONTENT.4' | translate }}</a></li>
-                                <li><a href="#">{{ 'HEADER.CONTACT.CONTENT.5' | translate }}</a></li>
-                                <li><a href="#">{{ 'HEADER.CONTACT.CONTENT.6' | translate }}</a></li>
-                                <li><a href="#">{{ 'HEADER.CONTACT.CONTENT.7' | translate }}</a></li>
-                            </ul> -->
-                        </li>
-                    </ul>
-                </div>
-                
-            </div>
-            
-        </div>
-    </nav>
+      </nav>
 </header>
