@@ -29,7 +29,6 @@ ul li a{
     transition: 0.3s;
     left: 0;
     top: -600%;
-    z-index: -1;
 }
 .dropdown2{
     position: absolute;
