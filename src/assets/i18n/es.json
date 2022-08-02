@@ -119,24 +119,30 @@
     "O_FIBER": {
         "EXTERNAL_PLANT": {
             "TITLE": "Planta externa",
-            "TEXT": "En el campo de las comunicaciones, existe la fibra óptica para 'Planta externa', la que se utiliza para redes telefónicas, televisión por cable(CATV), redes metropolitanas, servicios, etc., y la fibra que se utiliza para la planta interna, es decir, la que se encuentra en edificios y en diversas instalaciones."
+            "1": "Canalización (arado, canalizado, aéreo, OPGW)",
+            "2": "Red Dorsal o Principal",
+            "3": "Red Secundaria (FTTH, GPON, EPON)"
         },
         "O_FIBER": {
             "TITLE": "Caracterización de la FO",
-            "1": "Industriales",
-            "2": "Su alcance inicia con la construcción de la acometida eléctrica que puede ser de media, alta o baja tensión, en este tipo de instalaciones se toma en cuenta desde el comienzo la totalidad de los circuitos de fuerza, de iluminación y de sistemas especiales ya sea en construcciones nuevas o en remodelaciones.",
-            "3": "Comerciales",
-            "4": "Son hechas conforme a lineamientos técnicos y normativos vigentes, que contribuyen al ahorro de volúmenes considerables de energía eléctrica  en edificios comerciales.",
-            "5": "Residenciales",
-            "6": "Como su nombre lo indica es un conjunto de obras e instalaciones ejecutadas con el fin de hacer llegar electricidad a todos los apartados eléctricos de una vivienda."
+            "1": "Dispersión Cromática (CD)",
+            "2": "Dispersión por modo de polarización (PMD)",
+            "3": "La atenuación en los diferentes puntos (empalmes, conectores) OTDR",
+            "4": "Pérdidas por Retorno Óptico (ORL)",
+            "5": "Insertion Loss (OLTS)",
+            "6": "Análisis de canales DWDM (OSA)"
         },
         "LIGHTNING": {
-            "TITLE": "Iluminación",
-            "TEXT": ""
+            "TITLE": "Multiplexaje e Iluminación",
+            "1": "Instalación de amplificadores ópticos y pruebas de atenuación de acuerdo a la ingeniería realizada",
+            "2": "Instalación de multiplexores y repetidores de transmisión de datos a travéz de la fibra óptica",
+            "3": "Pruebas de estabilidad",
+            "4": "Documentación",
+            "5": "Entrega a nuestros clientes de acuerdo al proceso, método de instalación, ATP (Acceptance Test Procedure) que nuestros diferentes clientes nos han definido"
         },
-        "MULTIPLEXING": {
-            "TITLE": "Multiplexaje",
-            "TEXT": ""
+        "FTTH": {
+            "TITLE": "FTTH, FTTX (Fiber to the Home)",
+            "TEXT": "Instalación del cable de fibra óptica hasta el hogar, oficina, u otro lugar que solicite el abonado"
         }
     },
     "ABOUT": {
