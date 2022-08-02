@@ -1,9 +1,38 @@
 <app-slide></app-slide>
-<app-design></app-design>
-<app-planning></app-planning>
-<app-deployment></app-deployment>
-<app-operation></app-operation>
-<app-optical-fiber></app-optical-fiber>
-<app-awards></app-awards>
-<app-stories></app-stories>
-<app-about></app-about>
+<div class="container service">
+    <div id="ServiceTitle" class="title_image">
+        <h1 class="title">{{ 'HEADER.SERVICES.TITLE' | translate }}</h1>
+    </div>
+    <app-design></app-design>
+    <app-planning></app-planning>
+    <app-deployment></app-deployment>
+    <app-operation></app-operation>
+</div>
+<div class="split"></div>
+<div class="container">
+    <div id="OpticalFiber" class="title_image">
+        <h1 class="title">{{ 'HEADER.EXPERIENCE.CONTENT.2' | translate }}</h1>
+    </div>
+    <app-optical-fiber></app-optical-fiber>
+</div>
+<div class="split"></div>
+<div class="container">
+    <div id="Awards" class="title_image">
+        <h1 class="title">{{ 'HEADER.ABOUT.CONTENT.3' | translate }}</h1>
+    </div>
+    <app-awards></app-awards>
+</div>
+<div class="split"></div>
+<div class="container">
+    <div id="SuccessStories" class="title_image">
+        <h1 class="title">CASOS DE ÉXITO</h1>
+    </div>
+    <app-stories></app-stories>
+</div>
+<div class="split"></div>
+<div class="container">
+    <div id="AboutUs" class="title_image">
+        <h1 class="title">{{ 'MAIN.ABOUT_US_TITLE' | translate }}</h1>
+    </div>
+    <app-about></app-about>
+</div>
