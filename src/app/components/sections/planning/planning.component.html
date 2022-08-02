@@ -2,7 +2,12 @@
   <div class="container custom-container">
     <div class="row">
       <div class="col-md-6 col-md-offset-1 hidden-sm hidden-xs col-12 order-5 order-md-1">
-        <img src="assets/img/jerarquia.jpg" alt="" class="img-responsive" style="max-width: 100% !important;" />
+        <img
+          src="assets/img/jerarquia.jpg"
+          alt=""
+          class="img-responsive"
+          style="max-width: 100% !important;"
+        />
       </div>
       <div class="col-md-1"></div>
       <div class="col-md-5 col-12 order-1 order-md-5">
@@ -10,16 +15,19 @@
           <em></em>
           {{ 'HEADER.SERVICES.CONTENT.2' | translate }}
         </h3>
-        
-        <p class="lead justify-text">
-          <b>{{ 'SERVICES.PLANNING.TITLE' | translate }}</b>
-          <br>- {{ 'SERVICES.PLANNING.1' | translate }}
-          <br>- {{ 'SERVICES.PLANNING.2' | translate }}
-          <br>- {{ 'SERVICES.PLANNING.3' | translate }}
-          <br>- {{ 'SERVICES.PLANNING.4' | translate }}
-          <br>- {{ 'SERVICES.PLANNING.5' | translate }}
-          <br>- {{ 'SERVICES.PLANNING.6' | translate }}
-        </p>
+        <ul class="list_ok">
+          <li>
+            <h4>{{ 'SERVICES.PLANNING.TITLE' | translate }}</h4>
+            <p>
+              - {{ 'SERVICES.PLANNING.1' | translate }} <br />
+              - {{ 'SERVICES.PLANNING.2' | translate }} <br />
+              - {{ 'SERVICES.PLANNING.3' | translate }} <br />
+              - {{ 'SERVICES.PLANNING.4' | translate }} <br />
+              - {{ 'SERVICES.PLANNING.5' | translate }} <br />
+              - {{ 'SERVICES.PLANNING.6' | translate }} <br />
+            </p>
+          </li>
+        </ul>
       </div>
     </div>
   </div>
