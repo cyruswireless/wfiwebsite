@@ -3,93 +3,271 @@
         <h3 class="main_title_left">
             <em></em>
         </h3>
-        <div id="carousel-opt-fiber" class="carousel slide" data-bs-ride="true">
-            <!-- Slides -->
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <div class="card bg-white text-black m-width-100">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="card-body">
-                                    <h5 class="card-title">{{ 'O_FIBER.EXTERNAL_PLANT.TITLE' | translate }}</h5>
-                                    <p class="card-text justify-text">{{ 'O_FIBER.EXTERNAL_PLANT.TEXT' | translate }}
-                                    </p>
+        <!-- start planta externa -->
+        <div class="row" style="height: 450px">
+            <div id="carousel-planta" class="carousel slide max-width-50" data-bs-ride="carousel">
+                <!-- Slides -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="card bg-white text-black m-width-100">
+                            <div class="col-md-12">
+                                <img src="assets/img/experience/pe-1.jpg" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card bg-white text-black m-width-100">
+                            <div class="row g-0">
+                                <div class="col-md-12">
+                                    <img src="assets/img/experience/pe-2.jpg" alt="...">
                                 </div>
                             </div>
-                            <div class="col-md-6">
-                                <img src="assets/img/fo.jpg" alt="..." width="100%">
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card bg-white text-black m-width-100">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <img src="assets/img/experience/pe-3.jpg" alt="...">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card bg-white text-black m-width-100">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <img src="assets/img/experience/pe-4.jpg" alt="...">
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="carousel-item">
-                    <div class="card bg-white text-black m-width-100">
-                        <div class="row g-0">
-                            <div class="col-md-6">
-                                <div class="card-body">
-                                    <h5 class="card-title">{{ 'O_FIBER.O_FIBER.TITLE' | translate }}</h5>
-                                    <p class="card-text justify-text">
-                                        <strong>{{ 'O_FIBER.O_FIBER.1' | translate }}: </strong>{{ 'O_FIBER.O_FIBER.2' |
-                                        translate }}
-                                    </p>
-                                    <p class="card-text justify-text">
-                                        <strong>{{ 'O_FIBER.O_FIBER.3' | translate }}: </strong>{{ 'O_FIBER.O_FIBER.4' |
-                                        translate }}
-                                    </p>
-                                    <p class="card-text justify-text">
-                                        <strong>{{ 'O_FIBER.O_FIBER.5' | translate }}: </strong>{{ 'O_FIBER.O_FIBER.6' |
-                                        translate }}
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <img src="assets/img/fo2.jpg" alt="..." width="100%">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="card bg-white text-black m-width-100">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="card-body">
-                                    <h5 class="card-title">{{ 'O_FIBER.LIGHTNING.TITLE' | translate }}</h5>
-                                    <p class="card-text justify-text">{{ 'O_FIBER.LIGHTNING.TEXT' | translate }}</p>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <img src="assets/img/fo3.jpg" alt="..." width="100%">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="card bg-white text-black m-width-100">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="card-body">
-                                    <h5 class="card-title">{{ 'O_FIBER.MULTIPLEXING.TITLE' | translate }}</h5>
-                                    <p class="card-text justify-text">{{ 'O_FIBER.MULTIPLEXING.TEXT' | translate }}</p>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <img src="assets/img/fo4.jpg" alt="..." width="100%">
-                            </div>
-                        </div>
-                    </div>
+                <!-- Controls -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel-planta"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">{{ 'BUTTONS.PREVIOUS' | translate }}</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel-planta"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">{{ 'BUTTONS.NEXT' | translate }}</span>
+                </button>
+            </div>
+            <div class="max-width-50" style="padding: 25px 30px;">
+                <div class="col-md-12">
+                    <h5>{{ 'O_FIBER.EXTERNAL_PLANT.TITLE' | translate }}</h5>
+                    <ul class="list_ok">
+                        <li>
+                          <p>
+                            - {{ 'O_FIBER.EXTERNAL_PLANT.1' | translate }} <br />
+                            - {{ 'O_FIBER.EXTERNAL_PLANT.2' | translate }} <br />
+                            - {{ 'O_FIBER.EXTERNAL_PLANT.3' | translate }}
+                          </p>
+                        </li>
+                    </ul>
                 </div>
             </div>
-            <!-- Controls -->
-            <button class="carousel-control-prev" type="button" data-bs-target="#carousel-opt-fiber"
-                data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">{{ 'BUTTONS.PREVIOUS' | translate }}</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carousel-opt-fiber"
-                data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">{{ 'BUTTONS.NEXT' | translate }}</span>
-            </button>
         </div>
+        <!-- end planta externa -->
+        <!-- start fibra optica -->
+        <div class="row" style="margin-top: 40px; height: 450px">
+            <div id="carousel-opt-fiber" class="carousel slide max-width-50" data-bs-ride="carousel">
+                <!-- Slides -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="card bg-white text-black m-width-100">
+                            <div class="col-md-12">
+                                <img src="assets/img/experience/fo-1.jpg" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card bg-white text-black m-width-100">
+                            <div class="row g-0">
+                                <div class="col-md-12">
+                                    <img src="assets/img/experience/fo-2.jpg" alt="...">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card bg-white text-black m-width-100">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <img src="assets/img/experience/fo-3.jpg" alt="...">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card bg-white text-black m-width-100">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <img src="assets/img/experience/fo-4.jpg" alt="...">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Controls -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel-opt-fiber"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">{{ 'BUTTONS.PREVIOUS' | translate }}</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel-opt-fiber"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">{{ 'BUTTONS.NEXT' | translate }}</span>
+                </button>
+            </div>
+            <div class="max-width-50" style="padding: 25px 30px;">
+                <div class="col-md-12">
+                    <h5 class="card-title">{{ 'O_FIBER.O_FIBER.TITLE' | translate }}</h5>
+                    <ul class="list_ok">
+                        <li>
+                          <p>
+                            - {{ 'O_FIBER.O_FIBER.1' | translate }} <br />
+                            - {{ 'O_FIBER.O_FIBER.2' | translate }} <br />
+                            - {{ 'O_FIBER.O_FIBER.3' | translate }} <br />
+                            - {{ 'O_FIBER.O_FIBER.4' | translate }} <br />
+                            - {{ 'O_FIBER.O_FIBER.5' | translate }} <br />
+                            - {{ 'O_FIBER.O_FIBER.6' | translate }} <br />
+                          </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- end fibra optica -->
+        <!-- start iluminacion -->
+        <div class="row" style="margin-top: 40px; height: 450px">
+            <div id="carousel-multiplex" class="carousel slide max-width-50" data-bs-ride="carousel">
+                <!-- Slides -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="card bg-white text-black m-width-100">
+                            <div class="col-md-12">
+                                <img src="assets/img/experience/il-1.jpg" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card bg-white text-black m-width-100">
+                            <div class="row g-0">
+                                <div class="col-md-12">
+                                    <img src="assets/img/experience/il-2.jpg" alt="...">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card bg-white text-black m-width-100">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <img src="assets/img/experience/il-3.jpg" alt="...">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card bg-white text-black m-width-100">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <img src="assets/img/experience/il-4.jpg" alt="...">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Controls -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel-multiplex"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">{{ 'BUTTONS.PREVIOUS' | translate }}</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel-multiplex"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">{{ 'BUTTONS.NEXT' | translate }}</span>
+                </button>
+            </div>
+            <div class="max-width-50" style="padding: 25px 30px;">
+                <div class="col-md-12">
+                    <h5 class="card-title">{{ 'O_FIBER.LIGHTNING.TITLE' | translate }}</h5>
+                    <ul class="list_ok">
+                        <li>
+                          <p>
+                            - {{ 'O_FIBER.LIGHTNING.1' | translate }} <br />
+                            - {{ 'O_FIBER.LIGHTNING.2' | translate }} <br />
+                            - {{ 'O_FIBER.LIGHTNING.3' | translate }} <br />
+                            - {{ 'O_FIBER.LIGHTNING.4' | translate }} <br />
+                            - {{ 'O_FIBER.LIGHTNING.5' | translate }} <br />
+                          </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- end iluminacion -->
+        <!-- start ftth -->
+        <div class="row" style="margin-top: 40px; height: 450px">
+            <div id="carousel-ftth" class="carousel slide max-width-50" data-bs-ride="carousel">
+                <!-- Slides -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="card bg-white text-black m-width-100">
+                            <div class="col-md-12">
+                                <img src="assets/img/experience/ftth-1.jpg" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card bg-white text-black m-width-100">
+                            <div class="row g-0">
+                                <div class="col-md-12">
+                                    <img src="assets/img/experience/ftth-2.jpg" alt="...">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card bg-white text-black m-width-100">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <img src="assets/img/experience/ftth-3.jpg" alt="...">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Controls -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel-ftth"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">{{ 'BUTTONS.PREVIOUS' | translate }}</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel-ftth"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">{{ 'BUTTONS.NEXT' | translate }}</span>
+                </button>
+            </div>
+            <div class="max-width-50" style="padding: 25px 30px;">
+                <div class="col-md-12">
+                    <h5 class="card-title">{{ 'O_FIBER.FTTH.TITLE' | translate }}</h5>
+                    <ul class="list_ok">
+                        <li>
+                          <p>
+                            {{ 'O_FIBER.FTTH.TEXT' | translate }}
+                          </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- end ftth -->
     </div>
 </div>
