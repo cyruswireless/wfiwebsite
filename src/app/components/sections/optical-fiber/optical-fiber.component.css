@@ -13,10 +13,6 @@ h5 {
     color: #0F1A47;
 }
 
-.max-width-50 {
-    width: 50%;
-}
-
 ul.list_ok li:before {
     content: none;
 }
