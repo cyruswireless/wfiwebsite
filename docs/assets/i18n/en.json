@@ -119,24 +119,30 @@
     "O_FIBER": {
         "EXTERNAL_PLANT": {
             "TITLE": "External plant",
-            "TEXT": "In the field of communications, there is fiber optics for 'External Plant', which is used for telephone networks, cable television (CATV), metropolitan networks, services, etc., and the fiber that is It is used for the internal plant, that is, the one found in buildings and in various facilities."
+            "1": "Channeling (plow, channeled, aerial, OPGW)",
+            "2": "Backbone or Main Network",
+            "3": "Secondary Network (FTTH, GPON, EPON)"
         },
         "O_FIBER": {
             "TITLE": "Characterization of the FO",
-            "1": "Industrial",
-            "2": "Its scope begins with the construction of the electrical connection that can be medium, high or low voltage, in this type of installation all the power, lighting and power circuits are taken into account from the beginning. special systems either in new construction or remodeling.",
-            "3": "Commercials",
-            "4": "They are made in accordance with current technical and regulatory guidelines, which contribute to saving considerable volumes of electrical energy in commercial buildings.",
-            "5": "Residential",
-            "6": "As its name indicates, it is a set of works and installations carried out in order to supply electricity to all the electrical sections of a home."
+            "1": "Chromatic Dispersion (CD)",
+            "2": "Polarization Mode Dispersion (PMD)",
+            "3": "The attenuation at the different points (splices, connectors) OTDR",
+            "4": "Optical Return Loss (ORL)",
+            "5": "Insertion Loss (OLTS)",
+            "6": "DWDM Channel Analysis (OSA)"
         },
         "LIGHTNING": {
-            "TITLE": "LIGHTNING",
-            "TEXT": ""
+            "TITLE": "Multiplexing and Lighting",
+            "1": "Installation of optical amplifiers and attenuation tests according to the engineering carried out",
+            "2": "Installation of multiplexers and repeaters for data transmission through fiber optics",
+            "3": "Stability tests",
+            "4": "Documentation",
+            "5": "Delivery to our clients according to the process, installation method, ATP (Acceptance Test Procedure) that our different clients have defined for us"
         },
-        "MULTIPLEXING": {
-            "TITLE": "MULTIPLEXING",
-            "TEXT": ""
+        "FTTH": {
+            "TITLE": "FTTH, FTTX (Fiber to the Home)",
+            "TEXT": "Installation of the fiber optic cable to the home, office, or other place requested by the subscriber"
         }
     },
     "ABOUT": {
@@ -156,7 +162,7 @@
         "CONTACTS": "Contacts",
         "SHOP": "Shop",
         "TERMS": "Terms and condition",
-        "RIGHTS": "V 1.0.0 © Cyrus 2022 - All rights reserved.",
+        "RIGHTS": "V 1.0.1 © Cyrus 2022 - All rights reserved.",
         "DISCOVER": "Discover"
     },
     "BUTTONS": {
