@@ -133,3 +133,8 @@ ul li:hover .dropdown{
 #flagEn {
     margin-left: 10px;
 }
+@media screen and (min-width: 1546px) {
+    .texto_navbar{
+        padding-top: 26px;
+    }
+}
