@@ -145,6 +145,29 @@
             "TEXT": "Installation of the fiber optic cable to the home, office, or other place requested by the subscriber"
         }
     },
+    "TELECOM":{
+        "EMPRESS": {
+            "TITLE": "Business Telecom",
+            "1": "Structured cabling services for WAN, MAN, LAN, WiFi networks",
+            "2": "Voice Service for Traditional Switches, PBX, IPBX, VOIP",
+            "3": "IP Services for CCTV projects, Access Control, Paging, IPTV",
+            "4": "Interconnectivity Services for Cloud computing, telecommuting and others",
+            "5": "Earth ground system services"
+        },
+        "OPERATOR": {
+            "TITLE": "Telecom Telephone Operators",
+            "1": "Lines of Sight and Propagation Studies",
+            "2": "Microwave (MW)",
+            "3": "Radiobases (RBS)",
+            "4": "CoW (Cell on Wheels)",
+            "5": "MSO (Multiple Service Operator)",
+            "6": "Earth ground system and lightning arrestor",
+            "7": "PtP, PMP wireless links",
+            "8": "Performance and stability tests",
+            "9": "Documentation",
+            "10": "Delivery to our clients according to the process, installation method, ATP (Acceptance Test Procedure), that our different clients have defined for us"
+        }
+    },
     "ABOUT": {
         "STORIES": {
             "1": {

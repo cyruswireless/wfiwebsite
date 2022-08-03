@@ -1,289 +1,176 @@
 <div class="bg_white" style="margin-bottom: 20px;">
     <div class="container custom-container">
-        <h3 class="main_title_left">
-            <em></em>
+        <h3 class="main_title_left" style="text-align: center;font-size: 35px;">
+            {{ 'HEADER.EXPERIENCE.CONTENT.2' | translate }}
+            <hr>
         </h3>
-        <!-- start planta externa -->
-        <div class="row">
-            <div class="col-md-12 col-lg-6">
-                <div id="carousel-planta" class="carousel slide" data-bs-ride="carousel">
-                    <!-- Slides -->
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <div class="card bg-white text-black m-width-100">
-                                <div class="col-md-12">
-                                    <img src="assets/img/experience/pe-1.jpg" alt="...">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="card bg-white text-black m-width-100">
-                                <div class="row g-0">
-                                    <div class="col-md-12">
-                                        <img src="assets/img/experience/pe-2.jpg" alt="...">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="card bg-white text-black m-width-100">
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <img src="assets/img/experience/pe-3.jpg" alt="...">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="card bg-white text-black m-width-100">
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <img src="assets/img/experience/pe-4.jpg" alt="...">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+        <div class="row info-carousel">
+            <div class="col-md-7">
+                <div id="carouselFiber1" class="carousel slide" data-bs-ride="carousel"
+                    style="background: rgba(0, 0, 0, 0.6);">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselFiber1" data-bs-slide-to="0" class="active"
+                            aria-current="true"></button>
+                        <button type="button" data-bs-target="#carouselFiber1" data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="#carouselFiber1" data-bs-slide-to="2"></button>
+                        <button type="button" data-bs-target="#carouselFiber1" data-bs-slide-to="3"></button>
                     </div>
-                    <!-- Controls -->
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel-planta"
+                    <div class="carousel-inner">
+                        <div class="carousel-item active car1img1"></div>
+                        <div class="carousel-item car1img2"></div>
+                        <div class="carousel-item car1img3"></div>
+                        <div class="carousel-item car1img4"></div>
+                    </div>
+                    <button class="carousel-control-prev " type="button" data-bs-target="#carouselFiber1"
                         data-bs-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">{{ 'BUTTONS.PREVIOUS' | translate }}</span>
                     </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carousel-planta"
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselFiber1"
                         data-bs-slide="next">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">{{ 'BUTTONS.NEXT' | translate }}</span>
                     </button>
                 </div>
             </div>
-            <div class="col-md-12 col-lg-6">
-                <div style="padding: 25px 30px;">
-                    <div class="col-md-12">
-                        <h5>{{ 'O_FIBER.EXTERNAL_PLANT.TITLE' | translate }}</h5>
-                        <ul class="list_ok">
-                            <li>
-                              <p>
-                                - {{ 'O_FIBER.EXTERNAL_PLANT.1' | translate }} <br />
-                                - {{ 'O_FIBER.EXTERNAL_PLANT.2' | translate }} <br />
-                                - {{ 'O_FIBER.EXTERNAL_PLANT.3' | translate }}
-                              </p>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
+            <div class="col-md-5">
+                <h3 class="main_title_left">
+                    <em></em>
+                    {{ 'O_FIBER.EXTERNAL_PLANT.TITLE' | translate }}
+                </h3>
+                <p class="lead justify-text">
+                    - {{ 'O_FIBER.EXTERNAL_PLANT.1' | translate }} <br />
+                    - {{ 'O_FIBER.EXTERNAL_PLANT.2' | translate }} <br />
+                    - {{ 'O_FIBER.EXTERNAL_PLANT.3' | translate }}
+                </p>
             </div>
         </div>
-        <!-- end planta externa -->
-        <!-- start fibra optica -->
-        <div class="row" style="margin-top: 40px">
-            <div class="col-md-12 col-lg-6">
-                <div id="carousel-opt-fiber" class="carousel slide" data-bs-ride="carousel">
-                    <!-- Slides -->
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <div class="card bg-white text-black m-width-100">
-                                <div class="col-md-12">
-                                    <img src="assets/img/experience/fo-1.jpg" alt="...">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="card bg-white text-black m-width-100">
-                                <div class="row g-0">
-                                    <div class="col-md-12">
-                                        <img src="assets/img/experience/fo-2.jpg" alt="...">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="card bg-white text-black m-width-100">
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <img src="assets/img/experience/fo-3.jpg" alt="...">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="card bg-white text-black m-width-100">
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <img src="assets/img/experience/fo-4.jpg" alt="...">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+        <div class="row info-carousel">
+            <div class="col-md-7">
+                <div id="carouselFiber2" class="carousel slide" data-bs-ride="carousel"
+                    style="background: rgba(0, 0, 0, 0.6);">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselFiber2" data-bs-slide-to="0" class="active"
+                            aria-current="true"></button>
+                        <button type="button" data-bs-target="#carouselFiber2" data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="#carouselFiber2" data-bs-slide-to="2"></button>
+                        <button type="button" data-bs-target="#carouselFiber2" data-bs-slide-to="3"></button>
                     </div>
-                    <!-- Controls -->
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel-opt-fiber"
+                    <div class="carousel-inner">
+                        <div class="carousel-item active car2img1"></div>
+                        <div class="carousel-item car2img2"></div>
+                        <div class="carousel-item car2img3"></div>
+                        <div class="carousel-item car2img4"></div>
+                    </div>
+                    <button class="carousel-control-prev " type="button" data-bs-target="#carouselFiber2"
                         data-bs-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">{{ 'BUTTONS.PREVIOUS' | translate }}</span>
                     </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carousel-opt-fiber"
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselFiber2"
                         data-bs-slide="next">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">{{ 'BUTTONS.NEXT' | translate }}</span>
                     </button>
                 </div>
             </div>
-            <div class="col-md-12 col-lg-6">
-                <div style="padding: 25px 30px;">
-                    <div class="col-md-12">
-                        <h5 class="card-title">{{ 'O_FIBER.O_FIBER.TITLE' | translate }}</h5>
-                        <ul class="list_ok">
-                            <li>
-                              <p>
-                                - {{ 'O_FIBER.O_FIBER.1' | translate }} <br />
-                                - {{ 'O_FIBER.O_FIBER.2' | translate }} <br />
-                                - {{ 'O_FIBER.O_FIBER.3' | translate }} <br />
-                                - {{ 'O_FIBER.O_FIBER.4' | translate }} <br />
-                                - {{ 'O_FIBER.O_FIBER.5' | translate }} <br />
-                                - {{ 'O_FIBER.O_FIBER.6' | translate }} <br />
-                              </p>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
+            <div class="col-md-5">
+                <h3 class="main_title_left">
+                    <em></em>
+                    {{ 'O_FIBER.O_FIBER.TITLE' | translate }}
+                </h3>
+                <p class="lead justify-text">
+                    - {{ 'O_FIBER.O_FIBER.1' | translate }} <br />
+                    - {{ 'O_FIBER.O_FIBER.2' | translate }} <br />
+                    - {{ 'O_FIBER.O_FIBER.3' | translate }} <br />
+                    - {{ 'O_FIBER.O_FIBER.4' | translate }} <br />
+                    - {{ 'O_FIBER.O_FIBER.5' | translate }} <br />
+                    - {{ 'O_FIBER.O_FIBER.6' | translate }} <br />
+                </p>
+
             </div>
         </div>
-        <!-- end fibra optica -->
-        <!-- start iluminacion -->
-        <div class="row" style="margin-top: 40px">
-            <div class="col-md-12 col-lg-6">
-                <div id="carousel-multiplex" class="carousel slide" data-bs-ride="carousel">
-                    <!-- Slides -->
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <div class="card bg-white text-black m-width-100">
-                                <div class="col-md-12">
-                                    <img src="assets/img/experience/il-1.jpg" alt="...">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="card bg-white text-black m-width-100">
-                                <div class="row g-0">
-                                    <div class="col-md-12">
-                                        <img src="assets/img/experience/il-2.jpg" alt="...">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="card bg-white text-black m-width-100">
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <img src="assets/img/experience/il-3.jpg" alt="...">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="card bg-white text-black m-width-100">
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <img src="assets/img/experience/il-4.jpg" alt="...">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+        <div class="row info-carousel">
+            <div class="col-md-7">
+                <div id="carouselFiber3" class="carousel slide" data-bs-ride="carousel"
+                    style="background: rgba(0, 0, 0, 0.6);">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselFiber3" data-bs-slide-to="0" class="active"
+                            aria-current="true"></button>
+                        <button type="button" data-bs-target="#carouselFiber3" data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="#carouselFiber3" data-bs-slide-to="2"></button>
+                        <button type="button" data-bs-target="#carouselFiber3" data-bs-slide-to="3"></button>
                     </div>
-                    <!-- Controls -->
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel-multiplex"
+                    <div class="carousel-inner">
+                        <div class="carousel-item active car3img1"></div>
+                        <div class="carousel-item car3img2"></div>
+                        <div class="carousel-item car3img3"></div>
+                        <div class="carousel-item car3img4"></div>
+                    </div>
+                    <button class="carousel-control-prev " type="button" data-bs-target="#carouselFiber3"
                         data-bs-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">{{ 'BUTTONS.PREVIOUS' | translate }}</span>
                     </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carousel-multiplex"
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselFiber3"
                         data-bs-slide="next">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">{{ 'BUTTONS.NEXT' | translate }}</span>
                     </button>
                 </div>
             </div>
-            <div class="col-md-12 col-lg-6">
-                <div style="padding: 25px 30px;">
-                    <div class="col-md-12">
-                        <h5 class="card-title">{{ 'O_FIBER.LIGHTNING.TITLE' | translate }}</h5>
-                        <ul class="list_ok">
-                            <li>
-                              <p>
-                                - {{ 'O_FIBER.LIGHTNING.1' | translate }} <br />
-                                - {{ 'O_FIBER.LIGHTNING.2' | translate }} <br />
-                                - {{ 'O_FIBER.LIGHTNING.3' | translate }} <br />
-                                - {{ 'O_FIBER.LIGHTNING.4' | translate }} <br />
-                                - {{ 'O_FIBER.LIGHTNING.5' | translate }} <br />
-                              </p>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
+            <div class="col-md-5">
+                <h3 class="main_title_left">
+                    <em></em>
+                    {{ 'O_FIBER.LIGHTNING.TITLE' | translate }}
+                </h3>
+                <p class="lead justify-text">
+                    - {{ 'O_FIBER.LIGHTNING.1' | translate }} <br />
+                    - {{ 'O_FIBER.LIGHTNING.2' | translate }} <br />
+                    - {{ 'O_FIBER.LIGHTNING.3' | translate }} <br />
+                    - {{ 'O_FIBER.LIGHTNING.4' | translate }} <br />
+                    - {{ 'O_FIBER.LIGHTNING.5' | translate }} <br />
+                </p>
+
             </div>
         </div>
-        <!-- end iluminacion -->
-        <!-- start ftth -->
-        <div class="row" style="margin-top: 40px">
-            <div class="col-md-12 col-lg-6">
-                <div id="carousel-ftth" class="carousel slide" data-bs-ride="carousel">
-                    <!-- Slides -->
+        <div class="row info-carousel">
+            <div class="col-md-7">
+                <div id="carouselFiber4" class="carousel slide" data-bs-ride="carousel"
+                    style="background: rgba(0, 0, 0, 0.6);">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselFiber4" data-bs-slide-to="0" class="active"
+                            aria-current="true"></button>
+                        <button type="button" data-bs-target="#carouselFiber4" data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="#carouselFiber4" data-bs-slide-to="2"></button>
+                    </div>
                     <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <div class="card bg-white text-black m-width-100">
-                                <div class="col-md-12">
-                                    <img src="assets/img/experience/ftth-1.jpg" alt="...">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="card bg-white text-black m-width-100">
-                                <div class="row g-0">
-                                    <div class="col-md-12">
-                                        <img src="assets/img/experience/ftth-2.jpg" alt="...">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="card bg-white text-black m-width-100">
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <img src="assets/img/experience/ftth-3.jpg" alt="...">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                        <div class="carousel-item active car4img1"></div>
+                        <div class="carousel-item car4img2"></div>
+                        <div class="carousel-item car4img3"></div>
                     </div>
                     <!-- Controls -->
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel-ftth"
+                    <button class="carousel-control-prev " type="button" data-bs-target="#carouselFiber4"
                         data-bs-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">{{ 'BUTTONS.PREVIOUS' | translate }}</span>
                     </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carousel-ftth"
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselFiber4"
                         data-bs-slide="next">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">{{ 'BUTTONS.NEXT' | translate }}</span>
                     </button>
                 </div>
             </div>
-            <div class="col-md-12 col-lg-6">
-                <div style="padding: 25px 30px;">
-                    <div class="col-md-12">
-                        <h5 class="card-title">{{ 'O_FIBER.FTTH.TITLE' | translate }}</h5>
-                        <ul class="list_ok">
-                            <li>
-                              <p>
-                                {{ 'O_FIBER.FTTH.TEXT' | translate }}
-                              </p>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
+            <div class="col-md-5">
+                <h3 class="main_title_left">
+                    <em></em>
+                    {{ 'O_FIBER.FTTH.TITLE' | translate }}
+                </h3>
+                <p class="lead justify-text">
+                    {{ 'O_FIBER.FTTH.TEXT' | translate }}
+                </p>
             </div>
         </div>
-        <!-- end ftth -->
     </div>
 </div>

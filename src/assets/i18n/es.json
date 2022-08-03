@@ -145,6 +145,29 @@
             "TEXT": "Instalación del cable de fibra óptica hasta el hogar, oficina, u otro lugar que solicite el abonado"
         }
     },
+    "TELECOM":{
+        "EMPRESS": {
+            "TITLE": "Telecom Empresarial",
+            "1": "Servicios de cableado estructurado para redes WAN, MAN, LAN, WiFi",
+            "2": "Servicio de voz para Conmutadores tradicionales, PBX, IPBX, VOIP",
+            "3": "Servicios IP para proyectos de CCTV, Control de Acceso, Voceo, IPTV",
+            "4": "Servicios de Interconectividad para Cloud computing, teletrabajo y otros",
+            "5": "Servicios de sistemas de tierra física"
+        },
+        "OPERATOR": {
+            "TITLE": "Telecom Operadores Telefónicos",
+            "1": "Líneas de Vista y Estudios de Propagación",
+            "2": "Microondas (MW)",
+            "3": "Radiobases (RBS)",
+            "4": "CoW ( Cell on Wheels )",
+            "5": "MSO (Multiple Service Operator)",
+            "6": "Sistema de tierra física y apartarrayos",
+            "7": "Enlaces inalámbricos PtP, PMP",
+            "8": "Pruebas de desempeño y estabilidad",
+            "9": "Documentación",
+            "10": "Entrega a nuestros clientes de acuerdo al proceso, método de instalación, ATP ( Acceptance Test Procedure ), que nuestros diferentes clientes nos han definido"
+        }
+    },
     "ABOUT": {
         "STORIES": {
             "1": {

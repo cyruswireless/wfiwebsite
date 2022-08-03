@@ -20,6 +20,7 @@ import { StoriesComponent } from './components/sections/stories/stories.componen
 import { PlanningComponent } from './components/sections/planning/planning.component';
 import { HomeComponent } from './components/home/home.component';
 import { ContactComponent } from './components/contact/contact.component';
+import { TelecomComponent } from './components/sections/telecom/telecom.component';
 
 
 @NgModule({
@@ -37,7 +38,8 @@ import { ContactComponent } from './components/contact/contact.component';
     OpticalFiberComponent,
     DeploymentComponent,
     HomeComponent,
-    ContactComponent
+    ContactComponent,
+    TelecomComponent
   ],
   imports: [
     BrowserModule,
