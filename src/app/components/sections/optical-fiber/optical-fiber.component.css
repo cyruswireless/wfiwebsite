@@ -1,18 +1,3 @@
-@media only screen and (max-width: 767px) {
-    .justify-text {
-        padding-left: 15px;
-        font-size: 14px;
-    }
-    .carousel-inner .carousel-item {
-        width: 100%;
-        height: 200px;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-    }
-}
-
 .carousel-control-next, .carousel-control-prev  {
     width: 3%;
     background: #0F1A47;
@@ -93,4 +78,18 @@ img {
 .car4img3 {
     background: url(../../../../assets/img/experience/fo/ftth-3.jpg) no-repeat center center; 
     background: url(../../../../assets/img/experience/fo/ftth-3.jpg) no-repeat center center; 
+}
+@media only screen and (max-width: 767px) {
+    .justify-text {
+        padding-left: 15px;
+        font-size: 14px;
+    }
+    .carousel-inner .carousel-item {
+        width: 100%;
+        height: 200px;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
 }
