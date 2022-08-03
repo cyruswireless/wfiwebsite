@@ -1,25 +1,69 @@
-.title{
+.title {
     text-align: center;
     font-size: 42px;
     text-shadow: 3px 3px 2px rgb(255, 255, 255);
     font-weight: lighter;
 }
-.title_image{
+
+.title_image {
     padding: 30px;
     background-image: url("../../../assets/img/TitleImage2.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 140px;
 }
-.service{
-    margin-top:50px;
+
+.service {
+    margin-top: 50px;
 }
-.split{
-    background-color:#F8F8F8;
+
+.split {
+    background-color: #F8F8F8;
     height: 50px;
     margin-top: 40px;
     margin-bottom: 40px;
 }
-#ServiceTitle{
+
+#ServiceTitle {
     margin-bottom: 50px;
+}
+
+.div_whats {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+.whatsap {
+    height: 80px;
+    z-index: 1000;
+}
+
+.div_mensaje {
+    height: 60px;
+    width: 220px;
+    text-align: center;
+    background-image: url(../../../assets/img/texto.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: fixed;
+    bottom: 80px;
+    right: 7px;
+    padding: 10px;
+    z-index: 1000;
+}
+
+@media only screen and (max-width: 767px) {
+    .whatsap {
+        height: 50px;
+    }
+    .div_mensaje {
+        font-size: 12px;
+        height: 50px;
+        width: 160px;
+        bottom: 50px;
+        right: 4px;
+        padding: 10px;
+        z-index: 1000;
+    }
 }
