@@ -21,6 +21,7 @@ import { PlanningComponent } from './components/sections/planning/planning.compo
 import { HomeComponent } from './components/home/home.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { TelecomComponent } from './components/sections/telecom/telecom.component';
+import { CivilWorkComponent } from './components/sections/civil-work/civil-work.component';
 
 
 @NgModule({
@@ -39,7 +40,8 @@ import { TelecomComponent } from './components/sections/telecom/telecom.componen
     DeploymentComponent,
     HomeComponent,
     ContactComponent,
-    TelecomComponent
+    TelecomComponent,
+    CivilWorkComponent
   ],
   imports: [
     BrowserModule,
