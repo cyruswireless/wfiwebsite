@@ -84,3 +84,10 @@ img {
     padding-left: 50px;
     font-size: 18px;
 }
+
+@media only screen and (max-width: 767px) {
+    .justify-text{
+        padding-left: 15px;
+        font-size: 14px;
+    }
+}
