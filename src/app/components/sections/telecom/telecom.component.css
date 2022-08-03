@@ -1,18 +1,3 @@
-@media only screen and (max-width: 767px) {
-    .justify-text{
-        padding-left: 15px;
-        font-size: 14px;
-    }
-    .carousel-inner .carousel-item {
-        width: 100%;
-        height: 200px;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-    }
-}
-
 .carousel-inner .carousel-item {
     width: 100%;
     height: 350px;
@@ -76,4 +61,18 @@ img {
 }
 .car2img6 {
     background: url(../../../../assets/img/experience/telecom/to-6.jpg) no-repeat center center; 
+}
+@media only screen and (max-width: 767px) {
+    .justify-text {
+        padding-left: 15px;
+        font-size: 14px;
+    }
+    .carousel-inner .carousel-item {
+        width: 100%;
+        height: 200px;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
 }
