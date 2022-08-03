@@ -1,0 +1,58 @@
+.carousel-control-next, .carousel-control-prev  {
+    width: 3%;
+    background: #0F1A47;
+}
+
+.carousel-inner .carousel-item {
+    width: 100%;
+    height: 350px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.info-carousel {
+    margin-bottom: 60px;
+}
+
+.justify-text {
+    padding-left: 50px;
+    font-size: 18px;
+}
+
+img {
+    height: 450px;
+    width: 100%;
+}
+
+.car-img1 {
+    background: url(../../../../assets/img/experience/infra/infra-1.jpg) no-repeat center center; 
+}
+.car-img2 {
+    background: url(../../../../assets/img/experience/infra/infra-2.jpg) no-repeat center center; 
+}
+.car-img3 {
+    background: url(../../../../assets/img/experience/infra/infra-3.jpg) no-repeat center center; 
+}
+.car-img4 {
+    background: url(../../../../assets/img/experience/infra/infra-4.jpg) no-repeat center center; 
+}
+.car-img5 {
+    background: url(../../../../assets/img/experience/infra/infra-5.jpg) no-repeat center center; 
+}
+
+@media only screen and (max-width: 767px) {
+    .justify-text {
+        padding-left: 15px;
+        font-size: 14px;
+    }
+    .carousel-inner .carousel-item {
+        width: 100%;
+        height: 200px;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+}
