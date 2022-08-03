@@ -171,6 +171,16 @@
     "CIVIL_WORK": {
         "TEXT": "Construction of structures, industrial buildings, platforms, telecommunications towers, cell sites, ladders, traveling cranes and others. Remodeling and adaptation of existing facilities. Design and construction of concrete and steel structures. Installation of networks hydraulic and sanitary, pavements, concrete floors, earthworks and foundations."
     },
+    "INFRASTRUCTURE": {
+        "1": "Project Engineering",
+        "2": "Civil Works",
+        "3": "Supply of Materials and Equipment Necessary for Construction",
+        "4": "Electromechanics",
+        "5": "Commissioning tests",
+        "6": "Integration with other systems such as SCADA (Supervisory Control And Data Acquisition), PCyM (Protection Control and Monitoring), HMI (Human Machine Interface) and others",
+        "7": "Equipment Energization and Commissioning",
+        "8": "Processing of Permits and Management"
+    },
     "ABOUT": {
         "STORIES": {
             "1": {
@@ -188,7 +198,7 @@
         "CONTACTS": "Contacts",
         "SHOP": "Shop",
         "TERMS": "Terms and condition",
-        "RIGHTS": "V 1.3.1 © Cyrus 2022 - All rights reserved.",
+        "RIGHTS": "V 0.3.1 © Cyrus 2022 - All rights reserved.",
         "DISCOVER": "Discover"
     },
     "BUTTONS": {
