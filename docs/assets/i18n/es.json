@@ -168,6 +168,9 @@
             "10": "Entrega a nuestros clientes de acuerdo al proceso, método de instalación, ATP ( Acceptance Test Procedure ), que nuestros diferentes clientes nos han definido"
         }
     },
+    "CIVIL_WORK": {
+        "TEXT": "Construcción de estructuras, de naves industriales, plataformas, torres de telecomunicaciones, sitios celulares, escaleras, grúas viajeras y otros. Remodelación y adecuación de instalaciones existentes. Diseño y construcción de estructuras de concreto y de acero. Instalación de redes hidráulicas y sanitarias, pavimentos, pisos de concreto, terracerías y cimentaciones."
+    },
     "ABOUT": {
         "STORIES": {
             "1": {
@@ -185,7 +188,7 @@
         "CONTACTS": "Contactos",
         "SHOP": "Comercio",
         "TERMS": "Términos y Condiciones",
-        "RIGHTS": "V 1.0.2 © Cyrus 2022 - Todos los derechos reservados.",
+        "RIGHTS": "V 1.0.3 © Cyrus 2022 - Todos los derechos reservados.",
         "DISCOVER": "Descubre"
     },
 
