@@ -1,90 +1,3 @@
-
-.carousel-inner .carousel-item {
-    width: 100%;
-    height: 350px;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-.info-carousel{
-    margin-bottom: 60px;
-}
-.card-body {
-    margin: 20px 45px;
-    font-size: 1.25rem;
-    font-weight: 300;
-}
-
-.carousel-control-next, .carousel-control-prev  {
-    width: 3%;
-    background: #0F1A47;
-}
-
-h5 {
-    color: #0F1A47;
-}
-
-ul.list_ok li:before {
-    content: none;
-}
-
-img {
-    height: 450px;
-    width: 100%;
-}
-.car1img1 {
-    background: url(../../../../assets/img/telecom/car1img1.jpg) no-repeat center center; 
-}
-.car1img2 {
-    background: url(../../../../assets/img/telecom/car1img2.jpg) no-repeat center center; 
-}
-.car1img3 {
-    background: url(../../../../assets/img/telecom/car1img3.jpg) no-repeat center center; 
-}
-.car1img4 {
-    background: url(../../../../assets/img/telecom/car1img4.jpg) no-repeat center center; 
-}
-.car1img5 {
-    background: url(../../../../assets/img/telecom/car1img5.jpg) no-repeat center center; 
-}
-.car1img6 {
-    background: url(../../../../assets/img/telecom/car1img6.jpg) no-repeat center center; 
-}
-.car1img7 {
-    background: url(../../../../assets/img/telecom/car1img7.jpg) no-repeat center center; 
-}
-.car1img8 {
-    background: url(../../../../assets/img/telecom/car1img8.jpg) no-repeat center center; 
-}
-.car1img9 {
-    background: url(../../../../assets/img/telecom/car1img9.jpg) no-repeat center center; 
-}
-.car2img1 {
-    background: url(../../../../assets/img/telecom/car2img1.jpg) no-repeat center center; 
-}
-.car2img2 {
-    background: url(../../../../assets/img/telecom/car2img2.jpg) no-repeat center center; 
-}
-.car2img3 {
-    background: url(../../../../assets/img/telecom/car2img3.jpg) no-repeat center center; 
-}
-.car2img4 {
-    background: url(../../../../assets/img/telecom/car2img4.jpg) no-repeat center center; 
-}
-.car2img5 {
-    background: url(../../../../assets/img/telecom/car2img5.jpg) no-repeat center center; 
-}
-.car2img6 {
-    background: url(../../../../assets/img/telecom/car2img6.jpg) no-repeat center center; 
-}
-.car2img7 {
-    background: url(../../../../assets/img/telecom/car2img7.jpg) no-repeat center center; 
-}
-.justify-text{
-    padding-left: 50px;
-    font-size: 18px;
-}
 @media only screen and (max-width: 767px) {
     .justify-text{
         padding-left: 15px;
@@ -98,4 +11,69 @@ img {
         -o-background-size: cover;
         background-size: cover;
     }
+}
+
+.carousel-inner .carousel-item {
+    width: 100%;
+    height: 350px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.carousel-control-next, .carousel-control-prev  {
+    width: 3%;
+    background: #0F1A47;
+}
+
+.info-carousel{
+    margin-bottom: 60px;
+}
+
+.justify-text{
+    padding-left: 50px;
+    font-size: 18px;
+}
+
+img {
+    height: 450px;
+    width: 100%;
+}
+
+/* IMG carrusel 1 */
+.car1img1 {
+    background: url(../../../../assets/img/experience/telecom/te-1.jpg) no-repeat center center; 
+}
+.car1img2 {
+    background: url(../../../../assets/img/experience/telecom/te-2.jpg) no-repeat center center; 
+}
+.car1img3 {
+    background: url(../../../../assets/img/experience/telecom/te-3.jpg) no-repeat center center; 
+}
+.car1img4 {
+    background: url(../../../../assets/img/experience/telecom/te-4.jpg) no-repeat center center; 
+}
+.car1img5 {
+    background: url(../../../../assets/img/experience/telecom/te-5.jpg) no-repeat center center; 
+}
+
+/* IMG carrusel 2 */
+.car2img1 {
+    background: url(../../../../assets/img/experience/telecom/to-1.jpg) no-repeat center center; 
+}
+.car2img2 {
+    background: url(../../../../assets/img/experience/telecom/to-2.jpg) no-repeat center center; 
+}
+.car2img3 {
+    background: url(../../../../assets/img/experience/telecom/to-3.jpg) no-repeat center center; 
+}
+.car2img4 {
+    background: url(../../../../assets/img/experience/telecom/to-4.jpg) no-repeat center center; 
+}
+.car2img5 {
+    background: url(../../../../assets/img/experience/telecom/to-5.jpg) no-repeat center center; 
+}
+.car2img6 {
+    background: url(../../../../assets/img/experience/telecom/to-6.jpg) no-repeat center center; 
 }
