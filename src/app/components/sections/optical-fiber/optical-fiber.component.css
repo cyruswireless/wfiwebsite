@@ -1,7 +1,16 @@
-.card-body {
-    margin: 20px 45px;
-    font-size: 1.25rem;
-    font-weight: 300;
+@media only screen and (max-width: 767px) {
+    .justify-text {
+        padding-left: 15px;
+        font-size: 14px;
+    }
+    .carousel-inner .carousel-item {
+        width: 100%;
+        height: 200px;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
 }
 
 .carousel-control-next, .carousel-control-prev  {
@@ -9,18 +18,6 @@
     background: #0F1A47;
 }
 
-h5 {
-    color: #0F1A47;
-}
-
-ul.list_ok li:before {
-    content: none;
-}
-
-img {
-    height: 450px;
-    width: 100%;
-}
 .carousel-inner .carousel-item {
     width: 100%;
     height: 350px;
@@ -37,6 +34,11 @@ img {
 .justify-text {
     padding-left: 50px;
     font-size: 18px;
+}
+
+img {
+    height: 450px;
+    width: 100%;
 }
 
 /* IMG planta externa */
@@ -90,4 +92,5 @@ img {
 }
 .car4img3 {
     background: url(../../../../assets/img/experience/fo/ftth-3.jpg) no-repeat center center; 
+    background: url(../../../../assets/img/experience/ftth-3.jpg) no-repeat center center; 
 }

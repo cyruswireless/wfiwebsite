@@ -168,6 +168,9 @@
             "10": "Delivery to our clients according to the process, installation method, ATP (Acceptance Test Procedure), that our different clients have defined for us"
         }
     },
+    "CIVIL_WORK": {
+        "TEXT": "Construction of structures, industrial buildings, platforms, telecommunications towers, cell sites, ladders, traveling cranes and others. Remodeling and adaptation of existing facilities. Design and construction of concrete and steel structures. Installation of networks hydraulic and sanitary, pavements, concrete floors, earthworks and foundations."
+    },
     "ABOUT": {
         "STORIES": {
             "1": {
