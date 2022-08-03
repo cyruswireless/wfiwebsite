@@ -7,6 +7,7 @@ import { TranslateService } from '@ngx-translate/core';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent implements OnInit {
+  wfiurl = "https://cyruswireless.github.io/wfiwebsite/";
 
   constructor(
     public translate: TranslateService
