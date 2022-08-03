@@ -81,3 +81,7 @@ img {
 .car2img7 {
     background: url(../../../../assets/img/telecom/car2img7.jpg) no-repeat center center; 
 }
+.justify-text{
+    padding-left: 50px;
+    font-size: 18px;
+}
