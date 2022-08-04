@@ -26,6 +26,7 @@ import { CivilWorkComponent } from './components/sections/civil-work/civil-work.
 import { InfrastructureComponent } from './components/sections/infrastructure/infrastructure.component';
 import { ExperienceComponent } from './components/experience/experience.component';
 import { ServicesComponent } from './components/services/services.component';
+import { PrivacyNoticeComponent } from './components/privacy-notice/privacy-notice.component';
 
 
 @NgModule({
@@ -49,7 +50,8 @@ import { ServicesComponent } from './components/services/services.component';
     CivilWorkComponent,
     InfrastructureComponent,
     ExperienceComponent,
-    ServicesComponent
+    ServicesComponent,
+    PrivacyNoticeComponent
   ],
   imports: [
     BrowserModule,
