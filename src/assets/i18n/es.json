@@ -52,13 +52,14 @@
         "EXPERIENCE": {
             "TITLE": "EXPERIENCIA / INDUSTRIA",
             "CONTENT": {
-                "1": "Infraestructura Eléctrica",
+                "1": "Telecom",
                 "2": "Fibra Óptica",
-                "3": "Obra Civil"
+                "3": "Infraestructura Eléctrica",
+                "4": "Obra Civil"
             }
         },
         "ABOUT":{
-            "TITLE": "NOSOTROS",
+            "TITLE": "SOBRE NOSOTROS",
             "CONTENT": {
                 "1": "Historia de WFI ",
                 "2": "Misión, Visión, Valores",
