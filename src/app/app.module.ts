@@ -18,7 +18,6 @@ import { HeaderComponent } from './components/shared/header/header.component';
 import { SlideComponent } from './components/sections/slide/slide.component';
 import { OpticalFiberComponent } from './components/sections/optical-fiber/optical-fiber.component';
 import { StoriesComponent } from './components/sections/stories/stories.component';
-import { PlanningComponent } from './components/sections/planning/planning.component';
 import { HomeComponent } from './components/home/home.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { TelecomComponent } from './components/sections/telecom/telecom.component';
@@ -26,6 +25,8 @@ import { CivilWorkComponent } from './components/sections/civil-work/civil-work.
 import { InfrastructureComponent } from './components/sections/infrastructure/infrastructure.component';
 import { ExperienceComponent } from './components/experience/experience.component';
 import { ServicesComponent } from './components/services/services.component';
+import { ManagementComponent } from './components/sections/management/management.component';
+import { OptimizationComponent } from './components/sections/optimization/optimization.component';
 
 
 @NgModule({
@@ -37,7 +38,6 @@ import { ServicesComponent } from './components/services/services.component';
     FooterComponent,
     SlideComponent,
     DesignComponent,
-    PlanningComponent,
     OperationComponent,
     StoriesComponent,
     AwardsComponent,
@@ -49,7 +49,9 @@ import { ServicesComponent } from './components/services/services.component';
     CivilWorkComponent,
     InfrastructureComponent,
     ExperienceComponent,
-    ServicesComponent
+    ServicesComponent,
+    ManagementComponent,
+    OptimizationComponent
   ],
   imports: [
     BrowserModule,
