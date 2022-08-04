@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { AboutComponent } from './components/about/about.component';
+import { AboutComponentRoute } from './components/about/about.component';
 import { AwardsComponent } from './components/sections/awards/awards.component';
 import { OpticalFiberComponent } from './components/sections/optical-fiber/optical-fiber.component';
 import { StoriesComponent } from './components/sections/stories/stories.component';
@@ -14,7 +14,7 @@ const routes: Routes = [
     { path: 'home', component: HomeComponent },
     { path: 'experience', component: ExperienceComponent },
     { path: 'services', component: ServicesComponent },
-    { path: 'about', component: AboutComponent },
+    { path: 'about', component: AboutComponentRoute },
     { path: 'contact', component: ContactComponent },
     { path: 'about/stories', component: StoriesComponent },
     { path: 'about/awards', component: AwardsComponent },
