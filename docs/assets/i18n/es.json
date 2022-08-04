@@ -43,10 +43,10 @@
             "TITLE": "SERVICIOS",
             "CONTENT": {
                 "1": "Ingeniería y Diseño",
-                "2": "Gestión / Planeación",
-                "3": "Despliegue / Implementación",
+                "2": "Gestión",
+                "3": "Despliegue e Implementación",
                 "4": "Operación y Mantenimiento",
-                "5": "Optimización de Redes"
+                "5": "Optimización de la RED"
             }
         },
         "EXPERIENCE": {
@@ -80,28 +80,39 @@
         }
     },
     "SERVICES": {
-        "DESIGN": {
-            "1": "El diseño de productos tecnológicos (artefactos, procesos, sistemas e infraestructura) está en el centro de la naturaleza de la ingeniería. El diseño en ingeniería es un proceso sistemático, creativo y flexible, sustentado en las matemáticas, las ciencias naturales y las ciencias de la ingeniería, que incluye la generación, la evaluación sistemática y la puesta a prueba de especificaciones para la creación de artefactos, sistemas, procesos e infraestructura cuya forma y función permitan lograr unos objetivos establecidos y satisfacer una serie de restricciones especificadas a partir de una necesidad o situación problemática"
+        "1": {
+            "TITLE": "Volvemos tu necesidad una realidad",
+            "1": "Escuchamos tus necesidades",
+            "2": "Elaboramos un levantamiento de equipo y espacio disponible actualmente",
+            "3": "Generamos y procesamos los reportes de la información recabada en el levantamiento ( Site Survey )",
+            "4": "Desarrollamos la Ingeniería básica y a detalle",
+            "5": "Diseñamos la solución a la necesidad propuesta, siguiendo los procesos y procedimientos de calidad que rigen en la Industria"
         },
-        "PLANNING": {
-            "TITLE": "Proceso para planificar un proyecto",
-            "1": "Análisis de viabilidad y definición de los objetivos",
-            "2": " Definición del alcance",
-            "3": "Identificación de los costes y recursos",
-            "4": "Elaboración del plan de trabajo integral",
-            "5": "Revisión del plan en marcha",
-            "6": "Evaluación"
+        "2": {
+            "TITLE": "Administramos tu Proyecto siguiendo las mejores prácticas",
+            "1": "Alcance",
+            "2": "Tiempo",
+            "3": "Costo",
+            "4": "Calidad",
+            "5": "Comunicación",
+            "6": "Riesgo",
+            "7": "Adquisiciones"
         },
-        "DEPLOYMENT": {
-            "1": "El procedimiento Gestión de Despliegues en Entornos de Producción tiene como objetivo asegurar la validez, calidad, seguridad y operatividad de las actividades a desarrollar para efectuar la puesta en entornos (preproducción, producción y formación) de los sistemas, a fin de minimizar el riesgo de alteración de los mismos",
-            "2": "Los pasos para implementar una estrategia de proyectos",
-            "3": "Definir la estrategia de negocios.",
-            "4": "Identificar las oportunidades existentes en ella.",
-            "5": "Seleccionar la estrategia de proyectos en base a ello.",
-            "6": "Considerar los beneficios que tendrán cada oportunidad y cada estrategia."
+        "3": {
+            "TITLE": "Aseguramos que tu proyecto fluya con calidad, seguridad y operatividad en las actividades solicitadas a desarrollar",
+            "1": "Contribuimos con capital humano para la realización de actividades tales como: administrativas, de gabinete y en sitio",
+            "2": "Aseguramos la puesta en el entorno de pre-producción, producción y formación de los sistemas, minimizando o eliminando el riesgo de alteración de los mismos"
         },
-        "OPERATION": {
-            "1": "En esta etapa se debe asegurar que el proyecto ha producido una mejora en la capacidad prestadora de bienes o servicios públicos de una Entidad de acuerdo a las condiciones previstas en el estudio que sustentó su declaración de viabilidad "
+        "4": {
+            "TITLE": "Nos comprometemos contigo y con tu Proyecto para que éste sea funcional y rentable",
+            "1": "Te apoyamos con personal capacitado y certificado para realizar las tareas necesarias de la operación de tu empresa, siguiendo tus procesos y tus tiempos",
+            "2": "Garantizamos que las actividades serán eficientes, efectivas y eficases",
+            "3": "Mantendremos funcionales en todo momento  los sistemas que nos confies dentro de tu operación del día a día, a través de la predicción, prevención y corrección"
+        },
+        "5": {
+            "TITLE": "Compartimos nuestra experiencia y conocimientos para lograr dar una mejora en la funcionalidad de tus servicios y productos",
+            "1": "Analizamos como funciona en este momento tu producto, servicio o sistema y lo mejoramos para que cumpla con los resultados esperados o los sobrepase",
+            "2": "Damos continuidad en la mejora de la funcionalidad del día a día de tus productos o servicios, tras recopilar, interpretar y procesar los indicadores obtenidos en los análisis de inicio"
         }
     },
     "CONTACT": {
@@ -189,7 +200,7 @@
                 "TITLE": "Energía Eléctrica, Veracruz",
                 "TEXT_1": "En el año 2019, en la ampliación del Nuevo Puerto de Veracruz, México. Nuestro cliente, la empresa CCCC, tenía que entregar la implementación del proyecto eléctrico de media y baja tensión dentro de las instalaciones del Puerto, en algunas áreas para cumplir con un contrato asignado, No tenía en México algún Socio de Negocios, fue así como se acercó a pedir apoyo a WFI de MÉXICO debido a la experiencia y servicios de calidad que nuestra empresa ofrece a todos sus clientes, hicimos realidad el término en tiempo y forma de este ambicioso proyecto.",
                 "TEXT_2": "WFI realizó trabajos para la nueva terminal de Contenedores de Icave en el puerto de Veracruz, los trabajos consistieron en el área eléctrica de transformadores, tableros, alumbrado, contactos, y sistema de tierras y 19 Racks que alimentan contenedores Refrigerados (24 contenedores por Rack), los trabajos en los racks consistieron en la Instalación de tableros, escalerilla marina, cableado especial, bases metálicas de equipos y colocación de sockets de contenedores",
-                "TEXT_3": "Con un monto global de $30mdp dividido en: Suministro de + 1000 lámparas de especificaciones muy detalladas en soporte a Salinidad, Precio y tiempo de Glándula, Sistemas de Tierra Física y otros Iluminación de + 13,000 m2 para edificios como CFS, SADER, OCR TRAIN, WCW y otros espacios"
+                "TEXT_3": "Con un monto global de $30mdp dividido en: Suministro de + 1000 lámparas de especificaciones muy detalladas en soporte a Salinidad, Precio y tiempo de entrega, Centros de carga, Escalerillas y Canalizacion para cableado y distribución, Cajas NEMA, Conectores tipo Glándula, Sistemas de Tierra Física y otros Iluminación de + 13,000 m2 para  edificios como CFS, SADER, OCR TRAIN, WCW y otros espacios"
             },
             "2": {
                 "TITLE": "Hidroeléctricas",
@@ -207,14 +218,27 @@
             }
         }
     },
+    "PRIVACY": {
+        "P1": "WFI de México, S de R.L. de C.V. con domicilio ubicado en Av. Coyoacán 1035 Int. Local 04. Colonia Del Valle Centro, Benito Juárez, Ciudad de México con C.P. 03100",
+        "P2": "Informa que es responsable del tratamiento de los datos recibidos para efectos de la relación surgida de un contrato comercial o relación de negocios.",
+        "P3": "Los fines con los que se recaba los datos personales son meramente para ser usados en el cumplimiento de las obligaciones fiscales y procedimiento interno de alta de proveedores de bienes y servicios. Los datos personales requeridos son considerados no sensibles y resguardados por el departamento de cuentas por pagar y tecnologías de la información en servidores y que podrán ser almacenados en discos.",
+        "P4": "Los datos personales recabados están disponibles para los propietarios de los mismos para consulta mediante solicitud escrita ya sea en papel o vía correo electrónico dirigido a la siguiente dirección electrónica",
+        "LINK": "avisodeprivacidad@wfinet.com.mx",
+        "P5": "En caso de solicitar un cambio a los datos existentes es necesario se entregue comprobante que soporte el mismo y dirigir el requerimiento de la forma y a la dirección electrónica anterior.",
+        "P6": "Los datos personales no serán transferidos a ninguna institución pública o privada solo para el cumplimiento de las obligaciones fiscales salvo los supuestos descritos en el artículo 37 de la LFPDPPP, por lo que de requerir que los datos personales sean transferidos a una persona física o moral diferente a las convenidas deberá ser solicitado mediante el mismo procedimiento que para la solicitud de acceso o cambio de datos personales.",
+        "P7": "El resguardo de los datos personales será por un periodo de 6 años contados a partir de la cancelación de la relación establecida. Una vez transcurrido el plazo serán cancelados.",
+        "P8": "Los datos personales podrán ser transferidos a clientes directos o indirectos y/o filiales, sin ser éstos los considerados como sensibles, para fines de la prestación del servicio que WFI de México, S. de R.L. de C.V. preste.",
+        "P9": "En caso de cambio en el aviso de privacidad será notificado vía correo electrónico a la dirección electrónica definida por el titular.",
+        "P10": "Fecha de realización y publicación: JULIO 2022"
+    },
     "FOOTER": {
         "ABOUT_US": "Nosotros",
         "FAQ": "Preguntas más frecuentes",
         "QUOTATION": "Cotización",
         "CONTACTS": "Contactos",
         "SHOP": "Comercio",
-        "TERMS": "Términos y Condiciones",
-        "RIGHTS": "V 0.5.0 © Cyrus 2022 - Todos los derechos reservados.",
+        "RIGHTS": "V 0.6.0 © Cyrus 2022 - Todos los derechos reservados.",
+        "PRIVACY": "Aviso de privacidad",
         "DISCOVER": "Descubre"
     },
     "FORM": {
