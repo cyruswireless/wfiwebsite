@@ -88,25 +88,31 @@
             "4": "Desarrollamos la Ingeniería básica y a detalle",
             "5": "Diseñamos la solución a la necesidad propuesta, siguiendo los procesos y procedimientos de calidad que rigen en la Industria"
         },
-        "PLANNING": {
-            "TITLE": "Proceso para planificar un proyecto",
-            "1": "Análisis de viabilidad y definición de los objetivos",
-            "2": " Definición del alcance",
-            "3": "Identificación de los costes y recursos",
-            "4": "Elaboración del plan de trabajo integral",
-            "5": "Revisión del plan en marcha",
-            "6": "Evaluación"
+        "2": {
+            "TITLE": "Administramos tu Proyecto siguiendo las mejores prácticas",
+            "1": "Alcance",
+            "2": "Tiempo",
+            "3": "Costo",
+            "4": "Calidad",
+            "5": "Comunicación",
+            "6": "Riesgo",
+            "7": "Adquisiciones"
         },
-        "DEPLOYMENT": {
-            "1": "El procedimiento Gestión de Despliegues en Entornos de Producción tiene como objetivo asegurar la validez, calidad, seguridad y operatividad de las actividades a desarrollar para efectuar la puesta en entornos (preproducción, producción y formación) de los sistemas, a fin de minimizar el riesgo de alteración de los mismos",
-            "2": "Los pasos para implementar una estrategia de proyectos",
-            "3": "Definir la estrategia de negocios.",
-            "4": "Identificar las oportunidades existentes en ella.",
-            "5": "Seleccionar la estrategia de proyectos en base a ello.",
-            "6": "Considerar los beneficios que tendrán cada oportunidad y cada estrategia."
+        "3": {
+            "TITLE": "Aseguramos que tu proyecto fluya con calidad, seguridad y operatividad en las actividades solicitadas a desarrollar",
+            "1": "Contribuimos con capital humano para la realización de actividades tales como: administrativas, de gabinete y en sitio",
+            "2": "Aseguramos la puesta en el entorno de pre-producción, producción y formación de los sistemas, minimizando o eliminando el riesgo de alteración de los mismos"
         },
-        "OPERATION": {
-            "1": "En esta etapa se debe asegurar que el proyecto ha producido una mejora en la capacidad prestadora de bienes o servicios públicos de una Entidad de acuerdo a las condiciones previstas en el estudio que sustentó su declaración de viabilidad "
+        "4": {
+            "TITLE": "Nos comprometemos contigo y con tu Proyecto para que éste sea funcional y rentable",
+            "1": "Te apoyamos con personal capacitado y certificado para realizar las tareas necesarias de la operación de tu empresa, siguiendo tus procesos y tus tiempos",
+            "2": "Garantizamos que las actividades serán eficientes, efectivas y eficases",
+            "3": "Mantendremos funcionales en todo momento  los sistemas que nos confies dentro de tu operación del día a día, a través de la predicción, prevención y corrección"
+        },
+        "5": {
+            "TITLE": "Compartimos nuestra experiencia y conocimientos para lograr dar una mejora en la funcionalidad de tus servicios y productos",
+            "1": "Analizamos como funciona en este momento tu producto, servicio o sistema y lo mejoramos para que cumpla con los resultados esperados o los sobrepase",
+            "2": "Damos continuidad en la mejora de la funcionalidad del día a día de tus productos o servicios, tras recopilar, interpretar y procesar los indicadores obtenidos en los análisis de inicio"
         }
     },
     "CONTACT": {

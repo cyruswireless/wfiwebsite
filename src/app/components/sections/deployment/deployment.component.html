@@ -1,38 +1,33 @@
-<div class="bg_white fix_redir" id="ServiceDeployment">
-  <div class="container custom-container">
-    <div class="row">
-      <div class="col-md-6">
-        <h3 class="main_title_left">
+<div class="row info-carousel">
+  <div class="col-md-6 order-md-1 order-2">
+      <div id="carouserService3" class="carousel slide" data-bs-ride="carousel" style="background: rgba(0, 0, 0, 0.6);">
+          <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouserService3" data-bs-slide-to="0" class="active" aria-current="true"></button>
+              <button type="button" data-bs-target="#carouserService3" data-bs-slide-to="1"></button>
+          </div>
+          <div class="carousel-inner">
+              <div class="carousel-item active car3img1"></div>
+              <div class="carousel-item car3img2"></div>
+          </div>
+          <button class="carousel-control-prev " type="button" data-bs-target="#carouserService3" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">{{ 'BUTTONS.PREVIOUS' | translate }}</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouserService3" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">{{ 'BUTTONS.NEXT' | translate }}</span>
+          </button>
+      </div>
+  </div>
+  <div class="col-md-6 order-md-2 order-1">
+      <h3 class="main_title_left">
           <em></em>
           {{ 'HEADER.SERVICES.CONTENT.3' | translate }}
-        </h3>
-        <p class="lead justify-text">
-          {{ 'SERVICES.DEPLOYMENT.1' | translate }}
-        </p>
-        <ul class="list_ok">
-          <li>
-            <h4>{{ 'SERVICES.DEPLOYMENT.2' | translate }}</h4>
-            <p>
-              - {{ 'SERVICES.DEPLOYMENT.3' | translate }}
-              <br />
-              - {{ 'SERVICES.DEPLOYMENT.4' | translate }}
-              <br />
-              - {{ 'SERVICES.DEPLOYMENT.5' | translate }}
-              <br />
-              - {{ 'SERVICES.DEPLOYMENT.6' | translate }}
-              <br />
-            </p>
-          </li>
-        </ul>
-      </div>
-      <div class="col-md-6 col-md-offset-1 hidden-sm hidden-xs">
-        <img
-          src="assets/img/DeploymentImage1.jpg"
-          alt=""
-          class="img-responsive"
-          style="max-width: 100% !important;"
-        />
-      </div>
-    </div>
+      </h3>
+      <p class="lead justify-text">
+          <b>{{ 'SERVICES.3.TITLE' | translate }} <br /></b>
+          - {{ 'SERVICES.3.1' | translate }} <br />
+          - {{ 'SERVICES.3.2' | translate }} <br />
+      </p>
   </div>
 </div>
