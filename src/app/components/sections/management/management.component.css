@@ -27,11 +27,11 @@ img {
 }
 
 /* IMG carrusel 1 */
-.car4img1 {
-    background: url(../../../../assets/img/services/car4img1.jpg) no-repeat center center; 
+.car2img1 {
+    background: url(../../../../assets/img/services/car2img1.jpg) no-repeat center center; 
 }
-.car4img2 {
-    background: url(../../../../assets/img/services/car4img2.jpg) no-repeat center center; 
+.car2img2 {
+    background: url(../../../../assets/img/services/car2img2.jpg) no-repeat center center; 
 }
 @media only screen and (max-width: 767px) {
     .justify-text {

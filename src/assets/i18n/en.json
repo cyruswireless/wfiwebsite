@@ -43,10 +43,10 @@
             "TITLE": "SERVICES",
             "CONTENT": {
                 "1": "Engineering and Design",
-                "2": "Management / Planning",
-                "3": "Deployment / Implementation",
+                "2": "Management",
+                "3": "Deployment and Implementation",
                 "4": "Operation and Maintenance",
-                "5": "Network Optimization"
+                "5": "NETWORK optimization"
             }
         },
         "EXPERIENCE": {
@@ -80,28 +80,39 @@
         }
     },
     "SERVICES": {
-        "DESIGN": {
-            "1": "The design of technological products (devices, processes, systems and infrastructure) is at the core of the nature of engineering. Engineering design is a systematic, creative and flexible process, based on mathematics, science natural and engineering sciences, including the generation, systematic evaluation, and testing of specifications for the creation of artifacts, systems, processes, and infrastructure whose form and function achieve stated goals and satisfy specified constraints from a need or problematic situation"
+        "1": {
+            "TITLE": "We make your need a reality",
+            "1": "We listen to your needs",
+            "2": "We made a survey of equipment and currently available space",
+            "3": "We generate and process the reports of the information collected in the survey (Site Survey)",
+            "4": "We develop basic and detailed engineering",
+            "5": "We design the solution to the proposed need, following the quality processes and procedures that govern the Industry"
         },
-        "PLANNING": {
-            "TITLE": "Process for planning a project",
-            "1": "Feasibility analysis and definition of objectives",
-            "2": "Scope Definition",
-            "3": "Identification of costs and resources",
-            "4": "Development of the comprehensive work plan",
-            "5": "Plan review in progress",
-            "6": "Evaluation"
+        "2": {
+            "TITLE": "We manage your Project following the best practices",
+            "1": "Scope",
+            "2": "Time",
+            "3": "Cost",
+            "4": "Quality",
+            "5": "Communication",
+            "6": "Risk",
+            "7": "Acquisitions"
         },
-        "DEPLOYMENT": {
-            "1": "The Deployment Management procedure in Production Environments aims to ensure the validity, quality, safety and operability of the activities to be carried out to carry out the deployment of the systems in environments (pre-production, production and training), in order to to minimize the risk of their alteration",
-            "2": "The steps to implement a project strategy",
-            "3": "Define the business strategy.",
-            "4": "Identify existing opportunities in it.",
-            "5": "Select project strategy based on it.",
-            "6": "Consider the benefits of each opportunity and each strategy."
+        "3": {
+            "TITLE": "We ensure that your project flows with quality, safety and operability in the activities requested to be developed",
+            "1": "We contribute with human capital to carry out activities such as: administrative, cabinet and on-site",
+            "2": "We ensure the implementation of systems in the pre-production, production and training environment, minimizing or eliminating the risk of their alteration"
         },
-        "OPERATION": {
-            "1": "At this stage it must be ensured that the project has produced an improvement in the capacity to provide public goods or services of an Entity in accordance with the conditions set forth in the study that supported its feasibility statement"
+        "4": {
+            "TITLE": "We are committed to you and your Project so that it is functional and profitable",
+            "1": "We support you with trained and certified personnel to carry out the necessary tasks of the operation of your company, following your processes and your times",
+            "2": "We guarantee that the activities will be efficient, effective and efficient",
+            "3": "We will keep the systems you trust us with in your day-to-day operations functional at all times, through prediction, prevention and correction"
+        },
+        "5": {
+            "TITLE": "We share our experience and knowledge to improve the functionality of your services and products",
+            "1": "We analyze how your product, service or system works at this moment and we improve it so that it meets or exceeds the expected results",
+            "2": "We continue to improve the day-to-day functionality of your products or services, after collecting, interpreting and processing the indicators obtained in the initial analysis"
         }
     },
     "CONTACT": {

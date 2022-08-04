@@ -7,26 +7,27 @@ import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { AppRoutingModule } from './app-routing.routes';
 
 import { AppComponent } from './app.component';
-import { AboutComponent } from './components/sections/about/about.component';
 import { AboutComponentRoute } from './components/about/about.component';
+import { ContactComponent } from './components/contact/contact.component';
+import { ExperienceComponent } from './components/experience/experience.component';
+import { HomeComponent } from './components/home/home.component';
+import { PrivacyNoticeComponent } from './components/privacy-notice/privacy-notice.component';
+import { AboutComponent } from './components/sections/about/about.component';
 import { AwardsComponent } from './components/sections/awards/awards.component';
+import { CivilWorkComponent } from './components/sections/civil-work/civil-work.component';
 import { DeploymentComponent } from './components/sections/deployment/deployment.component';
-import { OperationComponent } from './components/sections/operation/operation.component';
 import { DesignComponent } from './components/sections/design/design.component';
+import { InfrastructureComponent } from './components/sections/infrastructure/infrastructure.component';
+import { ManagementComponent } from './components/sections/management/management.component';
+import { OperationComponent } from './components/sections/operation/operation.component';
+import { OpticalFiberComponent } from './components/sections/optical-fiber/optical-fiber.component';
+import { OptimizationComponent } from './components/sections/optimization/optimization.component';
+import { SlideComponent } from './components/sections/slide/slide.component';
+import { StoriesComponent } from './components/sections/stories/stories.component';
+import { TelecomComponent } from './components/sections/telecom/telecom.component';
+import { ServicesComponent } from './components/services/services.component';
 import { FooterComponent } from './components/shared/footer/footer.component';
 import { HeaderComponent } from './components/shared/header/header.component';
-import { SlideComponent } from './components/sections/slide/slide.component';
-import { OpticalFiberComponent } from './components/sections/optical-fiber/optical-fiber.component';
-import { StoriesComponent } from './components/sections/stories/stories.component';
-import { PlanningComponent } from './components/sections/planning/planning.component';
-import { HomeComponent } from './components/home/home.component';
-import { ContactComponent } from './components/contact/contact.component';
-import { TelecomComponent } from './components/sections/telecom/telecom.component';
-import { CivilWorkComponent } from './components/sections/civil-work/civil-work.component';
-import { InfrastructureComponent } from './components/sections/infrastructure/infrastructure.component';
-import { ExperienceComponent } from './components/experience/experience.component';
-import { ServicesComponent } from './components/services/services.component';
-import { PrivacyNoticeComponent } from './components/privacy-notice/privacy-notice.component';
 
 
 @NgModule({
@@ -38,7 +39,6 @@ import { PrivacyNoticeComponent } from './components/privacy-notice/privacy-noti
     FooterComponent,
     SlideComponent,
     DesignComponent,
-    PlanningComponent,
     OperationComponent,
     StoriesComponent,
     AwardsComponent,
@@ -51,7 +51,9 @@ import { PrivacyNoticeComponent } from './components/privacy-notice/privacy-noti
     InfrastructureComponent,
     ExperienceComponent,
     ServicesComponent,
-    PrivacyNoticeComponent
+    PrivacyNoticeComponent,
+    ManagementComponent,
+    OptimizationComponent
   ],
   imports: [
     BrowserModule,
