@@ -17,14 +17,14 @@
                         <a class="nav-link active" aria-current="page" href="#">{{ 'HEADER.HOME.TITLE' | translate }}</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        <a class="nav-link dropdown-toggle" routerLink="/experience" role="button" data-bs-toggle="dropdown"
                             aria-expanded="false">
                             {{ 'HEADER.EXPERIENCE.TITLE' | translate }}
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" style="color: var(--bs-nav-link-color);" href="#telecom">Telecom</a></li>
-                            <li><a class="dropdown-item" style="color: var(--bs-nav-link-color);" href="#opticalFiber">{{ 'HEADER.EXPERIENCE.CONTENT.2' | translate }}</a></li>
-                            <li><a class="dropdown-item" style="color: var(--bs-nav-link-color);" href="#civil-work">{{ 'HEADER.EXPERIENCE.CONTENT.3' | translate }}here</a></li>
+                            <li><a class="dropdown-item" style="color: var(--bs-nav-link-color);" routerLink="/experience" fragment="telecom">Telecom</a></li>
+                            <li><a class="dropdown-item" style="color: var(--bs-nav-link-color);" routerLink="/experience" fragment="opticalFiber">{{ 'HEADER.EXPERIENCE.CONTENT.2' | translate }}</a></li>
+                            <li><a class="dropdown-item" style="color: var(--bs-nav-link-color);" routerLink="/experience" fragment="civil-work">{{ 'HEADER.EXPERIENCE.CONTENT.3' | translate }}here</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
