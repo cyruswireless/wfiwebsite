@@ -218,13 +218,26 @@
             }
         }
     },
+    "PRIVACY": {
+        "P1": "WFI de México, S de R.L. de C.V. con domicilio ubicado en Av. Coyoacán 1035 Int. Local 04. Colonia Del Valle Centro, Benito Juárez, Ciudad de México con C.P. 03100",
+        "P2": "Informa que es responsable del tratamiento de los datos recibidos para efectos de la relación surgida de un contrato comercial o relación de negocios.",
+        "P3": "Los fines con los que se recaba los datos personales son meramente para ser usados en el cumplimiento de las obligaciones fiscales y procedimiento interno de alta de proveedores de bienes y servicios. Los datos personales requeridos son considerados no sensibles y resguardados por el departamento de cuentas por pagar y tecnologías de la información en servidores y que podrán ser almacenados en discos.",
+        "P4": "Los datos personales recabados están disponibles para los propietarios de los mismos para consulta mediante solicitud escrita ya sea en papel o vía correo electrónico dirigido a la siguiente dirección electrónica",
+        "LINK": "avisodeprivacidad@wfinet.com.mx",
+        "P5": "En caso de solicitar un cambio a los datos existentes es necesario se entregue comprobante que soporte el mismo y dirigir el requerimiento de la forma y a la dirección electrónica anterior.",
+        "P6": "Los datos personales no serán transferidos a ninguna institución pública o privada solo para el cumplimiento de las obligaciones fiscales salvo los supuestos descritos en el artículo 37 de la LFPDPPP, por lo que de requerir que los datos personales sean transferidos a una persona física o moral diferente a las convenidas deberá ser solicitado mediante el mismo procedimiento que para la solicitud de acceso o cambio de datos personales.",
+        "P7": "El resguardo de los datos personales será por un periodo de 6 años contados a partir de la cancelación de la relación establecida. Una vez transcurrido el plazo serán cancelados.",
+        "P8": "Los datos personales podrán ser transferidos a clientes directos o indirectos y/o filiales, sin ser éstos los considerados como sensibles, para fines de la prestación del servicio que WFI de México, S. de R.L. de C.V. preste.",
+        "P9": "En caso de cambio en el aviso de privacidad será notificado vía correo electrónico a la dirección electrónica definida por el titular.",
+        "P10": "Fecha de realización y publicación: JULIO 2022"
+    },
     "FOOTER": {
         "ABOUT_US": "Nosotros",
         "FAQ": "Preguntas más frecuentes",
         "QUOTATION": "Cotización",
         "CONTACTS": "Contactos",
         "SHOP": "Comercio",
-        "TERMS": "Términos y Condiciones",
+        "PRIVACY": "Aviso de privacidad",
         "RIGHTS": "V 0.5.0 © Cyrus 2022 - Todos los derechos reservados.",
         "DISCOVER": "Descubre"
     },

@@ -218,13 +218,26 @@
             }
         }
     },
+    "PRIVACY": {
+        "P1": "WFI de México, S de R.L. de C.V. with address located at Av. Coyoacán 1035 Int. Local 04. Colonia Del Valle Centro, Benito Juárez, Mexico City with ZIP 03100",
+        "P2": "Informs that it is responsible for processing the data received for the purposes of the relationship arising from a commercial contract or business relationship.",
+        "P3": "The purposes for which personal data is collected are merely to be used in compliance with tax obligations and the internal procedure for registering suppliers of goods and services. The personal data required is considered non-sensitive and protected by the accounts payable and information technology department on servers and that may be stored on disk.",
+        "P4": "The personal data collected is available to their owners for consultation by means of a written request, either on paper or via email addressed to the following electronic address",
+        "LINK": "avisodeprivacidad@wfinet.com.mx",
+        "P5": "In case of requesting a change to the existing data, it is necessary to provide proof that supports the same and direct the request in the form and to the previous electronic address.",
+        "P6": "Personal data will not be transferred to any public or private institution solely for the fulfillment of tax obligations except for the cases described in article 37 of the LFPDPPP, so that if it is required that the personal data be transferred to a natural or legal person other than those agreed must be requested through the same procedure as for the request for access or change of personal data.",
+        "P7": "The protection of personal data will be for a period of 6 years counted from the cancellation of the established relationship. Once the term has elapsed, they will be cancelled.",
+        "Q8": "Personal data may be transferred to direct or indirect clients and/or affiliates, without these being considered sensitive, for purposes of providing the service that WFI de México, S. de R.L. de C.V. provides." ,
+        "P9": "In case of change in the privacy notice, you will be notified via email to the email address defined by the owner.",
+        "P10": "Date of realization and publication: JULY 2022"
+    },
     "FOOTER": {
         "ABOUT_US": "About us",
         "FAQ": "FAQ",
         "QUOTATION": "Quotation",
         "CONTACTS": "Contacts",
         "SHOP": "Shop",
-        "TERMS": "Terms and condition",
+        "PRIVACY": "Privacy notice",
         "RIGHTS": "V 0.5.0 © Cyrus 2022 - All rights reserved.",
         "DISCOVER": "Discover"
     },
