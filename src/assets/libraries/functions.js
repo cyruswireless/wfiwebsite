@@ -164,3 +164,11 @@
 
 
 })(window.jQuery); // JavaScript Document
+function SeleccionNavbar(ID){
+	$('.nav-link').removeClass("active");
+	$('.dropdown-item').removeClass("active");
+	$('#'+ID).addClass("active");
+	if(ID.includes("_")){
+		$('#'+ID.split("_")[0]).addClass("active");
+	}
+}
