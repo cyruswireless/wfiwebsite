@@ -114,7 +114,8 @@
         "RH": "Para dudas relacionadas con RH:",
         "MAILRH": "rh@wfinet.com.mx",
         "INFO": "Para cualquier otro tema:",
-        "MAILINFO": " informacion@wfinet.com.mx"
+        "MAILINFO": " informacion@wfinet.com.mx",
+        "TEXT": "Póngase en contacto con nosotros completando el formulario a continuación:"
     },
     "O_FIBER": {
         "EXTERNAL_PLANT": {
@@ -201,7 +202,11 @@
         "RIGHTS": "V 0.3.1 © Cyrus 2022 - Todos los derechos reservados.",
         "DISCOVER": "Descubre"
     },
-
+    "FORM": {
+        "ERROR": "Ocurrió un error",
+        "SUCCESS": "Tu mensaje ha sido enviado. ¡Gracias!",
+        "BUTTON": "Enviar mensaje"
+    },
     "BUTTONS": {
         "PREVIOUS": "Anterior",
         "NEXT": "Siguiente"
