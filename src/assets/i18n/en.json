@@ -115,7 +115,8 @@
         "RH": "For HR inquiry:",
         "MAILRH": "rh@wfinet.com.mx",
         "INFO": "For any other inquiries:",
-        "MAILINFO": " informacion@wfinet.com.mx "
+        "MAILINFO": "informacion@wfinet.com.mx",
+        "TEXT": "Contact us by completing the form below:"
     },
     "O_FIBER": {
         "EXTERNAL_PLANT": {
@@ -215,6 +216,11 @@
         "TERMS": "Terms and condition",
         "RIGHTS": "V 0.4.2 © Cyrus 2022 - All rights reserved.",
         "DISCOVER": "Discover"
+    },
+    "FORM": {
+        "ERROR": "An error occurred",
+        "SUCCESS": "Your message has been sent. Thank you!",
+        "BUTTON": "Send message"
     },
     "BUTTONS": {
         "PREVIOUS": "Previous",

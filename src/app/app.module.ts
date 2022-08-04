@@ -23,6 +23,8 @@ import { ContactComponent } from './components/contact/contact.component';
 import { TelecomComponent } from './components/sections/telecom/telecom.component';
 import { CivilWorkComponent } from './components/sections/civil-work/civil-work.component';
 import { InfrastructureComponent } from './components/sections/infrastructure/infrastructure.component';
+import { ExperienceComponent } from './components/experience/experience.component';
+import { ServicesComponent } from './components/services/services.component';
 
 
 @NgModule({
@@ -43,7 +45,9 @@ import { InfrastructureComponent } from './components/sections/infrastructure/in
     ContactComponent,
     TelecomComponent,
     CivilWorkComponent,
-    InfrastructureComponent
+    InfrastructureComponent,
+    ExperienceComponent,
+    ServicesComponent
   ],
   imports: [
     BrowserModule,
