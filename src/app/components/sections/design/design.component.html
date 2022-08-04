@@ -1,23 +1,36 @@
-<div class="bg_white fix_redir" id="ServiceDesign">
-  <div class="container custom-container">
-    <div class="row">
-      <div class="col-md-6">
-        <h3 class="main_title_left">
+<div class="row info-carousel">
+  <div class="col-md-6 order-md-1 order-2">
+      <div id="carouserService1" class="carousel slide" data-bs-ride="carousel" style="background: rgba(0, 0, 0, 0.6);">
+          <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouserService1" data-bs-slide-to="0" class="active" aria-current="true"></button>
+              <button type="button" data-bs-target="#carouserService1" data-bs-slide-to="1"></button>
+          </div>
+          <div class="carousel-inner">
+              <div class="carousel-item active car1img1"></div>
+              <div class="carousel-item car1img2"></div>
+          </div>
+          <button class="carousel-control-prev " type="button" data-bs-target="#carouserService1" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">{{ 'BUTTONS.PREVIOUS' | translate }}</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouserService1" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">{{ 'BUTTONS.NEXT' | translate }}</span>
+          </button>
+      </div>
+  </div>
+  <div class="col-md-6 order-md-2 order-1">
+      <h3 class="main_title_left">
           <em></em>
           {{ 'HEADER.SERVICES.CONTENT.1' | translate }}
-        </h3>
-        <p class="lead justify-text">
-          {{ 'SERVICES.DESIGN.1' | translate }}
-        </p>
-      </div>
-      <div class="col-md-6 col-md-offset-1 hidden-sm hidden-xs">
-        <img
-          src="assets/img/ing.jpeg"
-          alt=""
-          class="img-responsive"
-          style="max-width: 100% !important;"
-        />
-      </div>
-    </div>
+      </h3>
+      <p class="lead justify-text">
+          <b>{{ 'SERVICES.1.TITLE' | translate }} <br /></b>
+          - {{ 'SERVICES.1.1' | translate }} <br />
+          - {{ 'SERVICES.1.2' | translate }} <br />
+          - {{ 'SERVICES.1.3' | translate }} <br />
+          - {{ 'SERVICES.1.4' | translate }} <br />
+          - {{ 'SERVICES.1.5' | translate }} <br />
+      </p>
   </div>
 </div>
