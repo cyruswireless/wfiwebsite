@@ -12,4 +12,8 @@ export class ContactComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  enviar(){
+    alert("Lo sentimos, sevicio no disponible");
+  }
+
 }

@@ -44,7 +44,7 @@
             <div class="row">
                 <div class="col-md-6">
                     <p class="justify-text">{{ 'CONTACT.TEXT' | translate }}</p>
-                    <form role="form" class="contactForm">
+                    <form  class="contactForm">
                         <div id="sendmessage">{{ 'FORM.SUCCESS' | translate }}</div>
                         <div id="errormessage">{{ 'FORM.ERROR' | translate }}</div>
                         <div class="row">
@@ -64,7 +64,7 @@
                                 <textarea class="form-control" name="message" rows="12" placeholder="Mensaje" data-rule="required" data-msg="Por favor escribe algo para nosotros"></textarea>
                                 <div class="validation"></div>
                                 <p class="text-center">
-                                    <button class="btn btn-large btn-theme" style="margin-top: 10px;" type="submit">{{ 'FORM.BUTTON' | translate }}</button>
+                                    <button class="btn btn-large btn-theme" style="margin-top: 10px;" (click)="enviar()">{{ 'FORM.BUTTON' | translate }}</button>
                                 </p>
                             </div>
                         </div>
