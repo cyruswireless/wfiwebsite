@@ -17,6 +17,19 @@
                         <a class="nav-link active" aria-current="page" href="#">{{ 'HEADER.HOME.TITLE' | translate }}</a>
                     </li>
                     <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" routerLink="/services" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                            {{ 'HEADER.SERVICES.TITLE' | translate }}
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" style="color: var(--bs-nav-link-color);" routerLink="/services" fragment="ServiceDesign">{{ 'HEADER.SERVICES.CONTENT.1' | translate }}</a></li>
+                            <li><a class="dropdown-item" style="color: var(--bs-nav-link-color);" routerLink="/services" fragment="ServicePlanning">{{ 'HEADER.SERVICES.CONTENT.2' | translate }}</a></li>
+                            <li><a class="dropdown-item" style="color: var(--bs-nav-link-color);" routerLink="/services" fragment="ServiceDeployment">{{ 'HEADER.SERVICES.CONTENT.3' | translate }}</a></li>
+                            <li><a class="dropdown-item" style="color: var(--bs-nav-link-color);" routerLink="/services" fragment="ServiceOperation">{{ 'HEADER.SERVICES.CONTENT.4' | translate }}</a></li>
+                            <li><a class="dropdown-item" style="color: var(--bs-nav-link-color);" routerLink="/services" fragment="">{{ 'HEADER.SERVICES.CONTENT.5' | translate }}</a></li>
+                        </ul>
+                    </li> 
+                    <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" routerLink="/experience" role="button" data-bs-toggle="dropdown"
                             aria-expanded="false">
                             {{ 'HEADER.EXPERIENCE.TITLE' | translate }}
@@ -25,6 +38,18 @@
                             <li><a class="dropdown-item" style="color: var(--bs-nav-link-color);" routerLink="/experience" fragment="telecom">Telecom</a></li>
                             <li><a class="dropdown-item" style="color: var(--bs-nav-link-color);" routerLink="/experience" fragment="opticalFiber">{{ 'HEADER.EXPERIENCE.CONTENT.2' | translate }}</a></li>
                             <li><a class="dropdown-item" style="color: var(--bs-nav-link-color);" routerLink="/experience" fragment="civil-work">{{ 'HEADER.EXPERIENCE.CONTENT.3' | translate }}here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" routerLink="/about" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            {{ 'HEADER.ABOUT.TITLE' | translate }}
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" style="color: var(--bs-nav-link-color);" routerLink="/about" fragment="#">{{ 'HEADER.ABOUT.CONTENT.1' | translate }}</a></li>
+                            <li><a class="dropdown-item" style="color: var(--bs-nav-link-color);" routerLink="/about" fragment="#">{{ 'HEADER.ABOUT.CONTENT.2' | translate }}</a></li>
+                            <li><a class="dropdown-item" style="color: var(--bs-nav-link-color);" routerLink="/about" fragment="#Awards">{{ 'HEADER.ABOUT.CONTENT.3' | translate }}</a></li> 
+                            <li><a class="dropdown-item" style="color: var(--bs-nav-link-color);" routerLink="/about" fragment="#SuccessStories">{{ 'HEADER.ABOUT.CONTENT.4' | translate }}</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
@@ -37,24 +62,9 @@
                             <img id="flagEn" (click)="changeLang('en')" src="assets/img/flags/eeuu.png"/>
                         </div>
                     </li>
-                </ul>
-                  <!-- <li><a href="#ServiceDesign" class="dropbtn">{{ 'HEADER.SERVICES.TITLE' | translate }}<i class="fa fa-chevron-down down"></i></a>
-                            <ul class="dropdown">
-                                <li><a href="#ServiceDesign">{{ 'HEADER.SERVICES.CONTENT.1' | translate }}</a></li>
-                                <li><a href="#ServicePlanning">{{ 'HEADER.SERVICES.CONTENT.2' | translate }}</a></li>
-                                <li><a href="#ServiceDeployment">{{ 'HEADER.SERVICES.CONTENT.3' | translate }}</a></li>
-                                <li><a href="#ServiceOperation">{{ 'HEADER.SERVICES.CONTENT.4' | translate }}</a></li>
-                                <li><a href="#">{{ 'HEADER.SERVICES.CONTENT.5' | translate }}</a></li>
-                            </ul>
-                        </li>  -->
-                <!-- <li><a href="#AboutUs">{{ 'HEADER.ABOUT.TITLE' | translate }}<i class="fa fa-chevron-down down"></i></a>
-                            <ul class="dropdown">
-                                <li><a href="#">{{ 'HEADER.ABOUT.CONTENT.1' | translate }}</a></li>
-                                <li><a href="#">{{ 'HEADER.ABOUT.CONTENT.2' | translate }}</a></li>
-                                <li><a href="#Awards">{{ 'HEADER.ABOUT.CONTENT.3' | translate }}</a></li> 
-                                <li><a href="#SuccessStories">{{ 'HEADER.ABOUT.CONTENT.4' | translate }}</a></li>
-                            </ul>
-                        </li> -->
+                    </ul>
+                    
+                    
                 <!-- <ul class="dropdown">
                                 <li><a href="#">{{ 'HEADER.CONTACT.CONTENT.1' | translate }}</a></li>
                                 <li><a href="#">{{ 'HEADER.CONTACT.CONTENT.2' | translate }}</a></li>
