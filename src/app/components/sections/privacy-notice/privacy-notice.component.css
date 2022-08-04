@@ -1,3 +1,9 @@
 .p-inline {
     padding-inline: 250px;
 }
+
+@media only screen and (max-width: 1200px) {
+    .p-inline {
+        padding-inline: inherit;
+    }
+}
