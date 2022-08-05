@@ -6,3 +6,7 @@
 .justify-text {
     text-align: justify;
 }
+
+p {
+    font-size: 18px !important;
+}
