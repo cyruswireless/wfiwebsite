@@ -11,6 +11,7 @@ import { AboutComponentRoute } from './components/about/about.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { ExperienceComponent } from './components/experience/experience.component';
 import { HomeComponent } from './components/home/home.component';
+import { PrivacyNoticeComponent } from './components/privacy-notice/privacy-notice.component';
 import { AboutComponent } from './components/sections/about/about.component';
 import { AwardsComponent } from './components/sections/awards/awards.component';
 import { CivilWorkComponent } from './components/sections/civil-work/civil-work.component';
@@ -21,7 +22,6 @@ import { ManagementComponent } from './components/sections/management/management
 import { OperationComponent } from './components/sections/operation/operation.component';
 import { OpticalFiberComponent } from './components/sections/optical-fiber/optical-fiber.component';
 import { OptimizationComponent } from './components/sections/optimization/optimization.component';
-import { PrivacyNoticeComponent } from './components/sections/privacy-notice/privacy-notice.component';
 import { SlideComponent } from './components/sections/slide/slide.component';
 import { StoriesComponent } from './components/sections/stories/stories.component';
 import { TelecomComponent } from './components/sections/telecom/telecom.component';
