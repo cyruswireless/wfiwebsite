@@ -12,15 +12,6 @@
     background: #0F1A47;
 }
 
-.info-carousel{
-    margin-bottom: 60px;
-}
-
-img {
-    height: 450px;
-    width: 100%;
-}
-
 /* IMG carrusel 1 */
 .car5img1 {
     background: url(../../../../assets/img/services/car5img1.jpg) no-repeat center center; 

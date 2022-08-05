@@ -12,15 +12,6 @@
     background: #0F1A47;
 }
 
-.info-carousel{
-    margin-bottom: 60px;
-}
-
-img {
-    height: 450px;
-    width: 100%;
-}
-
 /* IMG carrusel 1 */
 .car1img1 {
     background: url(../../../../assets/img/services/car1img1.jpg) no-repeat center center; 
@@ -28,6 +19,7 @@ img {
 .car1img2 {
     background: url(../../../../assets/img/services/car1img2.jpg) no-repeat center center; 
 }
+
 @media only screen and (max-width: 767px) {
     .p-custom {
         padding-left: 15px;
