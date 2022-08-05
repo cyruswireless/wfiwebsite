@@ -30,16 +30,17 @@
     <script src="assets/libraries/bootstrap.bundle.min.js"></script>
     <script>
       $(document).on('ready', function () {
-        $('.dropbtn').click(function(){
-          $('.dropdown').toggleClass('display');
-          $('.dropdown2').removeClass('display');
-        })
-        $('.dropbtn2').click(function(){
-          $('.dropdown2').toggleClass('display');
-        })
-        $('.fa-bars').click(function(){
-          $('.menu-content').toggle();
-        })
+        $('.nav-link').click(function() {
+          SeleccionNavbar(this.id);
+        });
+        $('.dropdown-item').click(function() {
+          SeleccionNavbar(this.id);
+          $('#navbarNavDropdown').collapse('hide');
+        });
+        $('.nav-item:not(.dropdown)').click(function() {
+          $('#navbarNavDropdown').collapse('hide');
+        });
+        
       })
     </script>
   </body>
