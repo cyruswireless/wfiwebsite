@@ -52,13 +52,14 @@
         "EXPERIENCE": {
             "TITLE": "EXPERIENCIA / INDUSTRIA",
             "CONTENT": {
-                "1": "Infraestructura Eléctrica",
+                "1": "Telecom",
                 "2": "Fibra Óptica",
-                "3": "Obra Civil"
+                "3": "Infraestructura Eléctrica",
+                "4": "Obra Civil"
             }
         },
         "ABOUT":{
-            "TITLE": "NOSOTROS",
+            "TITLE": "SOBRE NOSOTROS",
             "CONTENT": {
                 "1": "Historia de WFI ",
                 "2": "Misión, Visión, Valores",
@@ -161,10 +162,10 @@
     "TELECOM":{
         "EMPRESS": {
             "TITLE": "Telecom Empresarial",
-            "1": "Servicios de cableado estructurado para redes WAN, MAN, LAN, WiFi",
-            "2": "Servicio de voz para Conmutadores tradicionales, PBX, IPBX, VOIP",
-            "3": "Servicios IP para proyectos de CCTV, Control de Acceso, Voceo, IPTV",
-            "4": "Servicios de Interconectividad para Cloud computing, teletrabajo y otros",
+            "1": "Servicios de cableado estructurado para redes WAN, MAN, LAN, WiFi",
+            "2": "Servicio de voz para Conmutadores tradicionales, PBX, IPBX, VOIP",
+            "3": "Servicios IP para proyectos de CCTV, Control de Acceso, Voceo, IPTV",
+            "4": "Servicios de Interconectividad para Cloud computing, teletrabajo y otros",
             "5": "Servicios de sistemas de tierra física"
         },
         "OPERATOR": {
@@ -216,7 +217,8 @@
                 "SUB4_TEXT1": "El primer gran proyecto en México que se ganó con la participación de los directivos de la empresa! Por su capacidad de generación (2 unidades de 375 MW cada una), el P.H. El Cajón generó más de 10 mil empleos, y personal directivo de nuestra Empresa colaboró dirigiendo la obra Electromecánica, desde el diseño hasta la puesta en marcha.",
                 "SUB5_TEXT1": "Debido a su confiabilidad, a través de una alianza estratégica con la empresa ruso-mexicana Power Machines, HPM fue responsable del subcontrato de la obra electromecánica del P.H. La Yesca."
             }
-        }
+        },
+        "AWARDS_TEXT": "Agradecido con sus clientes y socios de negocios, WFI de México, durante su trayectoria y permanencia en México, ha recibido reconocimientos como muestra de nuestra calidad y nos permitimos utilizar este espacio para hacer alarde de ellos."
     },
     "PRIVACY": {
         "P1": "WFI de México, S de R.L. de C.V. con domicilio ubicado en Av. Coyoacán 1035 Int. 04. Colonia Del Valle Centro, Benito Juárez, Ciudad de México con C.P. 03100",
@@ -237,8 +239,8 @@
         "QUOTATION": "Cotización",
         "CONTACTS": "Contactos",
         "SHOP": "Comercio",
+        "RIGHTS": "V 0.6.0 © Cyrus 2022 - Todos los derechos reservados.",
         "PRIVACY": "Aviso de privacidad",
-        "RIGHTS": "V 0.5.0 © Cyrus 2022 - Todos los derechos reservados.",
         "DISCOVER": "Descubre"
     },
     "FORM": {

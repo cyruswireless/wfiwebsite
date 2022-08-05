@@ -52,9 +52,10 @@
         "EXPERIENCE": {
             "TITLE": "EXPERIENCE / INDUSTRY",
             "CONTENT": {
-                "1": "Electrical Infrastructure ",
+                "1": "Telecom",
                 "2": "Optical Fiber",
-                "3": "Civil Works"
+                "3": "Electrical Infrastructure",
+                "4": "Civil Works"
             }
         },
         "ABOUT": {
@@ -216,7 +217,8 @@
                 "SUB4_TEXT1": "The first large project in Mexico that was won with the participation of the company's directors! Due to its generation capacity (2 units of 375 MW each), El Cajón PH generated more than 10 thousand jobs, and management personnel of our Company collaborated directing the Electromechanical work, from design to start-up.",
                 "SUB5_TEXT1": "Due to its reliability, through a strategic alliance with the Russian-Mexican company Power Machines, HPM was responsible for the subcontract for the electromechanical work of the La Yesca PH."
             }
-        }
+        },
+        "AWARDS_TEXT": "Grateful to its clients and business partners, WFI de México, during its history and permanence in Mexico, has received recognition as a sign of our quality and we allow ourselves to use this space to brag about them."
     },
     "PRIVACY": {
         "P1": "WFI de México, S de R.L. de C.V. with address located at Av. Coyoacán 1035 Int. 04. Colonia Del Valle Centro, Benito Juárez, Mexico City with ZIP 03100",
@@ -237,8 +239,8 @@
         "QUOTATION": "Quotation",
         "CONTACTS": "Contacts",
         "SHOP": "Shop",
+        "RIGHTS": "V 0.6.0 © Cyrus 2022 - All rights reserved.",
         "PRIVACY": "Privacy notice",
-        "RIGHTS": "V 0.5.0 © Cyrus 2022 - All rights reserved.",
         "DISCOVER": "Discover"
     },
     "FORM": {
