@@ -12,11 +12,6 @@
     background: #0F1A47;
 }
 
-.justify-text {
-    padding-left: 50px;
-    font-size: 18px;
-}
-
 .car1-img1 {
     background: url(../../../../assets/img/experience/civil-work/cw-1.jpg) no-repeat center center; 
 }
@@ -31,7 +26,7 @@
 }
 
 @media only screen and (max-width: 767px) {
-    .justify-text {
+    .p-custom {
         padding-left: 15px;
         font-size: 14px;
     }
@@ -43,4 +38,4 @@
         -o-background-size: cover;
         background-size: cover;
     }
-} 
+}

@@ -11,3 +11,8 @@
 .mb-carousel{
     margin-bottom: 60px;
 }
+
+.p-custom {
+    padding-left: 50px;
+    font-size: 18px;
+}

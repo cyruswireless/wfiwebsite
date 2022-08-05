@@ -12,11 +12,6 @@
     background-size: cover;
 }
 
-.justify-text {
-    padding-left: 50px;
-    font-size: 18px;
-}
-
 /* IMG planta externa */
 .car1img1 {
     background: url(../../../../assets/img/experience/fo/pe-1.jpg) no-repeat center center; 
@@ -71,7 +66,7 @@
     background: url(../../../../assets/img/experience/fo/ftth-3.jpg) no-repeat center center; 
 }
 @media only screen and (max-width: 767px) {
-    .justify-text {
+    .p-custom {
         padding-left: 15px;
         font-size: 14px;
     }

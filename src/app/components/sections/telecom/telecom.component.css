@@ -12,11 +12,6 @@
     background: #0F1A47;
 }
 
-.justify-text{
-    padding-left: 50px;
-    font-size: 18px;
-}
-
 /* IMG carrusel 1 */
 .car1img1 {
     background: url(../../../../assets/img/experience/telecom/te-1.jpg) no-repeat center center; 
@@ -54,7 +49,7 @@
     background: url(../../../../assets/img/experience/telecom/to-6.jpg) no-repeat center center; 
 }
 @media only screen and (max-width: 767px) {
-    .justify-text {
+    .p-custom {
         padding-left: 15px;
         font-size: 14px;
     }

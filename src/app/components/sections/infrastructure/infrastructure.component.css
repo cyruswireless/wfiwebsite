@@ -12,11 +12,6 @@
     background-size: cover;
 }
 
-.justify-text {
-    padding-left: 50px;
-    font-size: 18px;
-}
-
 .car-img1 {
     background: url(../../../../assets/img/experience/infra/infra-1.jpg) no-repeat center center; 
 }
@@ -34,7 +29,7 @@
 }
 
 @media only screen and (max-width: 767px) {
-    .justify-text {
+    .p-custom {
         padding-left: 15px;
         font-size: 14px;
     }
