@@ -16,11 +16,6 @@
     margin-bottom: 60px;
 }
 
-.justify-text{
-    padding-left: 50px;
-    font-size: 18px;
-}
-
 img {
     height: 450px;
     width: 100%;
@@ -63,7 +58,7 @@ img {
     background: url(../../../../assets/img/experience/telecom/to-6.jpg) no-repeat center center; 
 }
 @media only screen and (max-width: 767px) {
-    .justify-text {
+    .p-custom {
         padding-left: 15px;
         font-size: 14px;
     }

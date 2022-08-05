@@ -6,3 +6,8 @@
 .justify-text {
     text-align: justify;
 }
+
+.p-custom {
+    padding-left: 50px;
+    font-size: 18px;
+}
