@@ -59,7 +59,7 @@
             }
         },
         "ABOUT":{
-            "TITLE": "SOBRE NOSOTROS",
+            "TITLE": "NOSOTROS",
             "CONTENT": {
                 "1": "Historia de WFI ",
                 "2": "Misión, Visión, Valores",
@@ -122,11 +122,11 @@
         "TELNO": "55 8435 3615",
         "WHATS": "Número de WhatsApp ",
         "WHATSNO": "55 1800 0465",
-        "COMER": "Para dudas comerciales:",
+        "COMER": "Área comercial:",
         "MAILCOMER": "comercial@wfinet.com.mx",
-        "RH": "Para dudas relacionadas con RH:",
+        "RH": "Área de adquisición de talento y recursos humanos:",
         "MAILRH": "rh@wfinet.com.mx",
-        "INFO": "Para cualquier otro tema:",
+        "INFO": "Cualquier otro tema:",
         "MAILINFO": " informacion@wfinet.com.mx",
         "TEXT": "Póngase en contacto con nosotros completando el formulario a continuación:"
     },
