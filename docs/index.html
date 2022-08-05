@@ -16,7 +16,7 @@
        scroll-behavior: smooth;
       }
      </style>
-  <link rel="stylesheet" href="styles.4fab56523162ffc3.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="styles.4fab56523162ffc3.css"></noscript></head>
+  <link rel="stylesheet" href="styles.7bfb18303e40f7f9.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="styles.7bfb18303e40f7f9.css"></noscript></head>
   <body>
     <app-root></app-root>
 
@@ -28,17 +28,18 @@
     <script src="assets/libraries/bootstrap.bundle.min.js"></script>
     <script>
       $(document).on('ready', function () {
-        $('.dropbtn').click(function(){
-          $('.dropdown').toggleClass('display');
-          $('.dropdown2').removeClass('display');
-        })
-        $('.dropbtn2').click(function(){
-          $('.dropdown2').toggleClass('display');
-        })
-        $('.fa-bars').click(function(){
-          $('.menu-content').toggle();
-        })
+        $('.nav-link').click(function() {
+          SeleccionNavbar(this.id);
+        });
+        $('.dropdown-item').click(function() {
+          SeleccionNavbar(this.id);
+          $('#navbarNavDropdown').collapse('hide');
+        });
+        $('.nav-item:not(.dropdown)').click(function() {
+          $('#navbarNavDropdown').collapse('hide');
+        });
+        
       })
     </script>
-  <script src="runtime.abf6dbc7611249a3.js" type="module"></script><script src="polyfills.a485841214cbd0cf.js" type="module"></script><script src="main.9b8643518fa1e2b5.js" type="module"></script>
+  <script src="runtime.abf6dbc7611249a3.js" type="module"></script><script src="polyfills.a485841214cbd0cf.js" type="module"></script><script src="main.d3aae8b15d57d7f0.js" type="module"></script>
 </body></html>
