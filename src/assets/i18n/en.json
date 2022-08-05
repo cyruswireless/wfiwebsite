@@ -52,9 +52,10 @@
         "EXPERIENCE": {
             "TITLE": "EXPERIENCE / INDUSTRY",
             "CONTENT": {
-                "1": "Electrical Infrastructure ",
+                "1": "Telecom",
                 "2": "Optical Fiber",
-                "3": "Civil Works"
+                "3": "Electrical Infrastructure",
+                "4": "Civil Works"
             }
         },
         "ABOUT": {

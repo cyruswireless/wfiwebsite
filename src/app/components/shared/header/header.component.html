@@ -14,46 +14,47 @@
                 <ul class="navbar-nav">
                     
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">{{ 'HEADER.HOME.TITLE' | translate }}</a>
+                        <a class="nav-link active" id="headerHome" aria-current="page" href="#">{{ 'HEADER.HOME.TITLE' | translate }}</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" routerLink="/services" role="button" data-bs-toggle="dropdown"
+                        <a class="nav-link dropdown-toggle" id="headerServices" routerLink="/services" role="button" data-bs-toggle="dropdown"
                         aria-expanded="false">
                             {{ 'HEADER.SERVICES.TITLE' | translate }}
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" style="color: var(--bs-nav-link-color);" routerLink="/services" fragment="serviceDesign">{{ 'HEADER.SERVICES.CONTENT.1' | translate }}</a></li>
-                            <li><a class="dropdown-item" style="color: var(--bs-nav-link-color);" routerLink="/services" fragment="serviceManagement">{{ 'HEADER.SERVICES.CONTENT.2' | translate }}</a></li>
-                            <li><a class="dropdown-item" style="color: var(--bs-nav-link-color);" routerLink="/services" fragment="serviceDeployment">{{ 'HEADER.SERVICES.CONTENT.3' | translate }}</a></li>
-                            <li><a class="dropdown-item" style="color: var(--bs-nav-link-color);" routerLink="/services" fragment="serviceOperation">{{ 'HEADER.SERVICES.CONTENT.4' | translate }}</a></li>
-                            <li><a class="dropdown-item" style="color: var(--bs-nav-link-color);" routerLink="/services" fragment="serviceOptimization">{{ 'HEADER.SERVICES.CONTENT.5' | translate }}</a></li>
+                            <li><a class="dropdown-item" id="headerServices_Design" style="color: var(--bs-nav-link-color);" routerLink="/services" fragment="serviceDesign">{{ 'HEADER.SERVICES.CONTENT.1' | translate }}</a></li>
+                            <li><a class="dropdown-item" id="headerServices_Management" style="color: var(--bs-nav-link-color);" routerLink="/services" fragment="serviceManagement">{{ 'HEADER.SERVICES.CONTENT.2' | translate }}</a></li>
+                            <li><a class="dropdown-item" id="headerServices_Deployment"style="color: var(--bs-nav-link-color);" routerLink="/services" fragment="serviceDeployment">{{ 'HEADER.SERVICES.CONTENT.3' | translate }}</a></li>
+                            <li><a class="dropdown-item" id="headerServices_Operation" style="color: var(--bs-nav-link-color);" routerLink="/services" fragment="serviceOperation">{{ 'HEADER.SERVICES.CONTENT.4' | translate }}</a></li>
+                            <li><a class="dropdown-item" id="headerServices_Optimization" style="color: var(--bs-nav-link-color);" routerLink="/services" fragment="serviceOptimization">{{ 'HEADER.SERVICES.CONTENT.5' | translate }}</a></li>
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" routerLink="/experience" role="button" data-bs-toggle="dropdown"
+                        <a class="nav-link dropdown-toggle" id="headerExperience" routerLink="/experience" role="button" data-bs-toggle="dropdown"
                             aria-expanded="false">
                             {{ 'HEADER.EXPERIENCE.TITLE' | translate }}
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" style="color: var(--bs-nav-link-color);" routerLink="/experience" fragment="telecom">Telecom</a></li>
-                            <li><a class="dropdown-item" style="color: var(--bs-nav-link-color);" routerLink="/experience" fragment="opticalFiber">{{ 'HEADER.EXPERIENCE.CONTENT.2' | translate }}</a></li>
-                            <li><a class="dropdown-item" style="color: var(--bs-nav-link-color);" routerLink="/experience" fragment="civil-work">{{ 'HEADER.EXPERIENCE.CONTENT.3' | translate }}</a></li>
+                            <li><a class="dropdown-item" id="headerExperience_Telecom" style="color: var(--bs-nav-link-color);" routerLink="/experience" fragment="telecom">{{ 'HEADER.EXPERIENCE.CONTENT.2' | translate }}</a></li>
+                            <li><a class="dropdown-item" id="headerExperience_Optical" style="color: var(--bs-nav-link-color);" routerLink="/experience" fragment="opticalFiber">{{ 'HEADER.EXPERIENCE.CONTENT.2' | translate }}</a></li>
+                            <li><a class="dropdown-item" id="headerExperience_Civil" style="color: var(--bs-nav-link-color);" routerLink="/experience" fragment="civil-work">{{ 'HEADER.EXPERIENCE.CONTENT.3' | translate }}</a></li>
+                            <li><a class="dropdown-item" id="headerExperience_Infraestructure" style="color: var(--bs-nav-link-color);" routerLink="/experience" fragment="infraestructure">{{ 'HEADER.EXPERIENCE.CONTENT.4' | translate }}</a></li>
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" routerLink="/about" role="button" data-bs-toggle="dropdown"
+                        <a class="nav-link dropdown-toggle" id="headerAbout" routerLink="/about" role="button" data-bs-toggle="dropdown"
                             aria-expanded="false">
                             {{ 'HEADER.ABOUT.TITLE' | translate }}
                         </a>
                         <ul class="dropdown-menu">
                             <!-- <li><a class="dropdown-item" style="color: var(--bs-nav-link-color);" routerLink="/about" fragment="#">{{ 'HEADER.ABOUT.CONTENT.1' | translate }}</a></li> -->
-                            <li><a class="dropdown-item" style="color: var(--bs-nav-link-color);" routerLink="/about" fragment="AboutUs">{{ 'HEADER.ABOUT.CONTENT.2' | translate }}</a></li>
-                            <li><a class="dropdown-item" style="color: var(--bs-nav-link-color);" routerLink="/about" fragment="Awards">{{ 'HEADER.ABOUT.CONTENT.3' | translate }}</a></li> 
-                            <li><a class="dropdown-item" style="color: var(--bs-nav-link-color);" routerLink="/about" fragment="SuccessStories">{{ 'HEADER.ABOUT.CONTENT.4' | translate }}</a></li>
+                            <li><a class="dropdown-item" id="headerAbout_Mission" style="color: var(--bs-nav-link-color);" routerLink="/about" fragment="AboutUs">{{ 'HEADER.ABOUT.CONTENT.2' | translate }}</a></li>
+                            <li><a class="dropdown-item" id="headerAbout_Recognition" style="color: var(--bs-nav-link-color);" routerLink="/about" fragment="Awards">{{ 'HEADER.ABOUT.CONTENT.3' | translate }}</a></li> 
+                            <li><a class="dropdown-item" id="headerAbout_Stories" style="color: var(--bs-nav-link-color);" routerLink="/about" fragment="SuccessStories">{{ 'HEADER.ABOUT.CONTENT.4' | translate }}</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" routerLink="/contact">{{ 'HEADER.CONTACT.TITLE' | translate }}</a>
+                        <a class="nav-link" id="headerContact" routerLink="/contact">{{ 'HEADER.CONTACT.TITLE' | translate }}</a>
                     </li>
                     
                     <li class="nav-item">
