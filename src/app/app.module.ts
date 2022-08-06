@@ -28,6 +28,7 @@ import { TelecomComponent } from './components/sections/telecom/telecom.componen
 import { ServicesComponent } from './components/services/services.component';
 import { FooterComponent } from './components/shared/footer/footer.component';
 import { HeaderComponent } from './components/shared/header/header.component';
+import { TrainingComponent } from './components/sections/training/training.component';
 
 
 @NgModule({
@@ -53,7 +54,8 @@ import { HeaderComponent } from './components/shared/header/header.component';
     ServicesComponent,
     PrivacyNoticeComponent,
     ManagementComponent,
-    OptimizationComponent
+    OptimizationComponent,
+    TrainingComponent
   ],
   imports: [
     BrowserModule,
