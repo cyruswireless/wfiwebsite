@@ -48,6 +48,9 @@
 .car2img6 {
     background: url(../../../../assets/img/experience/telecom/to-6.jpg) no-repeat center center; 
 }
+.car2img7 {
+    background: url(../../../../assets/img/experience/telecom/to-7.jpg) no-repeat center center; 
+}
 @media only screen and (max-width: 767px) {
     .p-custom {
         padding-left: 15px;

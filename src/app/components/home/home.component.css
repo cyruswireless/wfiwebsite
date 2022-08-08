@@ -13,46 +13,6 @@
     margin-bottom: 50px;
 }
 
-.div_whats {
-    position: fixed;
-    bottom: 6px;
-    right: 0;
-}
-
-.whatsap {
-    height: 55px;
-    z-index: 1000;
-}
-
-.div_mensaje {
-    height: 60px;
-    width: 220px;
-    text-align: center;
-    background-image: url(../../../assets/img/texto.png);
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    position: fixed;
-    bottom: 59px;
-    right: 7px;
-    padding: 10px;
-    z-index: 1000;
-}
-
-@media only screen and (max-width: 767px) {
-    .whatsap {
-        height: 50px;
-    }
-    .div_mensaje {
-        font-size: 12px;
-        height: 50px;
-        width: 160px;
-        bottom: 55px;
-        right: 4px;
-        padding: 10px;
-        z-index: 1000;
-    }
-}
-
 .img-Success-Story {
     opacity: 0.7;
     cursor: pointer;
