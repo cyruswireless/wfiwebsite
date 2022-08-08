@@ -17,9 +17,21 @@
 }
 .dropdown-menu{
     background-color:#1d3f5e ;
+    
 }
 @media all and (min-width: 992px) {
 	.navbar .nav-item .dropdown-menu{ display: none; }
 	.navbar .nav-item:hover .dropdown-menu{ display: block; }
 	.navbar .nav-item .dropdown-menu{ margin-top:0; }
+}
+.dropdown-item{
+    color: rgb(195, 195, 195);
+}
+.dropdown-item:hover{
+    background-color: #0F1A47;
+    color: white;
+}
+.dropdown-item.active{
+    background-color: #0F1A47;
+    color: white;
 }
