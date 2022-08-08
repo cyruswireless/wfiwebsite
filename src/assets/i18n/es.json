@@ -46,7 +46,8 @@
                 "2": "Gestión",
                 "3": "Despliegue e Implementación",
                 "4": "Operación y Mantenimiento",
-                "5": "Optimización de la RED"
+                "5": "Optimización de la RED",
+                "6": "Capacitación"
             }
         },
         "EXPERIENCE": {
@@ -114,6 +115,21 @@
             "TITLE": "Compartimos nuestra experiencia y conocimientos para lograr dar una mejora en la funcionalidad de tus servicios y productos",
             "1": "Analizamos como funciona en este momento tu producto, servicio o sistema y lo mejoramos para que cumpla con los resultados esperados o los sobrepase",
             "2": "Damos continuidad en la mejora de la funcionalidad del día a día de tus productos o servicios, tras recopilar, interpretar y procesar los indicadores obtenidos en los análisis de inicio"
+        },
+        "6": {
+            "TITLE": "Fortalecemos y validamos tus conocimientos",
+            "1": "Desarrolla las habilidades de tu personal, a través de programas de capacitación que te ofrecemos; dirigidos por expertos en Empresas Internacionales y con certificaciones DC5, avalados por la STPS (Secretaría del Trabajo y Previsión Social ), en áreas como: Telecomunicaciones e Infraestructura Eléctrica, para prepararlos ante las necesidades actuales del mercado laboral. Con los programas de estudio, capacitación y adiestramiento que ofrece WFI, tus colaboradores, obtendrán una certificación especializada con el Título de Certificación",
+            "SUB1": "DC3:",
+            "2": "DC3 - Trabajos en alturas, escaleras y  Nudos",
+            "3": "DC3 - Riesgos Eléctricos",
+            "4": "DC3 - Primeros auxilios",
+            "SUB2": "De la misma forma impartimos cursos de especialización en:",
+            "5": "EHS (Enviroment, Healty Safety - Medio ambiente, Salud y Seguridad",
+            "6": "Instalación de Enlaces de Microondas            ",
+            "7": "Conocimiento básico de Telefonía Celular",
+            "8": "MDI  (Métodos de Instalación de Radio Bases en piso y en torre)",
+            "9": "Instalación de antenas de Transmisión y Recepción",
+            "10": "¡Necesitas otro curso de especialización, nosotros te lo desarrollamos!"
         }
     },
     "CONTACT": {

@@ -46,7 +46,8 @@
                 "2": "Management",
                 "3": "Deployment and Implementation",
                 "4": "Operation and Maintenance",
-                "5": "NETWORK optimization"
+                "5": "NETWORK optimization",
+                "6": "Training"
             }
         },
         "EXPERIENCE": {
@@ -114,6 +115,21 @@
             "TITLE": "We share our experience and knowledge to improve the functionality of your services and products",
             "1": "We analyze how your product, service or system works at this moment and we improve it so that it meets or exceeds the expected results",
             "2": "We continue to improve the day-to-day functionality of your products or services, after collecting, interpreting and processing the indicators obtained in the initial analysis"
+        },
+        "6": {
+            "TITLE": "We strengthen and validate your knowledge",
+            "1": "Develop the skills of your staff, through the training programs that we offer you; directed by experts in International Companies and with DC5 certifications, endorsed by the STPS (Secretariat of Labor and Social Welfare), in areas such as: Telecommunications and Electrical Infrastructure, to prepare them for the current needs of the labor market. With the study, training and instruction programs offered by WFI, your collaborators will obtain a specialized certification with the Certification Title",
+            "SUB1": "DC3:",
+            "2": "DC3 - Work at heights, stairs and Knots",
+            "3": "DC3 - Electrical Hazards",
+            "4": "DC3 - First Aid",
+            "SUB2": "In the same way we teach specialization courses in:",
+            "5": "EHS (Enviroment, Healty Safety - Environment, Health and Safety",
+            "6": "Microwave Link Installation ",
+            "7": "Basic knowledge of Cellular Telephony",
+            "8": "MDI (Floor and Tower Installation Methods for Radio Bases)",
+            "9": "Installation of transmission and reception antennas",
+            "10": "You need another specialization course, we will develop it for you!"
         }
     },
     "CONTACT": {
