@@ -31,3 +31,7 @@
     background-color: #0F1A47;
     color: white;
 }
+.dropdown-item.active{
+    background-color: #0F1A47;
+    color: white;
+}
