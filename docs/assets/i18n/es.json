@@ -46,7 +46,8 @@
                 "2": "Gestión",
                 "3": "Despliegue e Implementación",
                 "4": "Operación y Mantenimiento",
-                "5": "Optimización de la RED"
+                "5": "Optimización de la RED",
+                "6": "Capacitación"
             }
         },
         "EXPERIENCE": {
@@ -59,7 +60,7 @@
             }
         },
         "ABOUT":{
-            "TITLE": "SOBRE NOSOTROS",
+            "TITLE": "NOSOTROS",
             "CONTENT": {
                 "1": "Historia de WFI ",
                 "2": "Misión, Visión, Valores",
@@ -114,6 +115,21 @@
             "TITLE": "Compartimos nuestra experiencia y conocimientos para lograr dar una mejora en la funcionalidad de tus servicios y productos",
             "1": "Analizamos como funciona en este momento tu producto, servicio o sistema y lo mejoramos para que cumpla con los resultados esperados o los sobrepase",
             "2": "Damos continuidad en la mejora de la funcionalidad del día a día de tus productos o servicios, tras recopilar, interpretar y procesar los indicadores obtenidos en los análisis de inicio"
+        },
+        "6": {
+            "TITLE": "Fortalecemos y validamos tus conocimientos",
+            "1": "Desarrolla las habilidades de tu personal, a través de programas de capacitación que te ofrecemos; dirigidos por expertos en Empresas Internacionales y con certificaciones DC5, avalados por la STPS (Secretaría del Trabajo y Previsión Social ), en áreas como: Telecomunicaciones e Infraestructura Eléctrica, para prepararlos ante las necesidades actuales del mercado laboral. Con los programas de estudio, capacitación y adiestramiento que ofrece WFI, tus colaboradores, obtendrán una certificación especializada con el Título de Certificación",
+            "SUB1": "DC3:",
+            "2": "DC3 - Trabajos en alturas, escaleras y  Nudos",
+            "3": "DC3 - Riesgos Eléctricos",
+            "4": "DC3 - Primeros auxilios",
+            "SUB2": "De la misma forma impartimos cursos de especialización en:",
+            "5": "EHS (Enviroment, Healty Safety - Medio ambiente, Salud y Seguridad",
+            "6": "Instalación de Enlaces de Microondas            ",
+            "7": "Conocimiento básico de Telefonía Celular",
+            "8": "MDI  (Métodos de Instalación de Radio Bases en piso y en torre)",
+            "9": "Instalación de antenas de Transmisión y Recepción",
+            "10": "¡Necesitas otro curso de especialización, nosotros te lo desarrollamos!"
         }
     },
     "CONTACT": {
@@ -122,11 +138,11 @@
         "TELNO": "55 8435 3615",
         "WHATS": "Número de WhatsApp ",
         "WHATSNO": "55 1800 0465",
-        "COMER": "Para dudas comerciales:",
+        "COMER": "Área comercial:",
         "MAILCOMER": "comercial@wfinet.com.mx",
-        "RH": "Para dudas relacionadas con RH:",
+        "RH": "Área de adquisición de talento y recursos humanos:",
         "MAILRH": "rh@wfinet.com.mx",
-        "INFO": "Para cualquier otro tema:",
+        "INFO": "Cualquier otro tema:",
         "MAILINFO": " informacion@wfinet.com.mx",
         "TEXT": "Póngase en contacto con nosotros completando el formulario a continuación:"
     },
@@ -199,9 +215,11 @@
         "STORIES": {
             "1": {
                 "TITLE": "Energía Eléctrica, Veracruz",
-                "TEXT_1": "En el año 2019, en la ampliación del Nuevo Puerto de Veracruz, México. Nuestro cliente, la empresa CCCC, tenía que entregar la implementación del proyecto eléctrico de media y baja tensión dentro de las instalaciones del Puerto, en algunas áreas para cumplir con un contrato asignado, No tenía en México algún Socio de Negocios, fue así como se acercó a pedir apoyo a WFI de MÉXICO debido a la experiencia y servicios de calidad que nuestra empresa ofrece a todos sus clientes, hicimos realidad el término en tiempo y forma de este ambicioso proyecto.",
-                "TEXT_2": "WFI realizó trabajos para la nueva terminal de Contenedores de Icave en el puerto de Veracruz, los trabajos consistieron en el área eléctrica de transformadores, tableros, alumbrado, contactos, y sistema de tierras y 19 Racks que alimentan contenedores Refrigerados (24 contenedores por Rack), los trabajos en los racks consistieron en la Instalación de tableros, escalerilla marina, cableado especial, bases metálicas de equipos y colocación de sockets de contenedores",
-                "TEXT_3": "Con un monto global de $30mdp dividido en: Suministro de + 1000 lámparas de especificaciones muy detalladas en soporte a Salinidad, Precio y tiempo de entrega, Centros de carga, Escalerillas y Canalizacion para cableado y distribución, Cajas NEMA, Conectores tipo Glándula, Sistemas de Tierra Física y otros Iluminación de + 13,000 m2 para  edificios como CFS, SADER, OCR TRAIN, WCW y otros espacios"
+                "TEXT_1": "En el año 2019, en la ampliación del Nuevo Puerto de Veracruz, México. Nuestro cliente, la empresa CCCC, tenía que entregar la implementación del proyecto eléctrico de media y baja tensión dentro de las instalaciones del Puerto, en algunas áreas para cumplir con un contrato asignado.",
+                "TEXT_2": "No tenía en México algún Socio de Negocios, fue así como se acercó a pedir apoyo a WFI de MÉXICO debido a la experiencia y servicios de calidad que nuestra empresa ofrece a todos sus clientes, hicimos realidad el término en tiempo y forma de este ambicioso proyecto.",
+                "TEXT_3": "WFI realizó trabajos para la nueva terminal de Contenedores de Icave en el puerto de Veracruz, los trabajos consistieron en el área eléctrica de transformadores, tableros, alumbrado, contactos, y sistema de tierras y 19 Racks que alimentan contenedores Refrigerados (24 contenedores por Rack), los trabajos en los racks consistieron en la Instalación de tableros, escalerilla marina, cableado especial, bases metálicas de equipos y colocación de sockets de contenedores.",
+                "TEXT_4": "Con un monto global de $30mdp dividido en: Suministro de + 1000 lámparas de especificaciones muy detalladas en soporte a Salinidad, Precio y tiempo de entrega, Centros de carga, Escalerillas y Canalización para cableado y distribución, Cajas NEMA, Conectores tipo Glándula, Sistemas de Tierra Física y otros Iluminación de + 13,000 m2 para  edificios como CFS, SADER, OCR TRAIN, WCW y otros espacios.",
+                "TEXT_5": "Se realizó en 19 semanas el apartado de racks refrigerantes (1 por semana), en 10 semanas los 5 edificios (desde la fabricación del cable y tableros, hasta la instalación final de lámparas y contactos) tiempo récord para este tipo de actividades."
             },
             "2": {
                 "TITLE": "Hidroeléctricas",
@@ -213,7 +231,7 @@
 
                 "SUB1_TEXT1": "Diseño, fabricación, suministro, transporte, montaje, pruebas y puesta en servicio de los Equipos Electromecánicos principales y auxiliares.",
                 "SUB1_TEXT2": "Suministro y servicio del equipo para Línea de Transmisión y Subestación de interconexión a la Red Eléctrica Nacional de la República de Panamá.",
-                "SUB3_TEXT1": "Diseño, suministro, montaje, conexión y puesta en marcha de la Subestación de Potencia 12.5 MVA–13.8/230 KV, Obras Civiles y Electromecánicas y La Construcción de la Línea de Transmisión 230 hasta la Interconexión a la Red Eléctrica Nacional de la República de Panamá.",
+                "SUB3_TEXT1": "Diseño, suministro, montaje, conexión y puesta en marcha de la Subestación de Potencia 12.5 MVA-13.8/230 KV, Obras Civiles y Electromecánicas y La Construcción de la Línea de Transmisión 230 hasta la Interconexión a la Red Eléctrica Nacional de la República de Panamá.",
                 "SUB4_TEXT1": "El primer gran proyecto en México que se ganó con la participación de los directivos de la empresa! Por su capacidad de generación (2 unidades de 375 MW cada una), el P.H. El Cajón generó más de 10 mil empleos, y personal directivo de nuestra Empresa colaboró dirigiendo la obra Electromecánica, desde el diseño hasta la puesta en marcha.",
                 "SUB5_TEXT1": "Debido a su confiabilidad, a través de una alianza estratégica con la empresa ruso-mexicana Power Machines, HPM fue responsable del subcontrato de la obra electromecánica del P.H. La Yesca."
             }
@@ -239,7 +257,7 @@
         "QUOTATION": "Cotización",
         "CONTACTS": "Contactos",
         "SHOP": "Comercio",
-        "RIGHTS": "V 0.7.1 © Cyrus 2022 - Todos los derechos reservados.",
+        "RIGHTS": "V 0.8.0 © Cyrus 2022 - Todos los derechos reservados.",
         "PRIVACY": "Aviso de privacidad",
         "DISCOVER": "Descubre"
     },
@@ -250,6 +268,7 @@
     },
     "BUTTONS": {
         "PREVIOUS": "Anterior",
-        "NEXT": "Siguiente"
+        "NEXT": "Siguiente",
+        "MORE": "Leer más"
     }
 }
