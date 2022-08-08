@@ -252,6 +252,7 @@
     },
     "BUTTONS": {
         "PREVIOUS": "Anterior",
-        "NEXT": "Siguiente"
+        "NEXT": "Siguiente",
+        "MORE": "Leer más"
     }
 }
