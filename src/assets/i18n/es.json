@@ -270,5 +270,13 @@
         "PREVIOUS": "Anterior",
         "NEXT": "Siguiente",
         "MORE": "Leer más"
+    },
+    "ALERT": {
+        "FIELD": "El campo es requerido",
+        "FIEL_EMAIL":"El correo debe contener @",
+        "MIN_LENGTH": "Debe tener por lo menos {{minLength}} caracteres",
+        "MAX_LENGTH": "No puede tener más de {{maxLength}} caracteres",
+        "RECORD_SUCCESS": "Registro exitoso!",
+        "RECORD_FAILED": "Ocurrio un error al guardar el registro"
     }
 }

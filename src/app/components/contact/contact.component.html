@@ -44,27 +44,55 @@
             <div class="row">
                 <div class="col-md-6">
                     <p class="justify-text">{{ 'CONTACT.TEXT' | translate }}</p>
-                    <form  class="contactForm">
+                    <form class="recordForm" [formGroup]=recordForm>
                         <div id="sendmessage">{{ 'FORM.SUCCESS' | translate }}</div>
                         <div id="errormessage">{{ 'FORM.ERROR' | translate }}</div>
                         <div class="row">
                             <div class="form-group">
-                                <input type="text" name="name" class="form-control" id="name" placeholder="Nombre" data-rule="minlen:4" data-msg="Por favor ingrese al menos 4 caracteres" />
-                                <div class="validation"></div>
+                                <input type="text" id="name" name="name" class="form-control" placeholder="Nombre" formControlName="name" required>
+                                <div *ngIf="name?.invalid && (name?.dirty || name?.touched)" class="alert alert-danger">
+                                    <div *ngIf="name?.errors?.['required']">
+                                        {{ 'ALERT.FIELD' | translate }}
+                                    </div>
+                                    <div *ngIf="name?.hasError('minlength')">{{ 'ALERT.MIN_LENGTH' | translate: { minLength : 8 } }}</div>
+                                    <div *ngIf="name?.hasError('maxlength')">{{ 'ALERT.MAX_LENGTH' | translate: { maxLength : 100 } }}</div>
+                                </div>
                             </div>
                             <div class="form-group">
-                                <input type="text" class="form-control" name="enterprise" id="enterprise" placeholder="Empresa" data-rule="enterprise" data-msg="Por favor ingrese al menos 4 caracteres" />
-                                <div class="validation"></div>
+                                <input type="text" id="enterprise" name="enterprise" class="form-control" placeholder="Empresa" formControlName="enterprise" required>
+                                <div *ngIf="enterprise?.invalid && (enterprise?.dirty || enterprise?.touched)" class="alert alert-danger">
+                                    <div *ngIf="enterprise?.errors?.['required']">
+                                        {{ 'ALERT.FIELD' | translate }}
+                                    </div>
+                                    <div *ngIf="enterprise?.hasError('minlength')">{{ 'ALERT.MIN_LENGTH' | translate: { minLength : 4 } }}</div>
+                                    <div *ngIf="enterprise?.hasError('maxlength')">{{ 'ALERT.MAX_LENGTH' | translate: { maxLength : 100 } }}</div>
+                                </div>
                             </div>
                             <div class="form-group">
-                                <input type="email" class="form-control" name="email" id="email" placeholder="Email" data-rule="email" data-msg="Por favor introduzca una dirección de correo electrónico válida" />
-                                <div class="validation"></div>
+                                <input type="email" id="email" name="email" class="form-control" placeholder="Email" formControlName="email" required>
+                                <div *ngIf="email?.invalid && (email?.dirty || email?.touched)" class="alert alert-danger">
+                                    <div *ngIf="email?.errors?.['required']">
+                                        {{ 'ALERT.FIELD' | translate }}
+                                    </div>
+                                    <div *ngIf="email?.errors?.['pattern']">{{ 'ALERT.FIEL_EMAIL' | translate }}</div>
+                                    <div *ngIf="email?.hasError('maxlength')">{{ 'ALERT.MAX_LENGTH' | translate: { maxLength : 50 } }}</div>
+                                </div>
                             </div>
                             <div class="form-group">
-                                <textarea class="form-control" name="message" rows="12" placeholder="Mensaje" data-rule="required" data-msg="Por favor escribe algo para nosotros"></textarea>
-                                <div class="validation"></div>
+                                <textarea id="subject" name="subject" class="form-control" placeholder="Mensaje" rows="12" formControlName="subject" required></textarea>
+                                <div *ngIf="subject?.invalid && (subject?.dirty || subject?.touched)" class="alert alert-danger">
+                                    <div *ngIf="subject?.errors?.['required']">
+                                        {{ 'ALERT.FIELD' | translate }}
+                                    </div>
+                                    <div *ngIf="subject?.hasError('minlength')">{{ 'ALERT.MIN_LENGTH' | translate: { minLength : 10 } }}</div>
+                                    <div *ngIf="subject?.hasError('maxlength')">{{ 'ALERT.MAX_LENGTH' | translate: { maxLength : 600 } }}</div>
+                                </div>
+                                <div *ngIf="alert" class="alert alert-success alert-dismissible fade show" role="alert">
+                                    <strong>{{ 'ALERT.RECORD_SUCCESS' | translate }}</strong>
+                                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close" (click)="closeAlert()"></button>
+                                </div>
                                 <p class="text-center">
-                                    <button class="btn btn-large btn-theme" style="margin-top: 10px;" (click)="enviar()">{{ 'FORM.BUTTON' | translate }}</button>
+                                    <button class="btn btn-large btn-theme" style="margin-top: 10px;" [disabled]="recordForm.invalid" (click)="sendRecord()">{{ 'FORM.BUTTON' | translate }}</button>
                                 </p>
                             </div>
                         </div>

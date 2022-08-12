@@ -270,5 +270,13 @@
         "PREVIOUS": "Previous",
         "NEXT": "Next",
         "MORE": "Read more"
+    },
+    "ALERT": {
+        "FIELD": "Field is required",
+        "FIEL_EMAIL":"The email must contain @",
+        "MIN_LENGTH": "Must have at least {{minLength}} characters",
+        "MAX_LENGTH": "Cannot be longer than {{maxLength}} characters",
+        "RECORD_SUCCESS": "Record successful!",
+        "RECORD_FAILED": "An error occurred while saving the record"
     }
 }
