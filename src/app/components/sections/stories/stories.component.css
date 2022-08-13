@@ -1,10 +1,9 @@
-.my-3 {
-    height: 100%;
+img {
+    height: 250px;
 }
 
-.card-img-top {
-    max-height: 250px;
-    overflow: hidden;
+.div_h100 {
+    height: 100%;
 }
 
 .card-title a:link {
@@ -18,4 +17,10 @@
     color: red;
     background-color: transparent;
     text-decoration: underline;
+}
+
+@media only screen and (max-width: 991px) {
+    .cards {
+        padding-block: 15px;
+     }
 }
