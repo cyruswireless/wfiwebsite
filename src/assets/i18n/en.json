@@ -46,7 +46,7 @@
                 "2": "Management",
                 "3": "Deployment and Implementation",
                 "4": "Operation and Maintenance",
-                "5": "NETWORK optimization",
+                "5": "Network optimization",
                 "6": "Training"
             }
         },
@@ -92,13 +92,13 @@
         },
         "2": {
             "TITLE": "We manage your Project following the best practices",
-            "1": "Scope",
-            "2": "Time",
-            "3": "Cost",
-            "4": "Quality",
-            "5": "Communication",
-            "6": "Risk",
-            "7": "Acquisitions"
+            "1": "Scope: Understanding its need to ensure compliance",
+            "2": "Time: Taking advantage of and managing every moment",
+            "3": "Cost: Transparency and certainty in the service",
+            "4": "Quality: Ensuring compliance with requirements",
+            "5": "Communication: Maintaining the proper flow of information",
+            "6": "Risk: Anticipating possible situations in the service",
+            "7": "Acquisitions: Understanding our capacity and need in the service"
         },
         "3": {
             "TITLE": "We ensure that your project flows with quality, safety and operability in the activities requested to be developed",
@@ -124,7 +124,7 @@
             "3": "DC3 - Electrical Hazards",
             "4": "DC3 - First Aid",
             "SUB2": "In the same way we teach specialization courses in:",
-            "5": "EHS (Enviroment, Healty Safety - Environment, Health and Safety",
+            "5": "EHS (Enviroment, Healty & Safety)",
             "6": "Microwave Link Installation ",
             "7": "Basic knowledge of Cellular Telephony",
             "8": "MDI (Floor and Tower Installation Methods for Radio Bases)",
@@ -236,7 +236,7 @@
                 "SUB5_TEXT1": "Due to its reliability, through a strategic alliance with the Russian-Mexican company Power Machines, HPM was responsible for the subcontract for the electromechanical work of the La Yesca PH."
             }
         },
-        "AWARDS_TEXT": "Grateful to its clients and business partners, WFI de México, during its history and permanence in Mexico, has received recognition as a sign of our quality and we allow ourselves to use this space to brag about them."
+        "AWARDS_TEXT": "Grateful to its clients and business partners, WFI de México, during its history and permanence in Mexico, has been recognized with different awards as a sign of our quality and service; and we allow ourselves to use this space to boast of they."
     },
     "PRIVACY": {
         "P1": "WFI de México, S de R.L. de C.V. with address located at Av. Coyoacán 1035 Int. 04. Colonia Del Valle Centro, Benito Juárez, Mexico City with ZIP 03100",
