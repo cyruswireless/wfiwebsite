@@ -6,7 +6,7 @@
     background-color: #F8F8F8;
     height: 50px;
     margin-top: 40px;
-    margin-bottom: 40px;
+    /* margin-bottom: 40px; */
 }
 
 #ServiceTitle {
@@ -16,9 +16,26 @@
 .img-Success-Story {
     opacity: 0.7;
     cursor: pointer;
+    height: 250px;
+    width: 100%;
 }
 
 .img-Success-Story:hover {
     opacity: 1;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media only screen and (max-width: 767px) {
+
+    .img_home {
+        height: 250px;
+        width: 250px;
+    }
+    .p-custom {
+        padding: 0px;
+    }
+    .img-Success-Story {
+        width: 100%;
+        margin-bottom: 15px;
+    }
 }
