@@ -24,6 +24,11 @@
 	.navbar .nav-item:hover .dropdown-menu{ display: block; }
 	.navbar .nav-item .dropdown-menu{ margin-top:0; }
 }
+@media all and (max-width: 1276px) {
+	.nav-item{
+        margin-left: 0px;
+    }
+}
 .dropdown-item{
     color: rgb(195, 195, 195);
 }

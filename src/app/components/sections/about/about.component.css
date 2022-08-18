@@ -15,6 +15,14 @@
     background: url(../../../../assets/img/main/about-2.jpg) no-repeat center center; 
 }
 
+.car-img3 {
+    background: url(../../../../assets/img/main/plano_01.jpg) no-repeat center center; 
+}
+
+.car-img4 {
+    background: url(../../../../assets/img/main/plano_02.jpg) no-repeat center center; 
+}
+
 @media only screen and (max-width: 767px) {
     .p-custom {
         padding-left: 15px;

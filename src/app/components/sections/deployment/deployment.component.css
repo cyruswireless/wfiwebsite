@@ -14,10 +14,10 @@
 
 /* IMG carrusel 1 */
 .car3img1 {
-    background: url(../../../../assets/img/services/car3img1.jpg) no-repeat center center; 
+    background: url(../../../../assets/img/services/deploy_1.jpg) no-repeat center center; 
 }
 .car3img2 {
-    background: url(../../../../assets/img/services/car3img2.jpg) no-repeat center center; 
+    background: url(../../../../assets/img/services/deploy_2.jpg) no-repeat center center; 
 }
 @media only screen and (max-width: 767px) {
     .p-custom {

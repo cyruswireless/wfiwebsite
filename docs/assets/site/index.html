@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Wfi</title>
+    <base href="/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/x-icon" href="img/LOGOWFIFINAL.ico" />
+    <link href="libraries/bootstrap.min.css" rel="stylesheet" />
+    <style>
+      *{
+        margin: 0;
+        padding: 0;
+      }
+      section{
+        width: 100%;
+        height: 100vh;
+        color: black;
+        background: linear-gradient(45deg,white);
+        background-size: 400% 400%;
+        position: relative;
+        animation: cambiar 20s ease infinite;
+      }  
+      h1{
+        text-align: center;
+        font-size: 2rem;
+        letter-spacing: 2px;
+        border: solid 3px black;
+        border-radius: 25px;
+        position: absolute;
+        top: 69%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        padding: 2rem 3rem;
+      }
+      h2{
+        text-align: center;
+        font-size: 3rem;
+        letter-spacing: 2px;
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        padding: 2rem 3rem;
+      }
+      .logo{
+        width: 300px;
+        position: absolute;
+        top: 15%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+      }
+      @keyframes cambiar {
+        0%{background-position: 0 50%;}
+        50%{background-position: 100% 50%;}
+        100%{background-position: 0 50%;}
+      }
+      @media all and (max-width: 960px) {
+        h1{
+          font-size: 20px;
+        }
+        h2{
+          font-size: 30px;
+        }
+      }
+      @media all and (max-width: 570px) {
+        h1{
+          font-size: 20px;
+        }
+      }
+      @media all and (max-width: 408px) {
+        h1{
+          font-size: 15px;
+        }
+      }
+      @media all and (max-width: 344px) {
+        h1{
+          font-size: 12px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+        <img class="logo" src="img/LogoNavbar.png"/>
+        <h2>
+          <strong>SITIO EN MANTENIMIENTO</strong><br>
+        </h2>
+        <h1>
+          WFI de México S de RL de CV<br>
+          Teléfono de contacto: +52 55845615<br>
+          comercial@wfinet.com.mx info@wfinet.com.mx
+        </h1>
+    </section>
+
+    <script src="libraries/jquery-2.2.4.min.js"></script>
+    
+    <script src="libraries/bootstrap.bundle.min.js"></script>
+   
+  </body>
+</html>

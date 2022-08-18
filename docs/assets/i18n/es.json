@@ -46,7 +46,7 @@
                 "2": "Gestión",
                 "3": "Despliegue e Implementación",
                 "4": "Operación y Mantenimiento",
-                "5": "Optimización de la RED",
+                "5": "Optimización de la Red",
                 "6": "Capacitación"
             }
         },
@@ -92,13 +92,13 @@
         },
         "2": {
             "TITLE": "Administramos tu Proyecto siguiendo las mejores prácticas",
-            "1": "Alcance",
-            "2": "Tiempo",
-            "3": "Costo",
-            "4": "Calidad",
-            "5": "Comunicación",
-            "6": "Riesgo",
-            "7": "Adquisiciones"
+            "1": "Alcance: Comprendiendo su necesidad para asegurar su cumplimiento",
+            "2": "Tiempo: Aprovechando y gestionando cada momento",
+            "3": "Costo: Transparencia y certeza en el servicio",
+            "4": "Calidad: Asegurando cumplir los requisitos",
+            "5": "Comunicación: Manteniendo el flujo de información adecuado",
+            "6": "Riesgo: Previendo las posibles situaciones en el servicio",
+            "7": "Adquisiciones: Comprendiendo nuestra capacidad y necesidad en el servicio"
         },
         "3": {
             "TITLE": "Aseguramos que tu proyecto fluya con calidad, seguridad y operatividad en las actividades solicitadas a desarrollar",
@@ -124,8 +124,8 @@
             "3": "DC3 - Riesgos Eléctricos",
             "4": "DC3 - Primeros auxilios",
             "SUB2": "De la misma forma impartimos cursos de especialización en:",
-            "5": "EHS (Enviroment, Healty Safety - Medio ambiente, Salud y Seguridad",
-            "6": "Instalación de Enlaces de Microondas            ",
+            "5": "EHS (Enviroment, Healty & Safety - Medio Ambiente, Salud y Seguridad)",
+            "6": "Instalación de Enlaces de Microondas",
             "7": "Conocimiento básico de Telefonía Celular",
             "8": "MDI  (Métodos de Instalación de Radio Bases en piso y en torre)",
             "9": "Instalación de antenas de Transmisión y Recepción",
@@ -199,7 +199,7 @@
         }
     },
     "CIVIL_WORK": {
-        "TEXT": "Construcción de estructuras, de naves industriales, plataformas, torres de telecomunicaciones, sitios celulares, escaleras, grúas viajeras y otros. Remodelación y adecuación de instalaciones existentes. Diseño y construcción de estructuras de concreto y de acero. Instalación de redes hidráulicas y sanitarias, pavimentos, pisos de concreto, terracerías y cimentaciones."
+        "TEXT": "Construcción y adecuación: Realización de levantamientos (Site Survey), mecánica de suelos, toma de valores de resistividad del terreno (megger de 4 puntos), para la generación de las memorias de cálculo necesarias para la elaboración de proyecto ejecutivo, elaboración de proyecto de adecuación, instalación de soportes para RF, MW y otros, colocación de soportes para cableado de FO y Fuerza (escalerilla de aluminio, de acero o soportes de mástiles y monopolos), interconexión con sistema de tierras existente. Excavación, armado de acero de refuerzo y vaciado de concreto para la cimentación de la estructura (torre autosoportada, mástil, monopolo o torre arriostrada), armado de la estructura; implementación de sistema de tierras determinado en la memoria de cálculo (electrodos, barras, bajantes, pararrayos), construcción de protección perimetral (malla o block), construcción de bases o cimentaciones para equipos (gabinetes o casetas) y plantas de emergencia donde se requiere. Implementación del Sistema de Alimentación Eléctrica de acuerdo a memoria de cálculo, elaboración de proyecto trámite ante Compañía suministradora y ejecución de trabajos para la energización de sitios donde no se cuente con infraestructura existente de CFE (extensión de línea en media tensión)."
     },
     "INFRAESTRUCTURE": {
         "1": "Ingeniería del Proyecto",
@@ -215,11 +215,14 @@
         "STORIES": {
             "1": {
                 "TITLE": "Energía Eléctrica, Veracruz",
-                "TEXT_1": "En el año 2019, en la ampliación del Nuevo Puerto de Veracruz, México. Nuestro cliente, la empresa CCCC, tenía que entregar la implementación del proyecto eléctrico de media y baja tensión dentro de las instalaciones del Puerto, en algunas áreas para cumplir con un contrato asignado.",
-                "TEXT_2": "No tenía en México algún Socio de Negocios, fue así como se acercó a pedir apoyo a WFI de MÉXICO debido a la experiencia y servicios de calidad que nuestra empresa ofrece a todos sus clientes, hicimos realidad el término en tiempo y forma de este ambicioso proyecto.",
-                "TEXT_3": "WFI realizó trabajos para la nueva terminal de Contenedores de Icave en el puerto de Veracruz, los trabajos consistieron en el área eléctrica de transformadores, tableros, alumbrado, contactos, y sistema de tierras y 19 Racks que alimentan contenedores Refrigerados (24 contenedores por Rack), los trabajos en los racks consistieron en la Instalación de tableros, escalerilla marina, cableado especial, bases metálicas de equipos y colocación de sockets de contenedores.",
-                "TEXT_4": "Con un monto global de $30mdp dividido en: Suministro de + 1000 lámparas de especificaciones muy detalladas en soporte a Salinidad, Precio y tiempo de entrega, Centros de carga, Escalerillas y Canalización para cableado y distribución, Cajas NEMA, Conectores tipo Glándula, Sistemas de Tierra Física y otros Iluminación de + 13,000 m2 para  edificios como CFS, SADER, OCR TRAIN, WCW y otros espacios.",
-                "TEXT_5": "Se realizó en 19 semanas el apartado de racks refrigerantes (1 por semana), en 10 semanas los 5 edificios (desde la fabricación del cable y tableros, hasta la instalación final de lámparas y contactos) tiempo récord para este tipo de actividades."
+                "TEXT_1": "En 2019, se desarrollo el proyecto eléctrico de media y baja tensión.",
+                "TEXT_2": "WFI suministro y realizó trabajos para la nueva terminal de Contenedores de ICAVE en el Nuevo Puerto de Veracruz, Mex.",
+                "TEXT_3": "-Suministro de cableado +20KM, sockets de conexión de media tensión y tableros de fabricación especial para este proyecto, y del tipo Industrial, transformadores, tableros, alumbrado, contactos, conectores tipo glándula, y sistemas de tierras y Racks que alimentan contenedores Refrigerados.",
+                "TEXT_4": "-Despliegue de cuadrillas y personal con Certificaciones",
+                "TEXT_5": "Con un monto global de $30mdp dividido en:",
+                "TEXT_6": "-Suministro de + 1000 lámparas de especificaciones muy detalladas en soporte a Salinidad y tiempo de entrega",
+                "TEXT_7": "-Iluminación de + 13,000 m2 para  edificios como CFS, SADER, OCR TRAIN, WCW y otros espacios",
+                "TEXT_8": "Se realizó en 19 semanas el apartado de racks refrigerantes (1 por semana), en 10 semanas los 5 edificios (desde la fabricación del cable y tableros, hasta la instalación final de lámparas y contactos) tiempo récord para este tipo de actividades."
             },
             "2": {
                 "TITLE": "Hidroeléctricas",
@@ -236,7 +239,7 @@
                 "SUB5_TEXT1": "Debido a su confiabilidad, a través de una alianza estratégica con la empresa ruso-mexicana Power Machines, HPM fue responsable del subcontrato de la obra electromecánica del P.H. La Yesca."
             }
         },
-        "AWARDS_TEXT": "Agradecido con sus clientes y socios de negocios, WFI de México, durante su trayectoria y permanencia en México, ha recibido reconocimientos como muestra de nuestra calidad y nos permitimos utilizar este espacio para hacer alarde de ellos."
+        "AWARDS_TEXT": "Agradecido con sus clientes y socios de negocios, WFI de México, durante su trayectoria y permanencia en México, ha sido reconocido con diferentes premios como muestra de nuestra calidad y servicio; y nos permitimos utilizar este espacio para hacer alarde de ellos."
     },
     "PRIVACY": {
         "P1": "WFI de México, S de R.L. de C.V. con domicilio ubicado en Av. Coyoacán 1035 Int. 04. Colonia Del Valle Centro, Benito Juárez, Ciudad de México con C.P. 03100",
@@ -257,7 +260,7 @@
         "QUOTATION": "Cotización",
         "CONTACTS": "Contactos",
         "SHOP": "Comercio",
-        "RIGHTS": "V 0.8.1 © Cyrus 2022 - Todos los derechos reservados.",
+        "RIGHTS": "V 0.9.0 © Cyrus 2022 - Todos los derechos reservados.",
         "PRIVACY": "Aviso de privacidad",
         "DISCOVER": "Descubre"
     },
