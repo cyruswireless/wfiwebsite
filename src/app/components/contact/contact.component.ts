@@ -1,6 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
 import { FormControl, FormGroup, Validators } from '@angular/forms';
+import { ContactService } from '../../services/contact.service';
 
 @Component({
   selector: 'app-contact',
@@ -19,7 +20,8 @@ export class ContactComponent implements OnInit {
   };
 
   constructor(
-    private http: HttpClient
+    private http: HttpClient,
+    private contactService: ContactService
   ) { }
 
   ngOnInit(): void {
@@ -36,17 +38,13 @@ export class ContactComponent implements OnInit {
   get email() { return this.recordForm.get('email'); }
   get subject() { return this.recordForm.get('subject'); }
 
-  sendRecord(){
-    let url = `http://localhost:81/record`;
-
-    let data = {
+  sendRecord() {
+    this.contactService.saveRecord({
       name: this.recordForm.value.name,
       enterprise: this.recordForm.value.enterprise,
       email: this.recordForm.value.email,
       subject: this.recordForm.value.subject
-    }
-
-    this.http.post(url, data).subscribe(
+    }).subscribe(
       (res:any) => {
         if(res.status == 1) {
           this.alert = true;

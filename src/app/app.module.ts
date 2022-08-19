@@ -30,6 +30,7 @@ import { TrainingComponent } from './components/sections/training/training.compo
 import { ServicesComponent } from './components/services/services.component';
 import { FooterComponent } from './components/shared/footer/footer.component';
 import { HeaderComponent } from './components/shared/header/header.component';
+import { ContactService } from './services/contact.service';
 
 
 @NgModule({
@@ -74,6 +75,7 @@ import { HeaderComponent } from './components/shared/header/header.component';
     })
   ],
   providers: [
+    ContactService,
     {provide: LocationStrategy, useClass: HashLocationStrategy}
   ],
   bootstrap: [AppComponent]
