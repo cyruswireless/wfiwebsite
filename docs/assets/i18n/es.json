@@ -260,7 +260,7 @@
         "QUOTATION": "Cotización",
         "CONTACTS": "Contactos",
         "SHOP": "Comercio",
-        "RIGHTS": "V 0.9.0 © Cyrus 2022 - Todos los derechos reservados.",
+        "RIGHTS": "{{ version }} © WFI de México {{ currentYear }} - Todos los derechos reservados. Sitio creado por Cyrus Wireless",
         "PRIVACY": "Aviso de privacidad",
         "DISCOVER": "Descubre"
     },
@@ -273,5 +273,13 @@
         "PREVIOUS": "Anterior",
         "NEXT": "Siguiente",
         "MORE": "Leer más"
+    },
+    "ALERT": {
+        "FIELD": "El campo es requerido",
+        "FIEL_EMAIL":"El correo debe contener @",
+        "MIN_LENGTH": "Debe tener por lo menos {{minLength}} caracteres",
+        "MAX_LENGTH": "No puede tener más de {{maxLength}} caracteres",
+        "RECORD_SUCCESS": "Registro exitoso!",
+        "RECORD_FAILED": "Ocurrio un error al guardar el registro"
     }
 }
