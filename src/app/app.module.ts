@@ -6,6 +6,7 @@ import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { AppRoutingModule } from './app-routing.routes';
 
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { AboutComponentRoute } from './components/about/about.component';
 import { ContactComponent } from './components/contact/contact.component';
@@ -25,10 +26,11 @@ import { OptimizationComponent } from './components/sections/optimization/optimi
 import { SlideComponent } from './components/sections/slide/slide.component';
 import { StoriesComponent } from './components/sections/stories/stories.component';
 import { TelecomComponent } from './components/sections/telecom/telecom.component';
+import { TrainingComponent } from './components/sections/training/training.component';
 import { ServicesComponent } from './components/services/services.component';
 import { FooterComponent } from './components/shared/footer/footer.component';
 import { HeaderComponent } from './components/shared/header/header.component';
-import { TrainingComponent } from './components/sections/training/training.component';
+import { ContactService } from './services/contact.service';
 
 
 @NgModule({
@@ -61,6 +63,8 @@ import { TrainingComponent } from './components/sections/training/training.compo
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
+    FormsModule,
+    ReactiveFormsModule,
     TranslateModule.forRoot({
       loader: {
         provide: TranslateLoader,
@@ -71,6 +75,7 @@ import { TrainingComponent } from './components/sections/training/training.compo
     })
   ],
   providers: [
+    ContactService,
     {provide: LocationStrategy, useClass: HashLocationStrategy}
   ],
   bootstrap: [AppComponent]
