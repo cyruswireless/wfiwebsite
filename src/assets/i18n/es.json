@@ -265,21 +265,26 @@
         "DISCOVER": "Descubre"
     },
     "FORM": {
-        "ERROR": "Ocurrió un error",
         "SUCCESS": "Tu mensaje ha sido enviado. ¡Gracias!",
-        "BUTTON": "Enviar mensaje"
+        "BUTTON": "Enviar mensaje",
+        "CAPTCHA": "Completa el control de seguridad"
     },
     "BUTTONS": {
         "PREVIOUS": "Anterior",
         "NEXT": "Siguiente",
-        "MORE": "Leer más"
+        "MORE": "Leer más",
+        "CLOSE": "Cerrar"
     },
     "ALERT": {
         "FIELD": "El campo es requerido",
         "FIEL_EMAIL":"El correo debe contener @",
         "MIN_LENGTH": "Debe tener por lo menos {{minLength}} caracteres",
-        "MAX_LENGTH": "No puede tener más de {{maxLength}} caracteres",
-        "RECORD_SUCCESS": "Registro exitoso!",
-        "RECORD_FAILED": "Ocurrio un error al guardar el registro"
+        "MAX_LENGTH": "No puede tener más de {{maxLength}} caracteres"
+    },
+    "MODAL": {
+        "ERROR": "Ocurrió un error",
+        "RECORD_SUCCESS": "Registro exitoso",
+        "RECORD_FAILED": "Ocurrio un error al guardar el registro",
+        "RECORD_INFO": "Gracias, hemos recibido la información y pronto nos contactaremos contigo"
     }
 }

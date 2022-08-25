@@ -1,3 +1,16 @@
+<ng-template #templateModal let-modal>
+    <div class="modal-header">
+        <h4 style="margin: 0px;" translate="{{ (onsuccess ? 'MODAL.RECORD_SUCCESS' : 'MODAL.ERROR') | translate }}"></h4>
+        <button type="button" class="btn-close" aria-label="Close" (click)="modal.dismiss('Cross click')"></button>
+    </div>
+    <div class="modal-body">
+      <p style="margin: 0px; text-align: center;" translate="{{ (onsuccess ? 'MODAL.RECORD_INFO' : 'MODAL.RECORD_FAILED') | translate }}"></p>
+    </div>
+    <div class="modal-footer">
+      <button type="button" class="btn btn-light" (click)="modal.close('Close click')">{{ 'BUTTONS.CLOSE' | translate }}</button>
+    </div>
+</ng-template>
+
 <div class="container" style="margin-top: 90px">
     <div class="bg_white">
         <div class="container custom-container">
@@ -44,9 +57,7 @@
             <div class="row">
                 <div class="col-md-6">
                     <p class="justify-text">{{ 'CONTACT.TEXT' | translate }}</p>
-                    <form class="recordForm" [formGroup]=recordForm>
-                        <div id="sendmessage">{{ 'FORM.SUCCESS' | translate }}</div>
-                        <div id="errormessage">{{ 'FORM.ERROR' | translate }}</div>
+                    <form id="recordsForm" class="recordForm" [formGroup]=recordForm>
                         <div class="row">
                             <div class="form-group">
                                 <input type="text" id="name" name="name" class="form-control" placeholder="Nombre" formControlName="name" required>
@@ -87,11 +98,21 @@
                                     <div *ngIf="subject?.hasError('minlength')">{{ 'ALERT.MIN_LENGTH' | translate: { minLength : 10 } }}</div>
                                     <div *ngIf="subject?.hasError('maxlength')">{{ 'ALERT.MAX_LENGTH' | translate: { maxLength : 600 } }}</div>
                                 </div>
-                                <div *ngIf="alert" class="alert alert-success alert-dismissible fade show" role="alert">
-                                    <strong>{{ 'ALERT.RECORD_SUCCESS' | translate }}</strong>
-                                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close" (click)="closeAlert()"></button>
+                                <div id="captchaValidator" class="container-fluid" [hidden]="recordForm.invalid">
+                                    <div class="form-row">
+                                        <div class="col-12">
+                                            <div class="slidercaptcha card">
+                                                <div class="card-header">
+                                                    <span>{{ 'FORM.CAPTCHA' | translate}}</span>
+                                                </div>
+                                                <div class="card-body">
+                                                    <div id="captcha"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
-                                <p class="text-center">
+                                <p id="buttonForm" class="text-center" style="display: none;">
                                     <button class="btn btn-large btn-theme" style="margin-top: 10px;" [disabled]="recordForm.invalid" (click)="sendRecord()">{{ 'FORM.BUTTON' | translate }}</button>
                                 </p>
                             </div>

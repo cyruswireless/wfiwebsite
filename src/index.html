@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>Wfi</title>
+    <title>WFI de México</title>
     <base href="/" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="icon" type="image/x-icon" href="LOGOWFIFINAL.ico" />
@@ -13,6 +13,7 @@
     <link href="assets/libraries/layerslider.css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300,400,700" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="assets/libraries/slidercaptcha.css" rel="stylesheet" />
     <style>
       html {
        scroll-behavior: smooth;
@@ -28,6 +29,7 @@
     <script src="assets/libraries/header_sticky_1.js"></script>
     <script src="assets/libraries/functions.js"></script>
     <script src="assets/libraries/bootstrap.bundle.min.js"></script>
+    <script src="assets/libraries/slidercaptcha.js"></script>
     <script>
       $(document).on('ready', function () {
         $('.nav-link').click(function() {
@@ -40,7 +42,19 @@
         $('.nav-item:not(.dropdown)').click(function() {
           $('#navbarNavDropdown').collapse('hide');
         });
-        
+
+        let captcha = sliderCaptcha({
+        id: 'captcha',
+        repeatIcon: 'fa fa-redo',
+        onSuccess: function () {
+            let handler = setTimeout(function () {
+              $('#captchaValidator').css('display','none')
+              $('#buttonForm').css('display','block')
+              window.clearTimeout(handler);
+              captcha.reset();
+            }, 500);
+          }
+        });
       })
     </script>
   </body>
