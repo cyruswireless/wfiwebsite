@@ -1,6 +1,6 @@
-import { HttpClient } from '@angular/common/http';
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, TemplateRef, ViewChild } from '@angular/core';
 import { FormControl, FormGroup, Validators } from '@angular/forms';
+import { NgbModal, NgbModalConfig } from '@ng-bootstrap/ng-bootstrap';
 import { ContactService } from '../../services/contact.service';
 
 @Component({
@@ -10,7 +10,7 @@ import { ContactService } from '../../services/contact.service';
 })
 export class ContactComponent implements OnInit {
   recordForm!: FormGroup;
-  alert?: boolean = false;
+  onsuccess?: boolean = false;
 
   Record = {
     name: '',
@@ -19,10 +19,16 @@ export class ContactComponent implements OnInit {
     subject: ''
   };
 
+  @ViewChild('templateModal') templateModal?: TemplateRef<any>;
+
   constructor(
-    private http: HttpClient,
-    private contactService: ContactService
-  ) { }
+    private contactService: ContactService,
+    private modalService: NgbModal,
+    private config: NgbModalConfig
+  ) { 
+    this.config.backdrop = 'static';
+    this.config.keyboard = false;
+  }
 
   ngOnInit(): void {
     this.recordForm = new FormGroup({
@@ -44,17 +50,40 @@ export class ContactComponent implements OnInit {
       enterprise: this.recordForm.value.enterprise,
       email: this.recordForm.value.email,
       subject: this.recordForm.value.subject
-    }).subscribe(
-      (res:any) => {
-        if(res.status == 1) {
-          this.alert = true;
-          this.recordForm.reset();
-        }
+    }).subscribe({
+      next: (res: any) => {
+        res.status == 1 ? this.typeResponse('success') : this.typeResponse('error');
+      },
+      error: (err: any) => {
+        this.typeResponse('error');
       }
-    );
+    });
   }
 
-  closeAlert () {
-    this.alert = false;
+  typeResponse(type: string) {
+    if(type == 'success') {
+      this.onsuccess = true;
+      this.recordForm.reset(); // RESET FORM
+    } else if(type == 'error') {
+      this.onsuccess = false;
+    }
+
+    // RESET CAPCHA VALIDATOR
+    let captcha = document.getElementById('captchaValidator');
+    if (captcha != null && captcha.style.display === 'none') {
+      captcha.style.display = 'block';
+    } else if (captcha != null && captcha.style.display === 'block') {
+      captcha.style.display = 'none';
+    }
+
+    // RESET BUTTON SEND RECORD 
+    let button = document.getElementById('buttonForm');
+    if (button != null && button.style.display === 'none') {
+      button.style.display = 'block';
+    } else if (button != null && button.style.display === 'block') {
+      button.style.display = 'none';
+    }
+
+    this.modalService.open(this.templateModal, { centered: true });
   }
 }

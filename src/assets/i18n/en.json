@@ -265,21 +265,26 @@
         "DISCOVER": "Discover"
     },
     "FORM": {
-        "ERROR": "An error occurred",
         "SUCCESS": "Your message has been sent. Thank you!",
-        "BUTTON": "Send message"
+        "BUTTON": "Send message",
+        "CAPTCHA": "Complete the security check"
     },
     "BUTTONS": {
         "PREVIOUS": "Previous",
         "NEXT": "Next",
-        "MORE": "Read more"
+        "MORE": "Read more",
+        "CLOSE": "Close"
     },
     "ALERT": {
         "FIELD": "Field is required",
         "FIEL_EMAIL":"The email must contain @",
         "MIN_LENGTH": "Must have at least {{minLength}} characters",
-        "MAX_LENGTH": "Cannot be longer than {{maxLength}} characters",
-        "RECORD_SUCCESS": "Record successful!",
-        "RECORD_FAILED": "An error occurred while saving the record"
+        "MAX_LENGTH": "Cannot be longer than {{maxLength}} characters"
+    },
+    "MODAL": {
+        "ERROR": "An error occurred",
+        "RECORD_SUCCESS": "Successful registration",
+        "RECORD_FAILED": "An error occurred while saving the record",
+        "RECORD_INFO": "Thank you, we have received the information and we will contact you soon"
     }
 }
